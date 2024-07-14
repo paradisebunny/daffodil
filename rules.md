@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Core Mechanic
+title: Rules
 nav_order: 2
 ---
 # This is the core mechanic
