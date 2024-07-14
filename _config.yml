@@ -3,8 +3,8 @@ description: My rules for playing D&D
 theme: just-the-docs
 url: https://paradisebunny.github.io/daffodil/
 
-# set dark color scheme
-color_scheme: dark
+# set dark color scheme dark/light
+color_scheme: light
 
 # links displayed at the top right
 aux_links:
