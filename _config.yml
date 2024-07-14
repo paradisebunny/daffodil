@@ -1,9 +1,9 @@
 title: Daffodil
 description: My rules for playing D&D
 theme: just-the-docs
-
+url: https://paradisebunny.github.io/daffodil/
+# set dark color scheme
 color_scheme: dark
-url: https://just-the-docs.github.io
-
+# links displayed at the top right
 aux_links:
   My Blog: https://paradisebunny.bearblog.dev/
