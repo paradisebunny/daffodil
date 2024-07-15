@@ -10,5 +10,8 @@ nav_order: 5
 ## Time
 ## Movement
 ## Resting
-## Overland Travel
+## Travel
+### Montage
+### Point Crawling
+### Hex Crawling
 ## Downtime
