@@ -4,4 +4,7 @@ title: Magic
 nav_order: 4
 ---
 # Magic
-asdf
+## Casting Spells
+## Scrolls
+## Wands
+## Spell Lists
