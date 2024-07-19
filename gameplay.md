@@ -5,7 +5,7 @@ nav_order: 5
 ---
 # Playing the Game
 ## Time
-A turn represents ten minutes, and a combat round is 1 minute.
+A turn takes ten minutes. A combat round takes 1 minute.
 ## Movement
 Distances are close, near and far. A character can take one action and move near, or skip his action and move far.
 ## Damage and Death
