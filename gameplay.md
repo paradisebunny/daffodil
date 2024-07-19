@@ -31,16 +31,16 @@ Roll the table below when first encountering monsters and modify the roll with t
 When the adventurers encounters hostile enemies, the action is structured in the following manner:
 
 1. Determine Surprise
-2. Roll Initiative.
-3. Party with Initiative acts first (casting spells, attacking, etc.) and results take effect.
-4. Party that lost Initiative acts, and their results take effect.
-5. The round is complete; start over from step two if combat has not been resolved.
+2. Roll Initiative
+3. Party that won the roll acts first (moving, casting spells, attacking, etc.). Results take effect.
+4. Party that lost the roll acts. Results take effect.
+5. The round is completed. Start over from step two if combat has not been resolved.
 
 #### Determine Surprise
 A group of characters or monsters cannot be surprised if they are already aware of the presence of the adversaries. If both or one is not, roll for surprise: there is a 2 in 6 chance for the group to be surprised. If a side is surprised the other side gets a free round of actions before the initiative roll!
 #### Rolling Initiative
-At the beginning of a combat round, each side rolls a d6 for Initiative, highest roll wins. The winning side acts first (moving, attacking, and spell casting). The losing side follows after. If the initiative roll is tied both sides are considered to be acting simultaneously.
+Each side rolls a d6 for Initiative, highest roll wins. The winning side acts first (moving, attacking, and spell casting). The losing side follows after. If the initiative roll is tied both sides are acting simultaneously.
 #### Types of Attacks
-A melee attack is an attack with hand-held weapons such as a sword, spear, or dagger. Ranged attacks are attacks with ranged weapons such as a bow or sling. When using ranged attacks into a melee, randomly determine friend or foe as your target.
+A melee attack is an attack made at close quarters (near). Ranged attacks are attacks with ranged weapons such as a bow or sling. When firing ranged attacks into melee, randomly determine if friend or foe is attacked.
 #### The Attack Roll
-To attack with a weapon, the player rolls a d20 and adds any bonuses (HB if available, STR for  melee attacks, DEX for ranged attacks, magic weapon boni if applicable) to the result. The total attack roll hits if equal to or higher than the AC. Monster attacks add +1 to their attack roll for each HD they have. Roll damage according to weapon (add STR bonus for fighter).
+To make an attack roll, rolls a d20 and adds any bonuses (HB if available, STR for melee attacks, DEX for ranged attacks, magic weapon boni if applicable) to the result. The attack roll hits if it is equal to or higher than the AC. Monster attacks add +1 to their attack roll for each HD they have. Roll damage according to the weapon's damage die (add STR bonus for fighter).
