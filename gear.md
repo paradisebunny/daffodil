@@ -6,13 +6,13 @@ nav_order: 6
 # Tables
 ## Ranged Weapon Table
 
-| Weapon   | Damage | Range  | Cost   |
-| -------- | ------ | ------ | ------ |
-| Bow      | 1d6    | 50ft   | 15 gp  |
-| Crossbow | 1d4+1  | 60 ft  | 12 gp  |
-| Dagger   | 1d4    | 10ft   | 2 gp   |
-| Sling    | 1d4    | 40ft   | 0.2 gp |
-| Spear    | 1d6    | 20ft   | 1 gp   |
+| Weapon   | Damage | Cost   |
+| -------- | ------ | ------ |
+| Bow      | 1d6    | 15 gp  |
+| Crossbow | 1d4+1  | 12 gp  |
+| Dagger   | 1d4    | 2 gp   |
+| Sling    | 1d4    | 0.2 gp |
+| Spear    | 1d6    | 1 gp   |
 
 ## Melee Weapon Table
 
