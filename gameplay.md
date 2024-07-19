@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gameplay
+title: Playing the Game
 nav_order: 4
 ---
 # Playing the Game
