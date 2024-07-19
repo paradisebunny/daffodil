@@ -9,7 +9,7 @@ A seasoned warrior apt at fighting with any tool.
 **_Hit Dice_**: 1d8 per level
 **_Saving Throw_**: 15, +1 vs all except spells
 **_Hit Bonus (HB)_**: +1 at 3rd level
-_Advancement_: The Fighter reaches level 2 at 2000XP
+**Advancement**: The Fighter reaches level 2 at 2000XP
 
 Fighters start with either Long Sword or Battle Axe (1d8 damage) and Bow with Chain Armor and Shield (AC15) or Two-Handed Sword (1d10) and Crossbow with Chain Armor (AC14).
 Fighters use the STR modifier to adjust their damage bonus for melee attacks. Fighters have no armor or weapon restrictions. Fighters get one attack per level each round against foes of 1 Hit Die (HD) or fewer. Fighters also get +1 on _Saving Throws_ vs. death and poisons.
@@ -19,7 +19,7 @@ A devout servant of their deity who bears weapons in their name.
 **_Hit Dice_**: 1d6 per level
 **_Saving Throw_**: 15, +2 vs paralysis or poison
 **_Hit Bonus (HB)_**: +1 at 3rd lvl
-_Advancement_: The Cleric reaches level 2 at 1500XP
+**Advancement**: The Cleric reaches level 2 at 1500XP
 
 Clerics start with a Mace (1d6 damage) or Warhammer (1d4+1 damage) with Chain Armor and Shield (AC15).
 Clerics have no armor restrictions, but may only use blunt weapons (club, flail, mace).
@@ -41,7 +41,7 @@ A student of the arcane arts.
 
 **_Hit Dice_**: 1d4 per level
 **_Saving Throw_**: 15, +2 vs spells
-_Advancement_: The Magic-User reaches level 2 at 2500 XP
+**Advancement**: The Magic-User reaches level 2 at 2500 XP
 
 Magic-Users (MU) may only use daggers or staves (choose one at 1st level) and are not allowed the use of armor (AC10). The MU starts with a book of two spells, one chosen and one randomly awarded. Reading from the book, the MU presses his chosen spell into his mind.
 Once a prepared spell is cast, it disappears from the MU’s ability to cast (until it is prepared again). It is possible to prepare a spell multiple times using the available “slots” in the MU’s memory. If the MU finds scrolls of spells, he can copy them into his spell book.
@@ -77,7 +77,7 @@ A silent shadow in the night apt at delicate tasks.
 
 **_Hit Dice_**: 1d4 per level
 **_Saving Throw_**_:_ 15, +2 vs devices
-_Advancement_: The Thief reaches level 2 1250XP
+**Advancement**: The Thief reaches level 2 1250XP
 
 Thieves may wear only Leather Armor. Thieves use any weapon.
 Thieves start with either Long Sword (1d8) and Dagger (1d4) or Club (1d4) and Short Sword (1d6) with Leather Armor (AC12).
