@@ -4,6 +4,16 @@ title: Equipment
 nav_order: 4
 ---
 # Tables
+## Armor Table 
+
+| Armor Type | Effect on AC | Cost   |
+| ---------- | ------------ | ------ |
+| Chain      | +4           | 75 gp  |
+| Leather    | +2           | 5 gp   |
+| Plate      | +6           | 100 gp |
+| Ring       | +3           | 30 gp  |
+| Shield     | +1           | 15 gp  |
+
 ## Ranged Weapon Table
 
 | Weapon   | Damage | Cost   |
@@ -29,15 +39,6 @@ nav_order: 4
 | Sword, short | 1d6    | 8 gp  |
 | Sword, 2H    | 1d10   | 30 gp |
 
-## Armor Table 
-
-| Armor Type | Effect on AC | Cost   |
-| ---------- | ------------ | ------ |
-| Chain      | +4           | 75 gp  |
-| Leather    | +2           | 5 gp   |
-| Plate      | +6           | 100 gp |
-| Ring       | +3           | 30 gp  |
-| Shield     | +1           | 15 gp  |
 
 
 
