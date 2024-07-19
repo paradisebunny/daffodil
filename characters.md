@@ -7,7 +7,7 @@ nav_order: 2
 ## Ability Scores
 Ability Scores are created by rolling 3d6 and assigning the results in the order below. 
 
-__Strength__ – measuring physical power. Your STR modifier adjusts your hit bonus for melee attacks.
+__Strength__ – measuring physical power. Your STR modifier adjusts your hit bonus for melee attacks. For Fighters it also modifies their damage rolls.
 
 __Dexterity__ – measuring agility. Your DEX modifier adjusts your hit bonus for ranged attacks and it  adjusts your character’s AC.
 
