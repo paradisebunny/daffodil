@@ -14,7 +14,8 @@ When a character is hit, the amount of damage is subtracted from their hit point
 Characters recover 1 hit point per day if they eat a meal and have a night of uninterrupted rest.
 ## Saving Throws
 A _saving throw_–also called a save–represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don’t normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm. Roll a d20 equal or over to succeed.
-_Monster_ _Saving Throws_: target number is calculated by subtracting the monster’s HD number from 19.
+
+_Monster_ _Saving Throws_: The value of a monster's saving throw is calculated by subtracting the monster’s number of HD from 19.
 ## Encountering Monsters
 Roll the table below when first encountering monsters and modify the roll with the leading characters CHA modifier.
 
