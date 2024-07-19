@@ -36,7 +36,7 @@ __Elves__ can be Fighters, Magic-Users or Thieves.  Elves are immune to paralysi
 __Halflings__ can be Fighters or Thieves. Halflings get +4 on saving throws vs spells. Halflings receive +1 on ranged attacks. Halflings may be Fighters or Thieves.
 
 __Humans__ may be any class. They may switch the places of two scores at character creation.
-## Adventurer Packs
+## Equipment Packs
 Each character gets to choose one of the following packs at the start of the game:
 ### Pack 1
 Backpack, bedroll, flint and steel, 6 torches, 50’ Rope, crowbar, 7 days rations, and a water skin
