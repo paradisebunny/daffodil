@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Classes
+title: Classes
 nav_order: 3
 ---
 # The Fighter
