@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gear
+title: Equipment
 nav_order: 6
 ---
 # Tables
@@ -39,13 +39,5 @@ nav_order: 6
 | Ring       | +3           | 30 gp  |
 | Shield     | +1           | 15 gp  |
 
-## Reaction Table
 
-| 2d6+CHA | Result      |
-| ------- | ----------- |
-| 0-2     | hostile     |
-| 3-5     | unfriendly  |
-| 6-8     | neutral     |
-| 9-11    | indifferent |
-| 12+     | friendly    |
 
