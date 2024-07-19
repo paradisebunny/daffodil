@@ -15,6 +15,16 @@ Characters recover 1 hit point per day if they eat a meal and have a night of un
 ## Saving Throws
 A _saving throw_–also called a save–represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don’t normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm. Roll a d20 equal or over to succeed.
 _Monster_ _Saving Throws_: target number is calculated by subtracting the monster’s HD number from 19.
+## Encountering Monsters
+Roll the table below when first encountering monsters and modify the roll with the leading characters CHA modifier.
+
+| 2d6+CHA | Result      |
+| ------- | ----------- |
+| 0-2     | hostile     |
+| 3-5     | unfriendly  |
+| 6-8     | neutral     |
+| 9-11    | indifferent |
+| 12+     | friendly    |
 ## Combat
 When the party of adventurers comes into contact with hostile enemies, the order of events is as follows:
 
@@ -22,7 +32,8 @@ When the party of adventurers comes into contact with hostile enemies, the order
 2. Roll Initiative.
 3. Party with Initiative acts first (casting spells, attacking, etc.) and results take effect.
 4. Party that lost Initiative acts, and their results take effect.
-5. The round is complete; start over from step two if combat has not been resolved.  
+5. The round is complete; start over from step two if combat has not been resolved.
+
 #### Determine Surprise
 A group of characters or monsters cannot be surprised if they are already aware of the presence of the adversaries. If both or one is not, roll for surprise: there is a 2 in 6 chance for the group to be surprised. If a side is surprised the other side gets a free round of actions before the initiative roll!
 #### Rolling Initiative
