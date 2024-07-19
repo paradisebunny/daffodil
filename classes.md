@@ -84,6 +84,7 @@ Thieves start with either Long Sword (1d8) and Dagger (1d4) or Club (1d4) and Sh
 Thieves have class abilities as follows:
 
 **_Backstab–_** When attacking with surprise and from behind the thief attacks at +4 to hit and does double damage
+
 **_Tricks of the Trade–_** You have special training that goes beyond the abilities of common men. You can attempt the following:  Climbing sheer walls, Disabling delicate traps, Picking Locks, Listening for Faint Sounds, Hiding in Shadows, Moving Silently. Roll a d6 and compare it to the table below.
 
 | Level | Tricks of the Trade |
