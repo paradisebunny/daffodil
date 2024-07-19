@@ -28,7 +28,7 @@ Roll the table below when first encountering monsters and modify the roll with t
 | 12+     | friendly    |
 
 ## Combat
-When the party of adventurers comes into contact with hostile enemies, the order of events is as follows:
+When the adventurers encounters hostile enemies, the action is structured in the following manner:
 
 1. Determine Surprise
 2. Roll Initiative.
