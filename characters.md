@@ -13,7 +13,7 @@ __Dexterity__ – measuring agility. Your DEX modifier adjusts your hit bonus fo
 
 __Constitution__ – measuring endurance. The CON modifier adjusts your hit points for each hit die you roll for your character.
 
-__Intelligence__ – measuring reasoning and memory. Magic-Users use their INT modifier to lower their target's saving throw value
+__Intelligence__ – measuring reasoning and memory. Magic-Users use their INT modifier to lower their target's saving throw value.
 
 __Wisdom__ – measuring perception and insight. Clerics with WIS 15+ receive an additional 1st lvl spell. Any character with a CHA score of 13+ gets an additional +5% bonus to all experience gained.
 
