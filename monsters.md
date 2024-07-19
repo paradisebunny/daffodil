@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Monsters
-nav_order: 5
+nav_order: 6
 ---
 # Monsters
 All monsters use a d8 as hit die. Adjust and reskin the statblocks below to create monsters for most situations.
