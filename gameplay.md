@@ -25,6 +25,7 @@ Roll the table below when first encountering monsters and modify the roll with t
 | 6-8     | neutral     |
 | 9-11    | indifferent |
 | 12+     | friendly    |
+
 ## Combat
 When the party of adventurers comes into contact with hostile enemies, the order of events is as follows:
 
