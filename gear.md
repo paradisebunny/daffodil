@@ -6,13 +6,14 @@ nav_order: 6
 # Tables
 ## Ranged Weapon Table
 
-| Weapon   | Damage | Range* | Cost   |
+| Weapon   | Damage | Range  | Cost   |
 | -------- | ------ | ------ | ------ |
 | Bow      | 1d6    | 50ft   | 15 gp  |
 | Crossbow | 1d4+1  | 60 ft  | 12 gp  |
 | Dagger   | 1d4    | 10ft   | 2 gp   |
 | Sling    | 1d4    | 40ft   | 0.2 gp |
 | Spear    | 1d6    | 20ft   | 1 gp   |
+
 ## Melee Weapon Table
 
 | Weapon       | Damage | Cost  |
@@ -37,6 +38,7 @@ nav_order: 6
 | Plate      | +6           | 100 gp |
 | Ring       | +3           | 30 gp  |
 | Shield     | +1           | 15 gp  |
+
 ## Reaction Table
 
 | 2d6+CHA | Result      |
