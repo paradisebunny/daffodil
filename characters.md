@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Characters
+title: Making Characters
 nav_order: 2
 ---
 # Creating Characters
