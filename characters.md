@@ -37,12 +37,16 @@ __Halflings__ can be Fighters or Thieves. Halflings get +4 on saving throws vs s
 
 __Humans__ may be any class. They may switch the places of two scores at character creation.
 ## Equipment Packs
-Each character gets to choose one of the following packs at the start of the game:
+Each character starts with the following items:
+
+Backpack, bedroll, flint and steel, 7 days rations, water skin
+
+additionally they can choose one of the packs of specialized equipment below.
 ### Pack 1
-Backpack, bedroll, flint and steel, 6 torches, 50’ Rope, crowbar, 7 days rations, and a water skin
+6 torches, 50’ Rope, crowbar
 ### Pack 2
-Backpack, bedroll, flint and steel, hooded lantern with 2 pints lantern oil, hammer, 12 iron spikes, pole (10ft), 7 days rations and a water skin
+Hooded lantern with 2 pints lantern oil, hammer, 12 iron spikes, pole (10ft)
 ### Pack 3
-Backpack, bedroll, flint and steel, candle, sack, chalk, shovel, iron pot, flour, 7 days rations, and a water skin
+Candle, sack, chalk, shovel, iron pot, flour
 ### Pack 4
-Backpack, bedroll, flint and steel, 2 torches, whistle, ink and quill, parchment, musical intrument, 7 days rations, and a water skin
+2 torches, whistle, ink and quill, parchment, musical intrument
