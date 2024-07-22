@@ -18,18 +18,19 @@ Gruesome bears live in most temperate and cold climates.
 **Special**: Surprise opponents (1–3 on 1d6 roll)
 
 These fearsome goblinoids are muscular, large and hairy. They will surprise on a roll of 3 in 6.
+## Giant Spiders
+**AC**: 13, **HD**: 2+2, **Attacks**: bite (1d6)
+
+**Special**: See Below     
+
+Giant spiders spin webs (use Web spell). Pass a saving throw or become stuck. Giant spiders surprise on a roll of 4 in 6. They can hide in shadows.
 ## Goblins
 **AC**: 12, **HD**: 1-1, **Attacks**: weapon (1d6)
 
 **Special**: -1 “to-hit” in sunlight  
 
 Goblins are fierce small creatures that inhabit dark places.                                        
-## Giant Spiders
-**AC**: 13, **HD**: 2+2, **Attacks**: bite (1d6)
 
-**Special**: See Below     
-
-Giant spiders spin web-traps (Web spell). Roll a saving throw to avoid becoming stuck. Those who make their _Saving Throw_ can fight and move. Giant spiders surprise on a roll of 4 in 6. They can hide in shadows.
 ## Trolls
 **AC:** 15, **HD**: 6+3, **Attacks**: claw (1d6)   
 
