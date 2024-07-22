@@ -12,7 +12,7 @@ A seasoned warrior apt at fighting with any tool.
 **Advancement**: The Fighter reaches level 2 at 2000XP
 
 Fighters start with either Long Sword or Battle Axe (1d8 damage) and Bow with Chain Armor and Shield (AC15) or Two-Handed Sword (1d10) and Crossbow with Chain Armor (AC14).
-Fighters use the STR modifier to adjust their damage bonus for melee attacks. Fighters have no armor or weapon restrictions. Fighters get one attack per level each round against foes of 1 Hit Die (HD) or fewer. Fighters also get +1 on _Saving Throws_ vs. death and poisons.
+Fighters use the STR modifier to adjust their damage bonus for melee attacks. Fighters have no armor or weapon restrictions. Fighters get one attack per level each round against foes of 1 Hit Die (HD) or fewer. Fighters also get +1 on all _Saving Throws_ except vs. spells.
 # The Cleric
 A devout servant of their deity who bears weapons in their name.
 
