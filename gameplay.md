@@ -7,7 +7,7 @@ nav_order: 5
 ## Time
 A turn takes ten minutes. A combat round takes 1 minute.
 ## Movement
-Distances are close, near and far. A character can take one action and move near, or skip his action and move far.
+Distances are close, near and far. A character can take one action and move near, or skip his action and move far. A character can carry a maximum of 3000 coins at a time, slowing their movement down significantly.
 ## Damage and Death
 When a character is hit, the amount of damage is subtracted from their hit points. When these  reach zero, the character is unconscious. They die at negative hit points equal to their level. Monsters die at 0 hit points.
 ## Healing
