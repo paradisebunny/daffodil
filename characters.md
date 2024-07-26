@@ -26,7 +26,7 @@ Optional: Roll under your ability score to succeed. Checks should only be rolled
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
-Characters gain levels by acquiring treasure. Gold equates XP. Characters can carry a maximum of 1600gp at a time. The GM might give out XP for other achievements too. Characters advance to level 2 when they reach the XP threshold indicated in their description. Every subsequent level is reached by acquiring double the XP of the previous level.
+Characters gain levels by acquiring treasure. Total Gold value of a treasure equates the amount of experience gained. The GM might give out XP for other achievements too. Characters advance to level 2 when they reach the XP threshold indicated in their description. Every subsequent level is reached by acquiring double the XP of the previous level.
 As the characters advance, they improve their saving throws. It is 15 at level 1, then reduced by 1 per level gained, but never lower than 5.
 ## Character Ancestries
 __Dwarves__ can be Fighters or Thieves. Dwarves get +4 on save vs spells. Dwarves easily recognize irregularities in stonework and find traps hidden therein on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
