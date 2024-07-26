@@ -23,17 +23,17 @@ A devout servant of their deity who bears weapons in their name.
 
 Clerics start with a Mace (1d6 damage) or Warhammer (1d4+1 damage) with Chain Armor and Shield (AC15).
 Clerics have no armor restrictions, but may only use blunt weapons (club, flail, mace).
-Starting at 2nd level Clerics can cast spells. They get their first spell at 2nd lvl and another spell at 3rd lvl.
+Starting at 2nd level Clerics can cast spells. They get their first spell at 2nd lvl and another spell at 3rd lvl. For an expanded spell list refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or online to the [Basic Fantasy spell list](https://www.basicfantasy.org/srd/spells.html).
 ## Cleric spells
-### Cure Wounds I
+### Cure Wounds
 **_Range_**: _Touch_        **_Duration_**: _Immediate_
-This spell cures 1d6+1 hit points of damage.
+Cure Wounds heals 1d6+1 hit points of damage.
 ### Detect Evil and Good
-**_Range_**: _120 ft        **Duration**_: _60_ _minutes_  
-The caster detects creatures of Evil, evil enchantments, intentions, thoughts, or auras. The reverse of the spell, Detect Good, works the same except it detects creatures of Good.
+**_Range_**: _far        **Duration**_: _1h_  
+The cleric detects creatures of Evil, evil enchantments, intentions, thoughts, or auras. Detect Good works vice versa.
 ### Spiritual Protection
-**_Range_**: _Caster only_          **_Duration_**: _2 hours  
-_Creates a magical field of protection around the caster to block out creatures with ill intent, who suffer -1 penalty to hit, and the caster gains +1 on _Saving Throws_ against such attacks.
+**_Range_**: _self_          **_Duration_**: _2h_
+Creates a magical field of protection around the caster to block out creatures with ill intent, who suffer -1 penalty to hit, and the caster gains +1 on _Saving Throws_ against such attacks.
 ## Turn Undead
 Clerics have the ability to turn undead, causing them to flee. Monsters roll their saving throws with a +8 bonus. If they fail they flee in the opposite direction or cower down helplessly. If they fail by more than 10 and have less HD than your level, they are destroyed. This bonus is lowered by 2 for every level the Cleric has advanced beyond the first level.
 # The Magic-User
@@ -45,7 +45,7 @@ A student of the arcane arts.
 
 Magic-Users (MU) may only use daggers or staves (choose one at 1st level) and are not allowed the use of armor (AC10). The MU starts with a book of two spells, one chosen and one randomly awarded. Reading from the book, the MU presses his chosen spell into his mind.
 Once a prepared spell is cast, it disappears from the MU’s ability to cast (until it is prepared again). It is possible to prepare a spell multiple times using the available “slots” in the MU’s memory. If the MU finds scrolls of spells, he can copy them into his spell book.
-Lvl 1 MUs get one lvl 1 spell, Lvl 2 MU get 2 lvl 1 spells; Lvl 3 MUs get three lvl 1vl & one lvl 2 spells.
+Lvl 1 MUs get one lvl 1 spell, Lvl 2 MU get 2 lvl 1 spells; Lvl 3 MUs get three lvl 1vl & one lvl 2 spells. For an expanded spell list refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or online to the [Basic Fantasy spell list](https://www.basicfantasy.org/srd/spells.html).
 ## Magic-User spells – Level 1
 ### Charm Person                 
 **_Range_**: _30 ft_                        **_Duration_**: _Until dispelled_
