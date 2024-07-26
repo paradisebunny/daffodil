@@ -44,3 +44,5 @@ Each side rolls a d6 for Initiative, highest roll wins. The winning side acts fi
 A melee attack is an attack made at close quarters (near). Ranged attacks are attacks with ranged weapons such as a bow or sling. When firing ranged attacks into melee, randomly determine if friend or foe is attacked.
 #### The Attack Roll
 To make an attack roll, rolls a d20 and adds any bonuses (HB if available, STR for melee attacks, DEX for ranged attacks, magic weapon boni if applicable) to the result. The attack roll hits if it is equal to or higher than the AC. Monster attacks add +1 to their attack roll for each HD they have. Roll damage according to the weapon's damage die (add STR bonus for fighter).
+## Treasure
+To create a treasure hoard add up the total XP value of the monsters the characters have overcome or outwitted and multiply it by 1d3+1. The result is the total gold value of the treasure, split up into valuables as you see fit.
