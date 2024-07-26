@@ -45,9 +45,8 @@ A student of the arcane arts.
 **_Saving Throw_**: 15, +2 vs spells
 **Advancement**: The Magic-User reaches level 2 at 2500 XP
 
-Magic-Users (MU) may only use daggers or staves (choose one at 1st level) and are not allowed the use of armor (AC10). The MU starts with a book of two spells, one chosen and one randomly awarded. Reading from the book, the MU presses his chosen spell into his mind.
-Once a prepared spell is cast, it disappears from the MU’s ability to cast (until it is prepared again). It is possible to prepare a spell multiple times using the available “slots” in the MU’s memory. If the MU finds scrolls of spells, he can copy them into his spell book.
-Lvl 1 MUs get one lvl 1 spell, Lvl 2 MU get 2 lvl 1 spells; Lvl 3 MUs get three lvl 1vl & one lvl 2 spells. 
+Magic-Users (MU) can only use daggers or staves (start with one of these). They cannot use armor (AC10). The Magic-User starts with a spellbook, it contains two spells initially. One chosen and one randomly awarded. Using the book, the Magic-User memorizes a spell that they then can cast once during that day. The Magic-Users mind can memorize one spell at first level, two at second level and three at third level. Found scrolls of spells can be copied into their spellbook.
+Second level Magic-Users get an additional level 1 spell; third level Magic-users get a further level 1 spell and one level 2 spell.
 
 For an expanded spell list refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or online to the [Basic Fantasy spell list](https://www.basicfantasy.org/srd/spells.html).
 ## Magic-User spells – Level 1
