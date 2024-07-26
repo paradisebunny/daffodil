@@ -28,7 +28,7 @@ Starting at 2nd level Clerics can cast spells. They get their first spell at 2nd
 For an expanded spell list refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or online to the [Basic Fantasy spell list](https://www.basicfantasy.org/srd/spells.html).
 ## Cleric spells
 ### Cure Light Wounds
-**_Range_**: _Touch_        **_Duration_**: _Immediate_
+**_Range_**: _touch_        **_Duration_**: _Immediate_
 
 Cure Wounds heals 1d6+1 hit points of damage.
 ### Detect Evil and Good
@@ -75,7 +75,7 @@ A magic dart flies where the caster directs, hitting the target, automatically c
 This spell puts 2d6+3 HD enemies into an enchanted slumber. It affects creatures based on their hit dice.
 ## Magic-User spells – Level 2
 ### Knock
-**_Range_**: _Close_      **_Duration_**: _Permanent until dispelled_
+**_Range_**: _close_      **_Duration_**: _Permanent until dispelled_
 
 The targeted door, gate, or portal can be opened or locked by this spell. A locked target is unlocked and opened (including those locked by this spell). Targets locked by this spell can be unlocked by this spell or broken by brute force (GM’s discretion).
 ### Invisibility
