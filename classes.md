@@ -25,7 +25,7 @@ Clerics start with a Mace (1d6 damage) or Warhammer (1d4+1 damage) with Chain Ar
 Clerics have no armor restrictions, but may only use blunt weapons (club, flail, mace).
 Starting at 2nd level Clerics can cast spells. They get their first spell at 2nd lvl and another spell at 3rd lvl. 
 
-For an expanded spell list refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or online to the [Basic Fantasy spell list](https://www.basicfantasy.org/srd/spells.html).
+For an expanded spell list refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or online to the [Basic Fantasy](https://www.basicfantasy.org/srd/spells.html) spell list.
 ## Cleric spells
 ### Cure Light Wounds
 **_Range_**: _touch_        **_Duration_**: _Immediate_
@@ -51,7 +51,7 @@ A student of the arcane arts.
 Magic-Users (MU) can only use daggers or staves (start with one of these). They cannot use armor (AC10). The Magic-User starts with a spellbook, it contains two spells initially. One chosen and one randomly awarded. Using the book, the Magic-User memorizes a spell that they then can cast once during that day. The Magic-Users mind can memorize one spell at first level, two at second level and three at third level. Found scrolls of spells can be copied into their spellbook.
 Second level Magic-Users get an additional level 1 spell; third level Magic-users get a further level 1 spell and one level 2 spell.
 
-For an expanded spell list refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or online to the [Basic Fantasy spell list](https://www.basicfantasy.org/srd/spells.html).
+For an expanded spell list refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or online to the [Basic Fantasy](https://www.basicfantasy.org/srd/spells.html) spell list.
 ## Magic-User spells – Level 1
 ### Charm Person                 
 **_Range_**: _near_                        **_Duration_**: _Until dispelled_
