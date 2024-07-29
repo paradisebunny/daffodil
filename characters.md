@@ -21,8 +21,6 @@ __Charisma__ – measuring force of personality. Modifies reaction rolls when fi
 
 ## Attribute Bonus
 Ability scores below 8 have a -1 modifier. Scores above 13 have a +1 modifier. If your classes primary score is 13+ you get a 5% bonus to all experience you gain.
-## Ability Checks
-Optional: Roll under your ability score to succeed. Checks should only be rolled when the consequences are meaningful. Default to narrating player actions.
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
