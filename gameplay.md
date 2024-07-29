@@ -45,7 +45,7 @@ When a character is hit, the amount of damage is subtracted from their hit point
 ## Healing
 Characters recover 1 hit point per day if they eat a meal and have a night of uninterrupted rest.
 ## Treasure
-To create a treasure hoard add up the total XP value of the monsters the characters have overcome or outwitted and multiply it by 1d3+1. The result is the total gold value of the treasure, split up into valuables as you see fit.
+To create a treasure hoard add up the total XP value of the monsters the characters have overcome or outwitted and multiply it by 1d3+1. The result is the total gold value of the treasure, split up into valuables as you see fit. Refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or the [Basic Fantasy](https://www.basicfantasy.org/srd/magicItems.html) SRD online for a list of magic items. 
 ## Optional - Ability Checks
 Roll under your ability score to succeed. Checks should only be rolled when the consequences are meaningful. Default to narrating player actions.
 ## Optional - Encumberance
