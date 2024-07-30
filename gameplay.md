@@ -40,6 +40,8 @@ A melee attack is an attack made at close quarters (near). Ranged attacks are at
 To make an attack roll, rolls a d20 and adds any bonuses (HB if available, STR for melee attacks, DEX for ranged attacks, magic weapon boni if applicable) to the result. The attack roll hits if it is equal to or higher than the AC. Monster attacks add +1 to their attack roll for each HD they have. Roll damage according to the weapon's damage die (add STR bonus for fighter).
 ## Movement
 Distances are close, near and far. A character can take one action and move near, or skip his action and move far. If a characters inventory is full their movement speed is drastically reduced.
+
+For long distance travel, characters can hike up to 12 miles in a day. They can hike 18 if travelling on roads and only 6 if travelling in rough terrain or under adverse conditions. All moved is reduced to a quarter of these values if the inventory is full.
 ## Damage and Death
 When a character is hit, the amount of damage is subtracted from their hit points. When these  reach zero, the character is unconscious. They die at negative hit points equal to their level. Monsters die at 0 hit points.
 ## Healing
