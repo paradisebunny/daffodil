@@ -15,9 +15,9 @@ __Constitution__ – measuring endurance. The CON modifier adjusts your hit poin
 
 __Intelligence__ – measuring reasoning and memory. Magic-Users use their INT modifier to lower their target's saving throw value.
 
-__Wisdom__ – measuring perception and insight. Clerics with WIS 15+ receive an additional 1st lvl spell. Any character with a CHA score of 13+ gets an additional +5% bonus to all experience gained.
+__Wisdom__ – measuring perception and insight. Clerics with WIS 15+ receive an additional 1st lvl spell. Any character with a WIS score of 13+ gets an additional +5% bonus to all experience gained.
 
-__Charisma__ – measuring force of personality. Modifies reaction rolls when first encountering intelligent monsters. Any character with a WIS score of 13+ gets an additional +5% bonus to all experience gained.
+__Charisma__ – measuring force of personality. Modifies reaction rolls when first encountering intelligent monsters. Any character with a CHA score of 13+ gets an additional +5% bonus to all experience gained.
 
 ## Attribute Bonus
 Ability scores below 8 have a -1 modifier. Scores above 13 have a +1 modifier. If your classes primary score is 13+ you get a 5% bonus to all experience you gain.
