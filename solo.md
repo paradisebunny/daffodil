@@ -18,4 +18,4 @@ Ask a simple yes-no question and roll a d6 for the answer. If the result is like
 | 6    | no and...  |
 
 ## Meaning Oracle
-Grab any book you have lying around and open a random page, point your finger on a random spot on that page. Find the next noun to learn about elements, the next verb to learn about actions or the next adjective to learn about descriptions. Repeat as often as needed.
+Grab a copy of any fantasy novel you have lying around (Tolkien's the Hobbit works great) and open a random page, point your finger on a random spot on that page. Find the next noun to learn about elements, the next verb to learn about actions or the next adjective to learn about descriptions. Repeat as often as needed.
