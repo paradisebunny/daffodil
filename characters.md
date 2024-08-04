@@ -15,16 +15,16 @@ __Constitution__ – measuring endurance. The CON modifier adjusts your hit poin
 
 __Intelligence__ – measuring reasoning and memory. Magic-Users use their INT modifier to lower their target's saving throw value.
 
-__Wisdom__ – measuring perception and insight. Clerics with WIS 15+ receive an additional 1st lvl spell. Any character with a WIS score of 13+ gets an additional +5% bonus to all experience gained.
+__Wisdom__ – measuring perception and insight. Clerics with WIS 15+ receive an additional 1st lvl spell.
 
-__Charisma__ – measuring force of personality. Modifies reaction rolls when first encountering intelligent monsters. Any character with a CHA score of 13+ gets an additional +5% bonus to all experience gained.
+__Charisma__ – measuring force of personality. Modifies reaction rolls when first encountering intelligent monsters. 
 
 ## Attribute Bonus
-Ability scores below 8 have a -1 modifier. Scores above 13 have a +1 modifier. If your classes primary score is 13+ you get a 5% bonus to all experience you gain.
+Ability scores below 8 have a -1 modifier. Scores above 13 have a +1 modifier.
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
-Characters gain levels by acquiring treasure. Total Gold value of a treasure equates the amount of experience gained. The GM might give out XP for other achievements too. Characters advance to level 2 when they reach the XP threshold indicated in their description. Every subsequent level is reached by acquiring double the XP of the previous level.
+Characters gain levels by besting encounters. The typical encounter gives 2XP (e.g. characters lost HP and spent resources). This reward can be adjusted between 0XP (no challenge) and 4XP (barely survived). Encounters include combat and non-combat challenges. Characters advance to level 2 when they reach the 50XP. Every subsequent level is reached by acquiring double the XP of the previous level.
 As the characters advance, they improve their saving throws. It is 15 at level 1, then reduced by 1 per level gained, but never lower than 5.
 ## Character Ancestries
 __Dwarves__ can be Fighters or Thieves. Dwarves get +4 on save vs spells. Dwarves easily recognize irregularities in stonework and find traps hidden therein on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
