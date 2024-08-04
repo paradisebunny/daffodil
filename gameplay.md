@@ -49,7 +49,9 @@ Characters recover 1 hit point per day if they eat a meal and have a night of un
 ## Treasure
 Create a treasure hoard as you see fit. It is advisable to give out magic weapons and armor sparingly. Refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or the [Basic Fantasy](https://www.basicfantasy.org/srd/magicItems.html) SRD online for a list of magic items. 
 ## Optional - Ability Checks
-Roll under your ability score to succeed. Checks should only be rolled when the consequences are meaningful. Default to narrating player actions.
+Roll d20 over or equal a difficulty class of 12 for a regular check. 15 for hard, 9 for easy. Checks should only be rolled when the consequences are meaningful. Default to narrating player actions.
+## Optional - Advantage/Disadvantage
+The GM might grant advantage or disadvantage for a roll. For advantage roll two of the relevant dice instead of one and choose the higher result, for disadvantage do the same but choose the lower result.
 ## Optional - Encumberance
 Each character has 10 or their STR value gear slots. Items smaller than an apple do not take up a gear slot. Coins and gems stack up to 100 in one slot. Other similar items stack up to a reasonable quantity (usually 10). Items that require two hands to hold require two gear slots.
 ## Optional - The Usage Die
