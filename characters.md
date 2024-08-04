@@ -7,17 +7,17 @@ nav_order: 2
 ## Ability Scores
 Ability Scores are created by rolling 3d6 and assigning the results in the order below. 
 
-__Strength__ – measuring physical power. Your STR modifier adjusts your hit bonus for melee attacks. For Fighters it also modifies their damage rolls.
+__Strength__ – physical power. Your STR modifier adjusts your hit bonus for melee attacks. For Fighters it also modifies their damage rolls.
 
-__Dexterity__ – measuring agility. Your DEX modifier adjusts your hit bonus for ranged attacks and it  adjusts your character’s AC.
+__Dexterity__ – agility and quickness. Your DEX modifier adjusts your hit bonus for ranged attacks and it  adjusts your character’s AC.
 
-__Constitution__ – measuring endurance. The CON modifier adjusts your hit points for each hit die you roll for your character.
+__Constitution__ – endurance and vitality. The CON modifier adjusts your hit points for each hit die you roll for your character.
 
-__Intelligence__ – measuring reasoning and memory. Magic-Users use their INT modifier to lower their target's saving throw value.
+__Intelligence__ – reasoning and memory. Magic-Users use their INT modifier to lower their target's saving throw value.
 
-__Wisdom__ – measuring perception and insight. Clerics with WIS 15+ receive an additional 1st lvl spell.
+__Wisdom__ – insight and perception. Clerics with WIS 15+ receive an additional 1st lvl spell.
 
-__Charisma__ – measuring force of personality. Modifies reaction rolls when first encountering intelligent monsters. 
+__Charisma__ – force of personality. Modifies reaction rolls when first encountering intelligent monsters. 
 
 ## Attribute Bonus
 Ability scores below 8 have a -1 modifier. Scores above 13 have a +1 modifier.
