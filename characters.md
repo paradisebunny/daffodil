@@ -20,7 +20,18 @@ __Wisdom__ – insight and perception. Clerics with WIS 15+ receive an additiona
 __Charisma__ – force of personality. Modifies reaction rolls when first encountering intelligent monsters. 
 
 ## Attribute Bonus
-Ability scores below 8 have a -1 modifier. Scores above 13 have a +1 modifier.
+Ability scores below 8 have a -1 modifier. Scores above 13 have a +1 modifier. Optionally the the BX modifiers can be used as presented in the table below.
+
+| **Ability Score** | **Bonus / Penalty** |
+| ----------------- | ------------------- |
+| 3                 | -3                  |
+| 4-5               | -2                  |
+| 6-8               | -1                  |
+| 9-12              | 0                   |
+| 13-15             | +1                  |
+| 16-17             | +2                  |
+| 18                | +3                  |
+
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
