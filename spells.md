@@ -9,9 +9,7 @@ The number of spells of each level which a Cleric or Magic-User may cast per day
 Spellcasters must have at least one hand free, and be able to speak, in order to cast spells; thus, binding and gagging a spellcaster is an effective means of preventing him or her from casting spells. In combat, casting a spell usually takes the same time as making an attack. If a spellcaster is attacked (even if not hit) or must make a saving throw (whether successful or not) on the Initiative number on which he or she is casting a spell, the spell is spoiled and lost. As a specific exception, two spell casters releasing their spells at each other on the same Initiative number will both succeed in their casting; one caster may disrupt another with a spell only if he or she has a better Initiative, and chooses to delay casting the spell until _right before_ the other caster.
 
 Some spells are reversible; such spells are shown with an asterisk after the name.
-
 # Cleric Spells
-
 Clerics receive their spells through faith and prayer. Each day, generally in the morning, a Cleric must pray for at least three turns in order to prepare spells. Of course, the Cleric may be expected to pray more than this in order to remain in his or her deity’s good graces.
 
 Because they gain their spells through prayer, a Cleric may prepare any spell of any level he or she is able to cast. However, in some cases the Cleric’s deity may limit the availability of certain spells; for instance, a deity devoted to healing may refuse to grant reversed healing spells.
@@ -26,9 +24,7 @@ Because they gain their spells through prayer, a Cleric may prepare any spell of
 | Purify Food and Water | Silence 15' radius | Remove Curse*     | Protection from Evil 10' radius* | Raise Dead*   | Restoration         |
 | Remove Fear*          | Speak with Animals | Speak with Dead   | Speak with Plants                | True Seeing   | Speak with Monsters |
 | Resist Cold           | Spiritual Hammer   | Striking          | Sticks to Snakes                 | Wall of Fire  | Word of Recall      |
-
 # Magic User Spells
-
 Magic-Users cast spells through the exercise of knowledge and will. They prepare spells by study of their spellbooks; each Magic-User has his or her own spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **read magic**. All Magic-Users begin play knowing **read magic**, and it is so ingrained that it can be prepared without a spellbook.
 
 A Magic-User may only prepare spells after resting (i.e. a good night’s sleep), and needs one turn per each three spell levels to do so (rounding fractions up). Spells prepared but not used on a previous day are not lost. For example, a 3rd level Magic-User preparing all three of his or her available spells (two 1st level and one 2nd level) is preparing a total of 4 levels of spells, and thus needs 2 turns (4 divided by 3 and rounded up).
@@ -49,7 +45,6 @@ Rules for the acquisition of new spells are found in the Game Master’s section
 | Shield                | Phantasmal Force | Protection from Evil 10’ radius* | Remove Curse*         | Wall of Stone     | Wall of Iron      |
 | Sleep                 | Web              | Protection from Normal Missiles  | Wall of Fire          |                   |                   |
 | Ventriloquism         | Wizard Lock      | Water Breathing                  | Wizard Eye            |                   |                   |
-
 # Alphabetical Spells
 ## Animate Dead[](https://www.basicfantasy.org/srd/allSpells.html#animate-dead)
 
