@@ -30,7 +30,7 @@ A student of the arcane arts.
 **_Hit Dice_**: 1d4 per level
 **_Saving Throw_**: 15, +2 vs spells
 
-Magic-Users (MU) can only use daggers or staves (start with one of these). They cannot use armor (AC10). Every Magic-User knows the spell **Read Magig**, it is so ingrained that it can be used without preparing it. The Magic-User starts with a spellbook, it contains two spells initially. One chosen and one randomly awarded. Using the book, the Magic-User memorizes a spell that they then can cast once during that day. The Magic-Users mind can memorize one spell at first level, two at second level and three at third level. Found scrolls of spells can be copied into their spellbook. 
+Magic-Users (MU) can only use daggers or staves (start with one of these). They cannot use armor (AC10). Every Magic-User knows the spell **Read Magic**, it is so ingrained that it can be used without preparing it. The Magic-User starts with a spellbook, it contains two spells initially. One chosen and one randomly awarded. Using the book, the Magic-User memorizes a spell that they then can cast once during that day. The Magic-Users mind can memorize one spell at first level, two at second level and three at third level. Found scrolls of spells can be copied into their spellbook. 
 Second level Magic-Users get an additional level 1 spell; third level Magic-users get a further level 1 spell and one level 2 spell.
 # The Thief
 A silent shadow in the night apt at delicate tasks.
