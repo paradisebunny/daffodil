@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About Daffodil
 layout: default
 nav_order: 1
 ---
