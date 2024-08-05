@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Playing the Game
-nav_order: 5
+nav_order: 6
 ---
 # Playing the Game
 ## Time
