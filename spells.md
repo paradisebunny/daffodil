@@ -16,83 +16,17 @@ Clerics receive their spells through faith and prayer. Each day, generally in th
 
 Because they gain their spells through prayer, a Cleric may prepare any spell of any level he or she is able to cast. However, in some cases the Cleric’s deity may limit the availability of certain spells; for instance, a deity devoted to healing may refuse to grant reversed healing spells.
 
-First Level
+|     | 1st Level             | 2nd Level          | 3rd Level         | 4th Level                        | 5th Level     | 6th Level           |
+| --- | --------------------- | ------------------ | ----------------- | -------------------------------- | ------------- | ------------------- |
+| 1   | Cure Light Wounds*    | Bless*             | Continual Light*  | Animate Dead                     | Commune       | Animate Objects     |
+| 2   | Detect Evil*          | Charm Animal       | Cure Blindness    | Create Water                     | Create Food   | Blade Barrier       |
+| 3   | Detect Magic          | Find Traps         | Cure Disease*     | Cure Serious Wounds*             | Dispel Evil   | Find the Path       |
+| 4   | Light*                | Hold Person        | Growth of Animals | Dispel Magic                     | Insect Plague | Heal*               |
+| 5   | Protection from Evil* | Resist Fire        | Locate Object     | Neutralize Poison*               | Quest*        | Regenerate          |
+| 6   | Purify Food and Water | Silence 15' radius | Remove Curse*     | Protection from Evil 10' radius* | Raise Dead*   | Restoration         |
+| 7   | Remove Fear*          | Speak with Animals | Speak with Dead   | Speak with Plants                | True Seeing   | Speak with Monsters |
+| 8   | Resist Cold           | Spiritual Hammer   | Striking          | Sticks to Snakes                 | Wall of Fire  | Word of Recall      |
 
-|   |   |
-|---|---|
-|1|Cure Light Wounds*|
-|2|Detect Evil*|
-|3|Detect Magic|
-|4|Light*|
-|5|Protection from Evil*|
-|6|Purify Food and Water|
-|7|Remove Fear*|
-|8|Resist Cold|
-
-Fourth Level
-
-|   |   |
-|---|---|
-|1|Animate Dead|
-|2|Create Water|
-|3|Cure Serious Wounds*|
-|4|Dispel Magic|
-|5|Neutralize Poison*|
-|6|Protection from Evil 10' radius*|
-|7|Speak with Plants|
-|8|Sticks to Snakes|
-
-Second Level
-
-|   |   |
-|---|---|
-|1|Bless*|
-|2|Charm Animal|
-|3|Find Traps|
-|4|Hold Person|
-|5|Resist Fire|
-|6|Silence 15' radius|
-|7|Speak with Animals|
-|8|Spiritual Hammer|
-
-Fifth Level
-
-|   |   |
-|---|---|
-|1|Commune|
-|2|Create Food|
-|3|Dispel Evil|
-|4|Insect Plague|
-|5|Quest*|
-|6|Raise Dead*|
-|7|True Seeing|
-|8|Wall of Fire|
-
-Third Level
-
-|   |   |
-|---|---|
-|1|Continual Light*|
-|2|Cure Blindness|
-|3|Cure Disease*|
-|4|Growth of Animals|
-|5|Locate Object|
-|6|Remove Curse*|
-|7|Speak with Dead|
-|8|Striking|
-
-Sixth Level
-
-|     |                     |
-| --- | ------------------- |
-| 1   | Animate Objects     |
-| 2   | Blade Barrier       |
-| 3   | Find the Path       |
-| 4   | Heal*               |
-| 5   | Regenerate          |
-| 6   | Restoration         |
-| 7   | Speak with Monsters |
-| 8   | Word of Recall      |
 
 # Magic User Spells
 
