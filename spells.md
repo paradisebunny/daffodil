@@ -24,6 +24,7 @@ Because they gain their spells through prayer, a Cleric may prepare any spell of
 | Purify Food and Water | Silence 15' radius | Remove Curse*     | Protection from Evil 10' radius* | Raise Dead*   | Restoration         |
 | Remove Fear*          | Speak with Animals | Speak with Dead   | Speak with Plants                | True Seeing   | Speak with Monsters |
 | Resist Cold           | Spiritual Hammer   | Striking          | Sticks to Snakes                 | Wall of Fire  | Word of Recall      |
+
 # Magic User Spells
 Magic-Users cast spells through the exercise of knowledge and will. They prepare spells by study of their spellbooks; each Magic-User has his or her own spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **read magic**. All Magic-Users begin play knowing **read magic**, and it is so ingrained that it can be prepared without a spellbook.
 
@@ -45,6 +46,7 @@ Rules for the acquisition of new spells are found in the Game Master’s section
 | Shield                | Phantasmal Force | Protection from Evil 10’ radius* | Remove Curse*         | Wall of Stone     | Wall of Iron      |
 | Sleep                 | Web              | Protection from Normal Missiles  | Wall of Fire          |                   |                   |
 | Ventriloquism         | Wizard Lock      | Water Breathing                  | Wizard Eye            |                   |                   |
+
 # Alphabetical Spells
 ## Animate Dead[](https://www.basicfantasy.org/srd/allSpells.html#animate-dead)
 
