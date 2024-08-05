@@ -25,7 +25,7 @@ Starting at 2nd level Clerics can cast spells.
 
 **_Turn Undead-_** Clerics have the ability to turn undead, causing them to flee. Monsters roll their saving throws with a +8 bonus. If they fail they flee in the opposite direction or cower down helplessly. If they fail by more than 10 and have less HD than your level, they are destroyed. This bonus is lowered by 2 for every level the Cleric has advanced beyond the first level.
 
-|           | **Spell Tier** |       |       |       |       |       |
+|           | **Tier** |       |       |       |       |       |
 | --------- | -------- | ----- | ----- | ----- | ----- | ----- |
 | **Cleric Level** | **1**    | **2** | **3** | **4** | **5** | **6** |
 | 1         | -        | -     | -     | -     | -     | -     |
