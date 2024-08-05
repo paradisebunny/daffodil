@@ -25,30 +25,28 @@ Starting at 2nd level Clerics can cast spells. The table below shows how many sp
 
 **_Turn Undead-_** Clerics have the ability to turn undead, causing them to flee. Monsters roll their saving throws with a +8 bonus. If they fail they flee in the opposite direction or cower down helplessly. If they fail by more than 10 and have less HD than your level, they are destroyed. This bonus is lowered by 2 for every level the Cleric has advanced beyond the first level.
 
-|           | **Tier** |       |       |       |       |       |
-| --------- | -------- | ----- | ----- | ----- | ----- | ----- |
-| **Character Level** | **1**    | **2** | **3** | **4** | **5** | **6** |
-| 1         | -        | -     | -     | -     | -     | -     |
-| 2         | 1        | -     | -     | -     | -     | -     |
-| 3         | 2        | -     | -     | -     | -     | -     |
-| 4         | 2        | 1     | -     | -     | -     | -     |
-| 5         | 2        | 2     | -     | -     | -     | -     |
-| 6         | 2        | 2     | 1     | -     | -     | -     |
-| 7         | 3        | 2     | 2     | -     | -     | -     |
-| 8         | 3        | 2     | 2     | 1     | -     | -     |
-| 9         | 3        | 3     | 2     | 2     | -     | -     |
-| 10        | 3        | 3     | 2     | 2     | 1     | -     |
-| 11        | 4        | 3     | 3     | 2     | 2     | -     |
-| 12        | 4        | 4     | 3     | 2     | 2     | 1     |
-| 13        | 4        | 4     | 3     | 3     | 2     | 2     |
-| 14        | 4        | 4     | 4     | 3     | 2     | 2     |
-| 15        | 4        | 4     | 4     | 3     | 3     | 2     |
-| 16        | 5        | 4     | 4     | 3     | 3     | 2     |
-| 17        | 5        | 5     | 4     | 3     | 3     | 2     |
-| 18        | 5        | 5     | 4     | 4     | 3     | 3     |
-| 19        | 6        | 5     | 4     | 4     | 3     | 3     |
-| 20        | 6        | 5     | 5     | 4     | 3     | 3     |
-
+| **Character Level** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** | **Tier 6** |
+| ------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| 1                   | -          | -          | -          | -          | -          | -          |
+| 2                   | 1          | -          | -          | -          | -          | -          |
+| 3                   | 2          | -          | -          | -          | -          | -          |
+| 4                   | 2          | 1          | -          | -          | -          | -          |
+| 5                   | 2          | 2          | -          | -          | -          | -          |
+| 6                   | 2          | 2          | 1          | -          | -          | -          |
+| 7                   | 3          | 2          | 2          | -          | -          | -          |
+| 8                   | 3          | 2          | 2          | 1          | -          | -          |
+| 9                   | 3          | 3          | 2          | 2          | -          | -          |
+| 10                  | 3          | 3          | 2          | 2          | 1          | -          |
+| 11                  | 4          | 3          | 3          | 2          | 2          | -          |
+| 12                  | 4          | 4          | 3          | 2          | 2          | 1          |
+| 13                  | 4          | 4          | 3          | 3          | 2          | 2          |
+| 14                  | 4          | 4          | 4          | 3          | 2          | 2          |
+| 15                  | 4          | 4          | 4          | 3          | 3          | 2          |
+| 16                  | 5          | 4          | 4          | 3          | 3          | 2          |
+| 17                  | 5          | 5          | 4          | 3          | 3          | 2          |
+| 18                  | 5          | 5          | 4          | 4          | 3          | 3          |
+| 19                  | 6          | 5          | 4          | 4          | 3          | 3          |
+| 20                  | 6          | 5          | 5          | 4          | 3          | 3          |
 
 # The Magic-User
 A student of the arcane arts.
@@ -60,29 +58,28 @@ Magic-Users (MU) can only use daggers or staves (start with one of these). They 
 
 **_Read Magic-_** This spell allows reading the mystical language of magic. Among other things, it is used for scribing spells into the spellbook and reading magical scrolls. Every  The spell is so ingrained that it can be cast without preparing it.
 
-|           | **Tier** |       |       |       |       |       |
-| --------- | -------- | ----- | ----- | ----- | ----- | ----- |
-| **Character Level** | **1**    | **2** | **3** | **4** | **5** | **6** |
-| 1         | 1        | -     | -     | -     | -     | -     |
-| 2         | 2        | -     | -     | -     | -     | -     |
-| 3         | 2        | 1     | -     | -     | -     | -     |
-| 4         | 2        | 2     | -     | -     | -     | -     |
-| 5         | 2        | 2     | 1     | -     | -     | -     |
-| 6         | 3        | 2     | 2     | -     | -     | -     |
-| 7         | 3        | 2     | 2     | 1     | -     | -     |
-| 8         | 3        | 3     | 2     | 2     | -     | -     |
-| 9         | 3        | 3     | 2     | 2     | 1     | -     |
-| 10        | 4        | 3     | 3     | 2     | 2     | -     |
-| 11        | 4        | 4     | 3     | 2     | 2     | 1     |
-| 12        | 4        | 4     | 3     | 3     | 2     | 2     |
-| 13        | 4        | 4     | 4     | 3     | 2     | 2     |
-| 14        | 4        | 4     | 4     | 3     | 3     | 2     |
-| 15        | 5        | 4     | 4     | 3     | 3     | 2     |
-| 16        | 5        | 5     | 4     | 3     | 3     | 2     |
-| 17        | 5        | 5     | 4     | 4     | 3     | 3     |
-| 18        | 6        | 5     | 4     | 4     | 3     | 3     |
-| 19        | 6        | 5     | 5     | 4     | 3     | 3     |
-| 20        | 6        | 5     | 5     | 4     | 4     | 3     |
+| **Character Level** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** | **Tier 6** |
+| ------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| 1                   | 1          | -          | -          | -          | -          | -          |
+| 2                   | 2          | -          | -          | -          | -          | -          |
+| 3                   | 2          | 1          | -          | -          | -          | -          |
+| 4                   | 2          | 2          | -          | -          | -          | -          |
+| 5                   | 2          | 2          | 1          | -          | -          | -          |
+| 6                   | 3          | 2          | 2          | -          | -          | -          |
+| 7                   | 3          | 2          | 2          | 1          | -          | -          |
+| 8                   | 3          | 3          | 2          | 2          | -          | -          |
+| 9                   | 3          | 3          | 2          | 2          | 1          | -          |
+| 10                  | 4          | 3          | 3          | 2          | 2          | -          |
+| 11                  | 4          | 4          | 3          | 2          | 2          | 1          |
+| 12                  | 4          | 4          | 3          | 3          | 2          | 2          |
+| 13                  | 4          | 4          | 4          | 3          | 2          | 2          |
+| 14                  | 4          | 4          | 4          | 3          | 3          | 2          |
+| 15                  | 5          | 4          | 4          | 3          | 3          | 2          |
+| 16                  | 5          | 5          | 4          | 3          | 3          | 2          |
+| 17                  | 5          | 5          | 4          | 4          | 3          | 3          |
+| 18                  | 6          | 5          | 4          | 4          | 3          | 3          |
+| 19                  | 6          | 5          | 5          | 4          | 3          | 3          |
+| 20                  | 6          | 5          | 5          | 4          | 4          | 3          |
 
 # The Thief
 A silent shadow in the night apt at delicate tasks.
