@@ -3,7 +3,204 @@ layout: default
 title: Spells
 nav_order: 4
 ---
-# Spells
+# Spellcasting
+The number of spells of each level which a Cleric or Magic-User may cast per day is shown on the appropriate table in the [Classes](https://www.basicfantasy.org/srd/class.html#character-classes) section. Each day, usually in the morning, spellcasters prepare spells to replace those they have used. Clerics do this through prayer, while Magic-Users must study their spellbooks. Spells prepared but not used persist from day to day; only those actually cast must be replaced. A spellcaster may always choose to dismiss a prepared spell (without casting it) in order to prepare a different spell of that level.
+
+Spellcasters must have at least one hand free, and be able to speak, in order to cast spells; thus, binding and gagging a spellcaster is an effective means of preventing him or her from casting spells. In combat, casting a spell usually takes the same time as making an attack. If a spellcaster is attacked (even if not hit) or must make a saving throw (whether successful or not) on the Initiative number on which he or she is casting a spell, the spell is spoiled and lost. As a specific exception, two spell casters releasing their spells at each other on the same Initiative number will both succeed in their casting; one caster may disrupt another with a spell only if he or she has a better Initiative, and chooses to delay casting the spell until _right before_ the other caster.
+
+Some spells are reversible; such spells are shown with an asterisk after the name.
+
+# Cleric Spells
+
+Clerics receive their spells through faith and prayer. Each day, generally in the morning, a Cleric must pray for at least three turns in order to prepare spells. Of course, the Cleric may be expected to pray more than this in order to remain in his or her deity’s good graces.
+
+Because they gain their spells through prayer, a Cleric may prepare any spell of any level he or she is able to cast. However, in some cases the Cleric’s deity may limit the availability of certain spells; for instance, a deity devoted to healing may refuse to grant reversed healing spells.
+
+First Level
+
+|   |   |
+|---|---|
+|1|Cure Light Wounds*|
+|2|Detect Evil*|
+|3|Detect Magic|
+|4|Light*|
+|5|Protection from Evil*|
+|6|Purify Food and Water|
+|7|Remove Fear*|
+|8|Resist Cold|
+
+Fourth Level
+
+|   |   |
+|---|---|
+|1|Animate Dead|
+|2|Create Water|
+|3|Cure Serious Wounds*|
+|4|Dispel Magic|
+|5|Neutralize Poison*|
+|6|Protection from Evil 10' radius*|
+|7|Speak with Plants|
+|8|Sticks to Snakes|
+
+Second Level
+
+|   |   |
+|---|---|
+|1|Bless*|
+|2|Charm Animal|
+|3|Find Traps|
+|4|Hold Person|
+|5|Resist Fire|
+|6|Silence 15' radius|
+|7|Speak with Animals|
+|8|Spiritual Hammer|
+
+Fifth Level
+
+|   |   |
+|---|---|
+|1|Commune|
+|2|Create Food|
+|3|Dispel Evil|
+|4|Insect Plague|
+|5|Quest*|
+|6|Raise Dead*|
+|7|True Seeing|
+|8|Wall of Fire|
+
+Third Level
+
+|   |   |
+|---|---|
+|1|Continual Light*|
+|2|Cure Blindness|
+|3|Cure Disease*|
+|4|Growth of Animals|
+|5|Locate Object|
+|6|Remove Curse*|
+|7|Speak with Dead|
+|8|Striking|
+
+Sixth Level
+
+|     |                     |
+| --- | ------------------- |
+| 1   | Animate Objects     |
+| 2   | Blade Barrier       |
+| 3   | Find the Path       |
+| 4   | Heal*               |
+| 5   | Regenerate          |
+| 6   | Restoration         |
+| 7   | Speak with Monsters |
+| 8   | Word of Recall      |
+
+# Magic User Spells
+
+Magic-Users cast spells through the exercise of knowledge and will. They prepare spells by study of their spellbooks; each Magic-User has his or her own spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **read magic**. All Magic-Users begin play knowing **read magic**, and it is so ingrained that it can be prepared without a spellbook.
+
+A Magic-User may only prepare spells after resting (i.e. a good night’s sleep), and needs one turn per each three spell levels to do so (rounding fractions up). Spells prepared but not used on a previous day are not lost. For example, a 3rd level Magic-User preparing all three of his or her available spells (two 1st level and one 2nd level) is preparing a total of 4 levels of spells, and thus needs 2 turns (4 divided by 3 and rounded up).
+
+Rules for the acquisition of new spells are found in the Game Master’s section.
+
+First Level
+
+|   |   |
+|---|---|
+|1|Charm Person|
+|2|Detect Magic|
+|3|Floating Disc|
+|4|Hold Portal|
+|5|Light*|
+|6|Magic Missile|
+|7|Magic Mouth|
+|8|Protection from Evil*|
+|9|Read Languages|
+|10|Shield|
+|11|Sleep|
+|12|Ventriloquism|
+
+Fourth Level
+
+|   |   |
+|---|---|
+|1|Charm Monster|
+|2|Confusion|
+|3|Dimension Door|
+|4|Growth of Plants*|
+|5|Hallucinatory Terrain|
+|6|Ice Storm|
+|7|Massmorph|
+|8|Polymorph Other|
+|9|Polymorph Self|
+|10|Remove Curse*|
+|11|Wall of Fire|
+|12|Wizard Eye|
+
+Second Level
+
+|   |   |
+|---|---|
+|1|Continual Light*|
+|2|Detect Evil*|
+|3|Detect Invisible|
+|4|ESP|
+|5|Invisibility|
+|6|Knock|
+|7|Levitate|
+|8|Locate Object|
+|9|Mirror Image|
+|10|Phantasmal Force|
+|11|Web|
+|12|Wizard Lock|
+
+Fifth Level
+
+|   |   |
+|---|---|
+|1|Animate Dead|
+|2|Cloudkill|
+|3|Conjure Elemental|
+|4|Feeblemind|
+|5|Hold Monster|
+|6|Magic Jar|
+|7|Passwall|
+|8|Telekinesis|
+|9|Teleport|
+|10|Wall of Stone|
+
+Third Level
+
+|   |   |
+|---|---|
+|1|Clairvoyance|
+|2|Darkvision|
+|3|Dispel Magic|
+|4|Fireball|
+|5|Fly|
+|6|Haste*|
+|7|Hold Person|
+|8|Invisibility 10‘ radius|
+|9|Lightning Bolt|
+|10|Protection from Evil 10’ radius*|
+|11|Protection from Normal Missiles|
+|12|Water Breathing|
+
+Sixth Level
+
+|     |                   |
+| --- | ----------------- |
+| 1   | Anti-Magic Shell  |
+| 2   | Death Spell       |
+| 3   | Disintegrate      |
+| 4   | Flesh to Stone*   |
+| 5   | Geas*             |
+| 6   | Invisible Stalker |
+| 7   | Lower Water       |
+| 8   | Projected Image   |
+| 9   | Reincarnate       |
+| 10  | Wall of Iron      |
+
+# Alphabetical Spells
 ## Animate Dead[](https://www.basicfantasy.org/srd/allSpells.html#animate-dead)
 
 Range: 30’
