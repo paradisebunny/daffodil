@@ -27,7 +27,6 @@ Because they gain their spells through prayer, a Cleric may prepare any spell of
 | 7   | Remove Fear*          | Speak with Animals | Speak with Dead   | Speak with Plants                | True Seeing   | Speak with Monsters |
 | 8   | Resist Cold           | Spiritual Hammer   | Striking          | Sticks to Snakes                 | Wall of Fire  | Word of Recall      |
 
-
 # Magic User Spells
 
 Magic-Users cast spells through the exercise of knowledge and will. They prepare spells by study of their spellbooks; each Magic-User has his or her own spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **read magic**. All Magic-Users begin play knowing **read magic**, and it is so ingrained that it can be prepared without a spellbook.
@@ -36,103 +35,20 @@ A Magic-User may only prepare spells after resting (i.e. a good night’s sleep
 
 Rules for the acquisition of new spells are found in the Game Master’s section.
 
-First Level
-
-|   |   |
-|---|---|
-|1|Charm Person|
-|2|Detect Magic|
-|3|Floating Disc|
-|4|Hold Portal|
-|5|Light*|
-|6|Magic Missile|
-|7|Magic Mouth|
-|8|Protection from Evil*|
-|9|Read Languages|
-|10|Shield|
-|11|Sleep|
-|12|Ventriloquism|
-
-Fourth Level
-
-|   |   |
-|---|---|
-|1|Charm Monster|
-|2|Confusion|
-|3|Dimension Door|
-|4|Growth of Plants*|
-|5|Hallucinatory Terrain|
-|6|Ice Storm|
-|7|Massmorph|
-|8|Polymorph Other|
-|9|Polymorph Self|
-|10|Remove Curse*|
-|11|Wall of Fire|
-|12|Wizard Eye|
-
-Second Level
-
-|   |   |
-|---|---|
-|1|Continual Light*|
-|2|Detect Evil*|
-|3|Detect Invisible|
-|4|ESP|
-|5|Invisibility|
-|6|Knock|
-|7|Levitate|
-|8|Locate Object|
-|9|Mirror Image|
-|10|Phantasmal Force|
-|11|Web|
-|12|Wizard Lock|
-
-Fifth Level
-
-|   |   |
-|---|---|
-|1|Animate Dead|
-|2|Cloudkill|
-|3|Conjure Elemental|
-|4|Feeblemind|
-|5|Hold Monster|
-|6|Magic Jar|
-|7|Passwall|
-|8|Telekinesis|
-|9|Teleport|
-|10|Wall of Stone|
-
-Third Level
-
-|   |   |
-|---|---|
-|1|Clairvoyance|
-|2|Darkvision|
-|3|Dispel Magic|
-|4|Fireball|
-|5|Fly|
-|6|Haste*|
-|7|Hold Person|
-|8|Invisibility 10‘ radius|
-|9|Lightning Bolt|
-|10|Protection from Evil 10’ radius*|
-|11|Protection from Normal Missiles|
-|12|Water Breathing|
-
-Sixth Level
-
-|     |                   |
-| --- | ----------------- |
-| 1   | Anti-Magic Shell  |
-| 2   | Death Spell       |
-| 3   | Disintegrate      |
-| 4   | Flesh to Stone*   |
-| 5   | Geas*             |
-| 6   | Invisible Stalker |
-| 7   | Lower Water       |
-| 8   | Projected Image   |
-| 9   | Reincarnate       |
-| 10  | Wall of Iron      |
+|     | 1st Level             | 2nd Level        | 3rd Level                        | 4th Level             | 5th Level         | 6th Level         |
+| --- | --------------------- | ---------------- | -------------------------------- | --------------------- | ----------------- | ----------------- |
+| 1   | Charm Person          | Continual Light* | Clairvoyance                     | Charm Monster         | Animate Dead      | Anti-Magic Shell  |
+| 2   | Detect Magic          | Detect Evil*     | Darkvision                       | Confusion             | Cloudkill         | Death Spell       |
+| 3   | Floating Disc         | Detect Invisible | Dispel Magic                     | Dimension Door        | Conjure Elemental | Disintegrate      |
+| 4   | Hold Portal           | ESP              | Fireball                         | Growth of Plants*     | Feeblemind        | Flesh to Stone*   |
+| 5   | Light*                | Invisibility     | Fly                              | Hallucinatory Terrain | Hold Monster      | Geas*             |
+| 6   | Magic Missile         | Knock            | Haste*                           | Ice Storm             | Magic Jar         | Invisible Stalker |
+| 7   | Magic Mouth           | Levitate         | Hold Person                      | Massmorph             | Passwall          | Lower Water       |
+| 8   | Protection from Evil* | Locate Object    | Invisibility 10‘ radius          | Polymorph Other       | Telekinesis       | Projected Image   |
+| 9   | Read Languages        | Mirror Image     | Lightning Bolt                   | Polymorph Self        | Teleport          | Reincarnate       |
+| 10  | Shield                | Phantasmal Force | Protection from Evil 10’ radius* | Remove Curse*         | Wall of Stone     | Wall of Iron      |
+| 11  | Sleep                 | Web              | Protection from Normal Missiles  | Wall of Fire          |                   |                   |
+| 12  | Ventriloquism         | Wizard Lock      | Water Breathing                  | Wizard Eye            |                   |                   |
 
 # Alphabetical Spells
 ## Animate Dead[](https://www.basicfantasy.org/srd/allSpells.html#animate-dead)
