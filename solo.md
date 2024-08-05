@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Solo Rules
-nav_order: 7
+nav_order: 8
 ---
 # Rules for Solo Play
 This game, like any other TTRPG can be played solo. Here is a simple set of rules to do so. Use the two oracles below to replace the gamemaster.
