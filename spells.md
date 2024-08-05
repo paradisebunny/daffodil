@@ -16,16 +16,16 @@ Clerics receive their spells through faith and prayer. Each day, generally in th
 
 Because they gain their spells through prayer, a Cleric may prepare any spell of any level he or she is able to cast. However, in some cases the Cleric’s deity may limit the availability of certain spells; for instance, a deity devoted to healing may refuse to grant reversed healing spells.
 
-|     | 1st Level             | 2nd Level          | 3rd Level         | 4th Level                        | 5th Level     | 6th Level           |
-| --- | --------------------- | ------------------ | ----------------- | -------------------------------- | ------------- | ------------------- |
-| 1   | Cure Light Wounds*    | Bless*             | Continual Light*  | Animate Dead                     | Commune       | Animate Objects     |
-| 2   | Detect Evil*          | Charm Animal       | Cure Blindness    | Create Water                     | Create Food   | Blade Barrier       |
-| 3   | Detect Magic          | Find Traps         | Cure Disease*     | Cure Serious Wounds*             | Dispel Evil   | Find the Path       |
-| 4   | Light*                | Hold Person        | Growth of Animals | Dispel Magic                     | Insect Plague | Heal*               |
-| 5   | Protection from Evil* | Resist Fire        | Locate Object     | Neutralize Poison*               | Quest*        | Regenerate          |
-| 6   | Purify Food and Water | Silence 15' radius | Remove Curse*     | Protection from Evil 10' radius* | Raise Dead*   | Restoration         |
-| 7   | Remove Fear*          | Speak with Animals | Speak with Dead   | Speak with Plants                | True Seeing   | Speak with Monsters |
-| 8   | Resist Cold           | Spiritual Hammer   | Striking          | Sticks to Snakes                 | Wall of Fire  | Word of Recall      |
+| 1st Level             | 2nd Level          | 3rd Level         | 4th Level                        | 5th Level     | 6th Level           |
+| --------------------- | ------------------ | ----------------- | -------------------------------- | ------------- | ------------------- |
+| Cure Light Wounds*    | Bless*             | Continual Light*  | Animate Dead                     | Commune       | Animate Objects     |
+| Detect Evil*          | Charm Animal       | Cure Blindness    | Create Water                     | Create Food   | Blade Barrier       |
+| Detect Magic          | Find Traps         | Cure Disease*     | Cure Serious Wounds*             | Dispel Evil   | Find the Path       |
+| Light*                | Hold Person        | Growth of Animals | Dispel Magic                     | Insect Plague | Heal*               |
+| Protection from Evil* | Resist Fire        | Locate Object     | Neutralize Poison*               | Quest*        | Regenerate          |
+| Purify Food and Water | Silence 15' radius | Remove Curse*     | Protection from Evil 10' radius* | Raise Dead*   | Restoration         |
+| Remove Fear*          | Speak with Animals | Speak with Dead   | Speak with Plants                | True Seeing   | Speak with Monsters |
+| Resist Cold           | Spiritual Hammer   | Striking          | Sticks to Snakes                 | Wall of Fire  | Word of Recall      |
 
 # Magic User Spells
 
@@ -35,20 +35,20 @@ A Magic-User may only prepare spells after resting (i.e. a good night’s sleep
 
 Rules for the acquisition of new spells are found in the Game Master’s section.
 
-|     | 1st Level             | 2nd Level        | 3rd Level                        | 4th Level             | 5th Level         | 6th Level         |
-| --- | --------------------- | ---------------- | -------------------------------- | --------------------- | ----------------- | ----------------- |
-| 1   | Charm Person          | Continual Light* | Clairvoyance                     | Charm Monster         | Animate Dead      | Anti-Magic Shell  |
-| 2   | Detect Magic          | Detect Evil*     | Darkvision                       | Confusion             | Cloudkill         | Death Spell       |
-| 3   | Floating Disc         | Detect Invisible | Dispel Magic                     | Dimension Door        | Conjure Elemental | Disintegrate      |
-| 4   | Hold Portal           | ESP              | Fireball                         | Growth of Plants*     | Feeblemind        | Flesh to Stone*   |
-| 5   | Light*                | Invisibility     | Fly                              | Hallucinatory Terrain | Hold Monster      | Geas*             |
-| 6   | Magic Missile         | Knock            | Haste*                           | Ice Storm             | Magic Jar         | Invisible Stalker |
-| 7   | Magic Mouth           | Levitate         | Hold Person                      | Massmorph             | Passwall          | Lower Water       |
-| 8   | Protection from Evil* | Locate Object    | Invisibility 10‘ radius          | Polymorph Other       | Telekinesis       | Projected Image   |
-| 9   | Read Languages        | Mirror Image     | Lightning Bolt                   | Polymorph Self        | Teleport          | Reincarnate       |
-| 10  | Shield                | Phantasmal Force | Protection from Evil 10’ radius* | Remove Curse*         | Wall of Stone     | Wall of Iron      |
-| 11  | Sleep                 | Web              | Protection from Normal Missiles  | Wall of Fire          |                   |                   |
-| 12  | Ventriloquism         | Wizard Lock      | Water Breathing                  | Wizard Eye            |                   |                   |
+| 1st Level             | 2nd Level        | 3rd Level                        | 4th Level             | 5th Level         | 6th Level         |
+| --------------------- | ---------------- | -------------------------------- | --------------------- | ----------------- | ----------------- |
+| Charm Person          | Continual Light* | Clairvoyance                     | Charm Monster         | Animate Dead      | Anti-Magic Shell  |
+| Detect Magic          | Detect Evil*     | Darkvision                       | Confusion             | Cloudkill         | Death Spell       |
+| Floating Disc         | Detect Invisible | Dispel Magic                     | Dimension Door        | Conjure Elemental | Disintegrate      |
+| Hold Portal           | ESP              | Fireball                         | Growth of Plants*     | Feeblemind        | Flesh to Stone*   |
+| Light*                | Invisibility     | Fly                              | Hallucinatory Terrain | Hold Monster      | Geas*             |
+| Magic Missile         | Knock            | Haste*                           | Ice Storm             | Magic Jar         | Invisible Stalker |
+| Magic Mouth           | Levitate         | Hold Person                      | Massmorph             | Passwall          | Lower Water       |
+| Protection from Evil* | Locate Object    | Invisibility 10‘ radius          | Polymorph Other       | Telekinesis       | Projected Image   |
+| Read Languages        | Mirror Image     | Lightning Bolt                   | Polymorph Self        | Teleport          | Reincarnate       |
+| Shield                | Phantasmal Force | Protection from Evil 10’ radius* | Remove Curse*         | Wall of Stone     | Wall of Iron      |
+| Sleep                 | Web              | Protection from Normal Missiles  | Wall of Fire          |                   |                   |
+| Ventriloquism         | Wizard Lock      | Water Breathing                  | Wizard Eye            |                   |                   |
 
 # Alphabetical Spells
 ## Animate Dead[](https://www.basicfantasy.org/srd/allSpells.html#animate-dead)
