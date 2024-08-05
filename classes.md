@@ -21,7 +21,8 @@ A devout servant of their deity who bears weapons in their name.
 
 Clerics start with a Mace (1d6 damage) or Warhammer (1d4+1 damage) with Chain Armor and Shield (AC15).
 Clerics have no armor restrictions, but may only use blunt weapons (club, flail, mace).
-Starting at 2nd level Clerics can cast spells. They get their first spell at 2nd lvl and another spell at 3rd lvl. 
+Starting at 2nd level Clerics can cast spells. They get their first spell at 2nd lvl and another spell at 3rd lvl.
+
 **_Turn Undead-_** Clerics have the ability to turn undead, causing them to flee. Monsters roll their saving throws with a +8 bonus. If they fail they flee in the opposite direction or cower down helplessly. If they fail by more than 10 and have less HD than your level, they are destroyed. This bonus is lowered by 2 for every level the Cleric has advanced beyond the first level.
 # The Magic-User
 A student of the arcane arts.
