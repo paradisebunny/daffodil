@@ -24,16 +24,14 @@ Roll the table below when first encountering monsters and modify the roll with t
 ## Combat
 When the adventurers encounters hostile enemies, the action is structured in the following manner:
 
-1. Determine Surprise
-2. Roll Initiative
-3. Party that won the roll acts first (moving, casting spells, attacking, etc.). Results take effect.
-4. Party that lost the roll acts. Results take effect.
-5. The round is completed. Start over from step two if combat has not been resolved.
+1. Roll Initiative
+2. Party that won the roll acts first (moving, casting spells, attacking, etc.). Results take effect.
+3. Party that lost the roll acts. Results take effect.
+4. The round is completed. Start over from step two if combat has not been resolved.
 
-#### Determine Surprise
-A group of characters or monsters cannot be surprised if they are already aware of the presence of the adversaries. If both or one is not, roll for surprise: there is a 2 in 6 chance for the group to be surprised. If a side is surprised the other side gets a free round of actions before the initiative roll!
+
 #### Rolling Initiative
-Each side rolls a d6 for Initiative, highest roll wins. The winning side acts first (moving, attacking, and spell casting). The losing side follows after. If the initiative roll is tied both sides are acting simultaneously.
+Each side rolls a d6 for Initiative, highest roll wins. If one side surprise the other, they roll with advantage. The winning side acts first (moving, attacking, and spell casting). The losing side follows after. If the initiative roll is tied both sides are acting simultaneously.
 #### Types of Attacks
 A melee attack is an attack made at close quarters (near). Ranged attacks are attacks with ranged weapons such as a bow or sling. When firing ranged attacks into melee, randomly determine if friend or foe is attacked.
 #### The Attack Roll
@@ -48,15 +46,15 @@ When a character is hit, the amount of damage is subtracted from their hit point
 Characters recover 1 hit point per day if they eat a meal and have a night of uninterrupted rest.
 ## Treasure
 Create a treasure hoard as you see fit. It is advisable to give out magic weapons and armor sparingly. Refer to the free [Swords & Wizardry](https://www.drivethrurpg.com/en/product/62346/Swords--Wizardry-Core-Rules) Core book or the [Basic Fantasy](https://www.basicfantasy.org/srd/magicItems.html) SRD online for a list of magic items. 
+## Advantage/Disadvantage
+The GM might grant advantage or disadvantage for a roll. For advantage roll two of the relevant dice instead of one and choose the higher result, for disadvantage do the same but choose the lower result.
 ## Optional - Ability Checks
 Roll d20 over or equal a difficulty class of 12 for a regular check. 15 for hard, 9 for easy. Checks should only be rolled when the consequences are meaningful. Default to narrating player actions.
-## Optional - Advantage/Disadvantage
-The GM might grant advantage or disadvantage for a roll. For advantage roll two of the relevant dice instead of one and choose the higher result, for disadvantage do the same but choose the lower result.
-## Optional - Encumberance
+## Encumberance
 Each character has 10 or their STR value gear slots. Items smaller than an apple do not take up a gear slot. Coins and gems stack up to 100 in one slot. Other similar items stack up to a reasonable quantity (usually 10). Items that require two hands to hold require two gear slots.
-## Optional - The Usage Die
-Items that are only available in limited quantities such as arrows, torches or rations utilize a _Usage die_ (Ud) to represent their depletion. When a resource is used, roll the associated usage die. On a 1 or 2 you move down to the next smallest die for the next roll. If you roll a 1 or 2 on the smallest die (d4) the resource is depleted. 
+## The Usage Die
+Items that are only available in limited quantities such as arrows, torches or rations utilize a _Usage die_ (ud) to represent their depletion. When a resource is used, roll the associated usage die. On a 1 or 2 you move down to the next smallest die for the next roll. If you roll a 1 or 2 on the smallest die (d4) the resource is depleted. 
 
 For reference, the average number of uses per Ud is as follows:
 
-Ud20: 30 - Ud12: 20 - Ud10: 14 - Ud8: 9 Ud6: 5 - Ud4: 2.
+ud20: 30 - ud12: 20 - ud10: 14 - ud8: 9 ud6: 5 - ud4: 2.
