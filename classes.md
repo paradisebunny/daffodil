@@ -93,14 +93,5 @@ Thieves have class abilities as follows:
 
 **_Backstab–_** When attacking with surprise and from behind the thief attacks at +4 to hit and does double damage
 
-**_Tricks of the Trade–_** You have special training that goes beyond the abilities of common men. You can attempt the following: _Climbing sheer walls, Disabling delicate traps, Picking Locks, Listening for Faint Sounds, Hiding in Shadows, Moving Silently_. Roll a d6 and compare it to the table below.
-
-| Level | Tricks of the Trade |
-| ----- | ------------------- |
-| 1     | 1 in 6              |
-| 2-4   | 2 in 6              |
-| 5-7   | 3 in 6              |
-| 8-10  | 4 in 6              |
-| 11-13 | 5 in 6              |
-| 14+   | 6 in 6              |
-
+**_Tricks of the Trade–_** You have special training that goes beyond the abilities of common men. You have advantage on the following activities: 
+_Climbing, Sneaking and hiding, Applying disguises, Finding and disabling traps, Delicate tasks such as picking pockets and opening locks_
