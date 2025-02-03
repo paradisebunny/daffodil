@@ -23,7 +23,7 @@ Clerics start with a Mace (1d6 damage) or Warhammer (1d4+1 damage) with Chain Ar
 Clerics have no armor restrictions, but may only use blunt weapons (club, flail, mace).
 Starting at 2nd level Clerics can cast spells. The table below shows how many spells of what spell tier the cleric can cast at their level.
 
-**_Turn Undead-_** Clerics have the ability to turn undead, causing them to flee. Monsters roll their saving throws with a +8 bonus. If they fail they flee in the opposite direction or cower down helplessly. If they fail by more than 10 and have less HD than your level, they are destroyed. This bonus is lowered by 2 for every level the Cleric has advanced beyond the first level.
+**_Turn Undead-_** Clerics have the ability to turn undead while brandishing their holy symbol  , causing them to flee. Monsters roll their saving throws with a +8 bonus. If they fail they flee in the opposite direction or cower down helplessly. If they fail by more than 10 and have less HD than your level, they are destroyed. This bonus is lowered by 2 for every level the Cleric has advanced beyond the first level.
 
 | **Character Level** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** | **Tier 6** |
 | ------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -54,9 +54,7 @@ A student of the arcane arts.
 **_Hit Dice_**: 1d4 per level
 **_Saving Throw_**: 15, +2 vs spells
 
-Magic-Users (MU) can only use daggers or staves (start with one of these). They cannot use armor (AC10). The Magic-User starts with a spellbook, it contains two spells initially. One chosen and one randomly awarded. Using the book, the Magic-User memorizes a spell that they then can cast once during that day. The Magic-Users mind can memorize one spell at first level, two at second level and three at third level. Found scrolls of spells can be copied into their spellbook. The table below shows how many spells of what spell tier the magic-user can cast at their level.
-
-**_Read Magic-_** This spell allows reading the mystical language of magic. Among other things, it is used for scribing spells into the spellbook and reading magical scrolls. Every  The spell is so ingrained that it can be cast without preparing it.
+Magic-Users (MU) can only use daggers or staves (start with one of these). They cannot use armor (AC10). The Magic-User starts with a spellbook, it contains three spells initially. _Read Magic_ and two other spells of the player's choice. Using the book, the Magic-User memorizes a spell that they then can cast once during that day. Found scrolls of spells can be copied into their spellbook with the use of _Read Magic_. The table below shows how many spells of what spell tier the magic-user can cast at their level.
 
 | **Character Level** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** | **Tier 6** |
 | ------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
