@@ -49,7 +49,6 @@ Each character starts with the following items: Backpack, bedroll, 3 days ration
 _Roll a d20 twice on this table, and once on the following two._
 ### Essential Items
 
-
 | 1. Rope, 50ft<br><br>2. Pulleys<br><br>3. Candles, 5<br><br>4. Chain, 10ft<br><br>5. Chalk, 10 | 6. Crowbar<br><br>7. Tinderbox<br><br>8. Grap. hook<br><br>9. Hammer<br><br>10. Waterskin | 11. Lantern<br><br>12. Lamp oil<br><br>13. Padlock<br><br>14. Manacles<br><br>15. Mirror | 16. Pole, 10ft<br><br>17. Sack<br><br>18. Tent<br><br>19. Spikes, 5<br><br>20. Torches, 5 |
 | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
