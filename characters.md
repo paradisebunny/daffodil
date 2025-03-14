@@ -38,11 +38,9 @@ Armor Class (AC) rates how difficult it is to hit someone. An unarmored person w
 Characters gain levels by besting encounters. The typical encounter gives 2XP (e.g. characters lost HP and spent resources). This reward can be adjusted between 0XP (no challenge) and 4XP (barely survived). Encounters include combat and non-combat challenges. Characters advance to level 2 when they reach the 50XP. Every subsequent level is reached by acquiring double the XP of the previous level.
 As the characters advance, they improve their saving throws. It is 15 at level 1, then reduced by 1 per level gained, but never lower than 5.
 ## Character Ancestries
-__Dwarves__ can be Fighters or Thieves. Dwarves get +4 on save vs spells. Dwarves easily recognize irregularities in stonework and find traps hidden therein on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
+__Dwarves__ Dwarves easily recognize irregularities in stonework and find traps hidden therein on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
 
-__Elves__ can be Fighters, Magic-Users or Thieves.  Elves are immune to paralysis caused by undead. Elves get +2 on saving throws vs spells. Elves have keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
-
-__Halflings__ can be Fighters or Thieves. Halflings get +4 on saving throws vs spells. Halflings receive +1 on ranged attacks. Halflings may be Fighters or Thieves.
+__Elves__ Elves get +2 on saving throws vs spells. Elves have keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
 
 __Humans__ may be any class. They may switch the places of two scores at character creation.
 ## Equipment Packs
