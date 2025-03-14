@@ -44,26 +44,24 @@ __Elves__ Elves get +2 on saving throws vs spells. Elves have keen senses find s
 
 __Humans__ may be any class. They may switch the places of two scores at character creation.
 ## Starting Equipment
-Each character starts with the following items:
+Each character starts with the following items: Backpack, bedroll, 3 days rations, 2 torches
 
-_Backpack, bedroll, 3 days rations, 2 torches_
-
-Additionall, roll a d20 twice on this table, and once on the following two.
+_Roll a d20 twice on this table, and once on the following two._
 ### Essential Items
 
-|                                                                                                |                                                                                           |                                                                                          |                                                                                           |
-| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+
 | 1. Rope, 50ft<br><br>2. Pulleys<br><br>3. Candles, 5<br><br>4. Chain, 10ft<br><br>5. Chalk, 10 | 6. Crowbar<br><br>7. Tinderbox<br><br>8. Grap. hook<br><br>9. Hammer<br><br>10. Waterskin | 11. Lantern<br><br>12. Lamp oil<br><br>13. Padlock<br><br>14. Manacles<br><br>15. Mirror | 16. Pole, 10ft<br><br>17. Sack<br><br>18. Tent<br><br>19. Spikes, 5<br><br>20. Torches, 5 |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
 ### General Gear 1
 
-|                                                                                        |                                                                              |                                                                                       |                                                                                      |
-| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+
 | 1. Air bladder<br><br>2. Bear trap<br><br>3. Shovel<br><br>4. Bellows<br><br>5. Grease | 6. Saw<br><br>7. Bucket<br><br>8. Caltrops<br><br>9. Chisel<br><br>10. Drill | 11. Fish. rod<br><br>12. Marbles<br><br>13. Glue<br><br>14. Pick<br><br>15. Hourglass | 16. Net<br><br>17. Tongs<br><br>18. Lockpicks<br><br>19. Metal file<br><br>20. Nails |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 
 ### General Gear 2
 
-|   |   |   |   |
-|---|---|---|---|
-|1. Incense<br><br>2. Sponge<br><br>3. Lens<br><br>4. Perfume<br><br>5. Horn|6. Bottle<br><br>7. Soap<br><br>8. Spyglass<br><br>9. Tar pot<br><br>10. Twine|11. Fake jewels<br><br>12. Blank book<br><br>13. Card deck<br><br>14. Dice set<br><br>15. Cook pots|16. Face paint<br><br>17. Whistle<br><br>18. Instrument<br><br>19. Quill & Ink<br><br>20. Small bell|
+
+| 1. Incense<br><br>2. Sponge<br><br>3. Lens<br><br>4. Perfume<br><br>5. Horn | 6. Bottle<br><br>7. Soap<br><br>8. Spyglass<br><br>9. Tar pot<br><br>10. Twine | 11. Fake jewels<br><br>12. Blank book<br><br>13. Card deck<br><br>14. Dice set<br><br>15. Cook pots | 16. Face paint<br><br>17. Whistle<br><br>18. Instrument<br><br>19. Quill & Ink<br><br>20. Small bell |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 
