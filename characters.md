@@ -42,7 +42,7 @@ __Dwarves__ Dwarves easily recognize irregularities in stonework and find traps 
 
 __Elves__ Elves get +2 on saving throws vs spells. Elves have keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
 
-__Humans__ may be any class. They may switch the places of two scores at character creation.
+__Humans__ Humans may switch the places of two ability scores at character creation.
 ## Starting Equipment
 Each character starts with the following items: Backpack, bedroll, 3 days rations, 2 torches
 
