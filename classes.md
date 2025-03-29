@@ -54,7 +54,7 @@ A student of the arcane arts.
 **_Hit Dice_**: 1d4 per level
 **_Saving Throw_**: 15, +2 vs spells
 
-Magic-Users (MU) can only use daggers or staves (start with one of these). They cannot use armor (AC10). The Magic-User starts with a spellbook, it contains four spells initially. _Read Magic_ _Detect Magic_ and two other spells of the player's choice. If their INT is 15+, they start with an additional 1st level spell. Using the book, the Magic-User memorizes a spell that they then can cast once during that day. The table below shows how many spells per tier the magic-user can memorize. Found scrolls of spells can be copied into their spellbook with the use of _Read Magic_. 
+Magic-Users (MU) can only use daggers or staves (start with one of these). They cannot use armor (AC10). The Magic-User starts with a spellbook, it contains four spells initially. _Read Magic_, _Detect Magic_ and two other spells of the player's choice. If their INT is 15+, they start with an additional 1st level spell. Using the book, the Magic-User memorizes a spell that they then can cast once during that day. The table below shows how many spells per tier the magic-user can memorize. Found scrolls of spells can be copied into their spellbook with the use of _Read Magic_. 
 
 | **Character Level** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** | **Tier 6** |
 | ------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
