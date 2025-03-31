@@ -13,3 +13,5 @@ Daffodils stand for new beginnings. And in many ways, dungeons are symbols of de
 *This work contains material taken from [Basic Fantasy](https://www.basicfantasy.org/srd/) by Chris Gonnerman, licensed under the [CC-BY-SA 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)*
 
 *This work contains material taken from [Knave 1e](https://www.drivethrurpg.com/en/product/250888/knave) by Ben Milton, licensed under the [CC-BY 4.0 International License](https://creativecommons.org/licenses/by/4.0/)*
+
+*This work contains material taken from the [Black Sword Hack SRD](https://www.drivethrurpg.com/en/product/250888/knave) by Alexandre ‘Kobayashi’ Jeannette, published by the Merry Mushmen, licensed under the [CC-BY 4.0 International License](https://creativecommons.org/licenses/by/4.0/)*
