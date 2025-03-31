@@ -35,7 +35,8 @@ Ability scores below 8 have a -1 modifier. Scores above 13 have a +1 modifier. O
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
-Characters gain levels by besting encounters. The typical encounter gives 2XP (e.g. characters lost HP and spent resources). This reward can be adjusted between 0XP (no challenge) and 4XP (barely survived). Encounters include combat and non-combat challenges. Characters advance to level 2 when they reach the 50XP. Every subsequent level is reached by acquiring double the XP of the previous level.
+Each time a character survives an adventure, they gain a story: write down the title of the adventure on your character sheet (or make one up). Characters gain a level once they have a number of stories equal to their current level.
+
 As the characters advance, they improve their saving throws. It is 15 at level 1, then reduced by 1 per level gained, but never lower than 5.
 ## Character Ancestries
 __Dwarves__ Dwarves easily recognize irregularities in stonework and find traps hidden therein on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
