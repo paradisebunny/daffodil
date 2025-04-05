@@ -79,7 +79,7 @@ Magic-Users (MU) can only use daggers or staves (start with one of these). They 
 | 19                  | 6          | 5          | 5          | 4          | 3          | 3          |
 | 20                  | 6          | 5          | 5          | 4          | 4          | 3          |
 
-# The Thief
+# The  Nimble
 A silent shadow in the night apt at delicate tasks.
 
 **_Hit Dice_**: 1d4 per level
