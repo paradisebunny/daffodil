@@ -1,4 +1,4 @@
-e---
+---
 layout: default
 title: Making Characters
 nav_order: 2
