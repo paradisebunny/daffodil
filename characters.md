@@ -31,7 +31,7 @@ As the characters advance, they improve their saving throws. It is 15 at level 1
 ## Character Ancestries
 __Dwarves__ easily recognize irregularities in stonework and find traps hidden therein on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
 
-__Elves__ Elves have keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
+__Elves__ have keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
 
 __Humans__ may switch the places of two ability scores at character creation.
 ## Starting Equipment
