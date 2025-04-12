@@ -4,7 +4,7 @@ title: Classes
 nav_order: 3
 ---
 # The Strong
-A seasoned warrior apt at fighting with any tool.
+Seasoned combatants apt at fighting with any tool.
 
 **_Hit Dice_**: 1d8 per level
 **_Saving Throw_**: 15, +1 vs all except spells
@@ -13,7 +13,7 @@ A seasoned warrior apt at fighting with any tool.
 Fighters start with either Long Sword or Battle Axe (1d8 damage) and Bow with Chain Armor and Shield (AC15) or Two-Handed Sword (1d10) and Crossbow with Chain Armor (AC14).
 Fighters use the STR modifier to adjust their damage bonus for melee attacks. Fighters have no armor or weapon restrictions. Fighters get one attack per level each round against foes of 1 Hit Die (HD) or fewer. Fighters also get +1 on all _Saving Throws_ except vs. spells.
 # The Faithful
-A devout servant of their deity who bears weapons in their name.
+Devout servants of their faith who bear weapons in its name.
 
 **_Hit Dice_**: 1d6 per level
 **_Saving Throw_**: 15, +2 vs paralysis or poison
@@ -49,7 +49,7 @@ Starting at 2nd level Clerics can cast spells. They have to pray for a set numbe
 | 20                  | 6          | 5          | 5          | 4          | 3          | 3          |
 
 # The Studious
-A student of the arcane arts.
+Students of the arcane arts.
 
 **_Hit Dice_**: 1d4 per level
 **_Saving Throw_**: 15, +2 vs spells
@@ -80,7 +80,7 @@ Magic-Users (MU) can only use daggers or staves (start with one of these). They 
 | 20                  | 6          | 5          | 5          | 4          | 4          | 3          |
 
 # The  Nimble
-A silent shadow in the night apt at delicate tasks.
+Silent shadows in the night apt at delicate tasks.
 
 **_Hit Dice_**: 1d4 per level
 **_Saving Throw_**_:_ 15, +2 vs devices
