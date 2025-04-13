@@ -39,14 +39,7 @@ Starting at 2nd level Clerics can cast spells. They have to pray for a set numbe
 | 10                  | 3          | 3          | 2          | 2          | 1          | -          |
 | 11                  | 4          | 3          | 3          | 2          | 2          | -          |
 | 12                  | 4          | 4          | 3          | 2          | 2          | 1          |
-| 13                  | 4          | 4          | 3          | 3          | 2          | 2          |
-| 14                  | 4          | 4          | 4          | 3          | 2          | 2          |
-| 15                  | 4          | 4          | 4          | 3          | 3          | 2          |
-| 16                  | 5          | 4          | 4          | 3          | 3          | 2          |
-| 17                  | 5          | 5          | 4          | 3          | 3          | 2          |
-| 18                  | 5          | 5          | 4          | 4          | 3          | 3          |
-| 19                  | 6          | 5          | 4          | 4          | 3          | 3          |
-| 20                  | 6          | 5          | 5          | 4          | 3          | 3          |
+
 
 # The Studious
 Students of the arcane arts.
@@ -70,14 +63,7 @@ Magic-Users (MU) can only use daggers or staves (start with one of these). They 
 | 10                  | 4          | 3          | 3          | 2          | 2          | -          |
 | 11                  | 4          | 4          | 3          | 2          | 2          | 1          |
 | 12                  | 4          | 4          | 3          | 3          | 2          | 2          |
-| 13                  | 4          | 4          | 4          | 3          | 2          | 2          |
-| 14                  | 4          | 4          | 4          | 3          | 3          | 2          |
-| 15                  | 5          | 4          | 4          | 3          | 3          | 2          |
-| 16                  | 5          | 5          | 4          | 3          | 3          | 2          |
-| 17                  | 5          | 5          | 4          | 4          | 3          | 3          |
-| 18                  | 6          | 5          | 4          | 4          | 3          | 3          |
-| 19                  | 6          | 5          | 5          | 4          | 3          | 3          |
-| 20                  | 6          | 5          | 5          | 4          | 4          | 3          |
+
 
 # The  Nimble
 Silent shadows in the night apt at delicate tasks.
