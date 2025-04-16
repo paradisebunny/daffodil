@@ -1,10 +1,10 @@
 title: DAFFODIL
-description: Modular rules for playing BX type TTRPGS
+description: My Simple Rules for DnD
 theme: just-the-docs
 url: https://paradisebunny.github.io/daffodil/
 
 # set dark color scheme dark/light
-color_scheme: light
+color_scheme: dark
 
 # links displayed at the top right
 aux_links:
