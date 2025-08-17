@@ -4,13 +4,13 @@ title: Spells
 nav_order: 4
 ---
 # Spellcasting
-The number of spells of each level which a Cleric or Magic-User may cast per day is shown on the appropriate table in the classes section. Each day, usually in the morning, spellcasters prepare spells to replace those they have used. Clerics do this through prayer, while Magic-Users must study their spellbooks. 
+The number of spells of each level which the Faithful or the Studious may cast per day is shown on the appropriate table in the classes section. Each day, usually in the morning, spellcasters prepare spells to replace those they have used. The Faithful do this through prayer, while the Studious must study their spellbooks. 
 
 Spellcasters must have at least one hand free, and be able to speak, in order to cast spells; thus, binding and gagging a spellcaster is an effective means of preventing him or her from casting spells. In combat, casting a spell usually takes the same time as making an attack.
 
 Some spells are reversible; such spells are shown with an asterisk after the name.
-# Cleric Spells
-A cleric may only prepare spells after resting, usually with contemplative prayer. A Cleric may prepare any spell of any level he or she is able to cast. However, in some cases the Cleric’s deity may limit the availability of certain spells; for instance, a deity devoted to healing may refuse to grant reversed healing spells.
+# The Faithful's Spells
+The Faithful may only prepare spells after resting, usually with contemplative prayer. The Faithful may prepare any spell of any level he or she is able to cast. However, in some cases the Faithful’s deity may limit the availability of certain spells; for instance, a deity devoted to healing may refuse to grant reversed healing spells.
 
 | 1st Tier              | 2nd Tier           | 3rd Tier          | 4th Tier                         | 5th Tier      | 6th Tier            |
 | --------------------- | ------------------ | ----------------- | -------------------------------- | ------------- | ------------------- |
@@ -23,8 +23,8 @@ A cleric may only prepare spells after resting, usually with contemplative praye
 | Remove Fear*          | Speak with Animals | Speak with Dead   | Speak with Plants                | True Seeing   | Speak with Monsters |
 | Resist Cold           | Spiritual Hammer   | Striking          | Sticks to Snakes                 | Wall of Fire  | Word of Recall      |
 
-# Magic User Spells
-Each Magic-User has his or her own spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **read magic**. All Magic-Users begin play knowing **read magic**, and it is so ingrained that it can be prepared without a spellbook. A Magic-User may only prepare spells after resting (i.e. a good night’s sleep).
+# The Studious' Spells
+Each of the Studious has his or her own spellbook containing the magical formulae for each spell the Studious has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **read magic**. The Studious begin play knowing **read magic**, and it is so ingrained that it can be prepared without a spellbook. The Studious may only prepare spells after resting (i.e. a good night’s sleep).
 
 | 1st Tier              | 2nd Tier         | 3rd Tier                         | 4th Tier              | 5th Tier          | 6th Tier          |
 | --------------------- | ---------------- | -------------------------------- | --------------------- | ----------------- | ----------------- |
@@ -46,7 +46,7 @@ Each Magic-User has his or her own spellbook containing the magical formulae for
 
 Range: 30’
 
-Cleric 4, Magic-User 5
+The Faithful 4, Magic-User 5
 
 Duration: special
 
@@ -60,7 +60,7 @@ No character may normally control more hit dice of undead than 4 times their lev
 
 Range: 100’+10’/level
 
-Cleric 6
+The Faithful 6
 
 Duration: 1 round/level
 
@@ -72,7 +72,7 @@ Such objects are normally used to attack the enemies of the caster, and the GM m
 
 Range: 10’ radius
 
-Magic User 6
+The Studious 6
 
 Duration: 1 turn/level
 
@@ -82,7 +82,7 @@ Within a 10’ radius around the caster, all magic is negated for the full durat
 
 Range: 90’
 
-Cleric 6
+The Faithful 6
 
 Duration: 1 round/level
 
@@ -98,7 +98,7 @@ Any ranged attacks passing through a blade barrier suffer a penalty of -4 on the
 
 Range: 50’ radius
 
-Cleric 2
+The Faithful 2
 
 Duration: 1 minute/level
 
@@ -110,7 +110,7 @@ The reverse of **bless** is called **bane**. The caster’s enemies within a 
 
 Range: 60’
 
-Cleric 2
+The Faithful 2
 
 Duration: level+1d4 rounds
 
@@ -126,7 +126,7 @@ This spell does not grant the caster any special means of communication with the
 
 Range: 30’
 
-Magic User 4
+The Studious 4
 
 Duration: special
 
@@ -136,7 +136,7 @@ This spell functions like **charm person**, except that the effect is not restr
 
 Range: 30’
 
-Magic User 1
+The Studious 1
 
 Duration: special
 
@@ -152,7 +152,7 @@ The target receives a new saving throw each day if it has an Intelligence of 13 
 
 Range: 60’
 
-Magic User 3
+The Studious 3
 
 Duration: 12 turns
 
@@ -162,7 +162,7 @@ This spell enables the caster to see into another area through the eyes of a liv
 
 Range: 100’+10’/level
 
-Magic User 5
+The Studious 5
 
 Duration: 6 rounds/level
 
@@ -172,7 +172,7 @@ This spell creates a 20’x20’x20’ cloud of poison gas which moves at a rate
 
 Range: self
 
-Cleric 5
+The Faithful 5
 
 Duration: 1 round/level
 
@@ -182,7 +182,7 @@ This spell puts the caster in contact with his patron deity or an extraplanar se
 
 Range: 360’
 
-Magic User 4
+The Studious 4
 
 Duration: 2 rounds+1/level
 
@@ -206,7 +206,7 @@ If the target cannot perform the action indicated, the GM should move down the t
 
 Range: 240’
 
-Magic User 5
+The Studious 5
 
 Duration: special
 
@@ -216,7 +216,7 @@ A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened,
 
 Range: 360’
 
-Cleric 3, Magic-User 2
+The Faithful 3, Magic-User 2
 
 Duration: 1 year/level
 
@@ -230,7 +230,7 @@ The reversed spell, **continual darkness**, causes complete absence of light in
 
 Range: 10’
 
-Cleric 5
+The Faithful 5
 
 Duration: permanent
 
@@ -240,7 +240,7 @@ This spell creates food sufficient to feed up to 3 men or one horse per caster l
 
 Range: 10’
 
-Cleric 4
+The Faithful 4
 
 Duration: permanent
 
@@ -250,7 +250,7 @@ This spell creates one gallon of water per caster level. Note that one or more v
 
 Range: touch
 
-Cleric 3
+The Faithful 3
 
 Duration: instantaneous
 
@@ -262,7 +262,7 @@ Reversed, this spell becomes **cause blindness**, which causes a living creatur
 
 Range: touch
 
-Cleric 3
+The Faithful 3
 
 Duration: instantaneous
 
@@ -272,7 +272,7 @@ The reverse form of this spell, **cause disease**, causes a living creature tou
 
 ## Cure Light Wounds*[](https://www.basicfantasy.org/srd/allSpells.html#cure-light-wounds)
 
-Cleric 1
+The Faithful 1
 
 Range: touch
 
@@ -286,7 +286,7 @@ Undead are affected by this spell and its reverse in opposite fashion; they are 
 
 ## Cure Serious Wounds*[](https://www.basicfantasy.org/srd/allSpells.html#cure-serious-wounds)
 
-Cleric 4
+The Faithful 4
 
 Range: touch
 
@@ -298,7 +298,7 @@ This spell works exactly like **cure light wounds,** save that it heals 2d6 po
 
 Range: touch
 
-Magic User 3
+The Studious 3
 
 Duration: 1 hour/level
 
@@ -308,7 +308,7 @@ The subject receives [Darkvision](https://www.basicfantasy.org/srd/dungeonAdven
 
 Range: 240’
 
-Magic User 6
+The Studious 6
 
 Duration: instantaneous
 
@@ -318,7 +318,7 @@ This spell will kill 3d12 hit dice or levels of creatures in a 30’ radius sphe
 
 Range: 60’
 
-Cleric 1, Magic-User 2
+The Faithful 1, Magic-User 2
 
 Duration: 1 round/level
 
@@ -332,7 +332,7 @@ Reversed, this spell becomes **detect good**, which works just as described abo
 
 Range: 60’
 
-Magic User 2
+The Studious 2
 
 Duration: 1 turn/level
 
@@ -342,7 +342,7 @@ By means of this spell the caster is able to see invisible characters, creatures
 
 Range: 60’
 
-Cleric 1, Magic-User 1
+The Faithful 1, Magic-User 1
 
 Duration: 2 turns
 
@@ -352,7 +352,7 @@ The caster of this spell is able to detect enchanted or enspelled objects or cre
 
 Range: 10’
 
-Magic User 4
+The Studious 4
 
 Duration: instantaneous
 
@@ -362,7 +362,7 @@ The caster of this spell instantly transfers himself or herself, or any single t
 
 Range: 60’
 
-Magic User 6
+The Studious 6
 
 Duration: instantaneous
 
@@ -374,7 +374,7 @@ Equipment worn or carried by a disintegrated creature is not affected, and will 
 
 Range: touch
 
-Cleric 5
+The Faithful 5
 
 Duration: 1 round/level
 
@@ -390,7 +390,7 @@ Alternately, by touching the affected creature, item, or area, the caster can im
 
 Range: 120’
 
-Cleric 4, Magic-User 3
+The Faithful 4, Magic-User 3
 
 Duration: instantaneous
 
@@ -404,7 +404,7 @@ Some spells cannot be ended by dispel magic; this specifically includes any curs
 
 Range: 180’
 
-Magic User 5
+The Studious 5
 
 Duration: permanent
 
@@ -418,7 +418,7 @@ This effect can be removed with a **heal** spell, or with the reversed form of
 
 Range: 30’
 
-Cleric 2
+The Faithful 2
 
 Duration: 3 turns
 
@@ -428,7 +428,7 @@ This spell permits the caster to detect a variety of traps, both mechanical and 
 
 Range: touch
 
-Cleric 6
+The Faithful 6
 
 Duration: 1 turn/level
 
@@ -446,7 +446,7 @@ The spell ends when the subject arrives at the destination or when the duration 
 
 Range: 100’+10’/level
 
-Magic User 3
+The Studious 3
 
 Duration: instantaneous
 
@@ -462,7 +462,7 @@ While the fireball exerts little if any force or pressure when exploding, it may
 
 Range: 30’/level
 
-Magic User 6
+The Studious 6
 
 Duration: permanent
 
@@ -476,7 +476,7 @@ The reverse spell, **stone to flesh**, acts as a counterspell for **flesh to s
 
 Range: 0
 
-Magic User 1
+The Studious 1
 
 Duration: 5 turns +1/level
 
@@ -488,7 +488,7 @@ The disc must be loaded so that the items placed upon it are properly supported,
 
 Range: touch
 
-Magic User 3
+The Studious 3
 
 Duration: 1 turn/level
 
@@ -500,7 +500,7 @@ If the spell duration expires while the subject is still airborne, the magic fai
 
 Range: 5’ per level
 
-Magic User 6
+The Studious 6
 
 Duration: special
 
@@ -516,7 +516,7 @@ This spell can be ended by **remove curse** cast by a character of higher leve
 
 ## Growth of Animals[](https://www.basicfantasy.org/srd/allSpells.html#growth-of-animals)
 
-Cleric 3
+The Faithful 3
 
 Range: 60’+10’/level
 
@@ -532,7 +532,7 @@ The spell gives no means of command or influence over the enlarged animals.
 
 Range: 120’
 
-Magic User 4
+The Studious 4
 
 Duration: permanent
 
@@ -546,7 +546,7 @@ Both forms of this spell are permanent until countered, either by the reverse of
 
 ## Hallucinatory Terrain[](https://www.basicfantasy.org/srd/allSpells.html#hallucinatory-terrain)
 
-Magic User 4
+The Studious 4
 
 Range: 400’+40’/level
 
@@ -560,7 +560,7 @@ The affected terrain looks, sounds, and smells like another sort of natural terr
 
 Range: 30’+10’/level
 
-Magic User 3
+The Studious 3
 
 Duration: 1 round/level
 
@@ -574,7 +574,7 @@ Reversed, haste becomes **slow**; affected creatures move at half speed, attack
 
 Range: touch
 
-Cleric 6
+The Faithful 6
 
 Duration: permanent
 
@@ -588,7 +588,7 @@ Generally, both **heal** and **harm** only affect living creatures. If used 
 
 Range: 180’
 
-Magic User 5
+The Studious 5
 
 Duration: 2d8 turns
 
@@ -598,7 +598,7 @@ This spell functions like **hold person**, except that it affects any living cr
 
 Range: 180’
 
-Cleric 2, Magic-User 3
+The Faithful 2, Magic-User 3
 
 Duration: 2d8 turns
 
@@ -610,7 +610,7 @@ A paralyzed swimmer can’t swim and may drown. A character who has somehow gain
 
 Range: 100’+10’/level
 
-Magic User 1
+The Studious 1
 
 Duration: 1 round/level
 
@@ -620,7 +620,7 @@ This spell secures a portal such as a door, gate, window, or shutter made of nor
 
 Range: 300’+30’/level
 
-Magic User 4
+The Studious 4
 
 Duration: 1 round
 
@@ -634,7 +634,7 @@ When the spell ends, the hail and ice deposited by the storm disappears as if it
 
 Range: 300’+30’/level
 
-Cleric 5
+The Faithful 5
 
 Duration: 1 round/level
 
@@ -646,7 +646,7 @@ The summoned swarms persist for the duration above, or until they are slain, whi
 
 Range: touch
 
-Magic User 2
+The Studious 2
 
 Duration: special
 
@@ -660,7 +660,7 @@ Objects that shed light may be made invisible but the light itself will remain v
 
 ## Invisibility 10’ Radius[](https://www.basicfantasy.org/srd/allSpells.html#invisibility-10-radius)
 
-Magic User 3
+The Studious 3
 
 Range: touch
 
@@ -674,7 +674,7 @@ If any member negates the effect by attacking or casting a spell, it becomes vis
 
 Range: 0
 
-Magic User 6
+The Studious 6
 
 Duration: special
 
@@ -684,7 +684,7 @@ The caster summons an **invisible stalker** to do his or her bidding (see the�
 
 Range: 30’
 
-Magic User 2
+The Studious 2
 
 Duration: special
 
@@ -696,7 +696,7 @@ Each casting undoes a single method of securing the door or item, so that for ex
 
 Range: touch
 
-Magic User 2
+The Studious 2
 
 Duration: 1 turn/level
 
@@ -714,7 +714,7 @@ If a levitating creature attempts to attack with most weapons it will find that 
 
 Range: 120’
 
-Cleric 1, Magic-User 1
+The Faithful 1, Magic-User 1
 
 Duration: 6 turns + 1/level
 
@@ -730,7 +730,7 @@ Either version of this spell may be used to blind an opponent by means of castin
 
 Range: 100’ + 10’/level
 
-Magic User 3
+The Studious 3
 
 Duration: instantaneous
 
@@ -748,7 +748,7 @@ If the damage caused to an interposing barrier shatters or breaks through it, th
 
 Range: 360’
 
-Cleric 3, Magic-User 2
+The Faithful 3, Magic-User 2
 
 Duration: 1 round/level
 
@@ -760,7 +760,7 @@ Unique or unusual items can only be located if the caster has first-hand knowled
 
 Range: 20’/level
 
-Magic User 6
+The Studious 6
 
 Duration: 1 turn/level
 
@@ -774,7 +774,7 @@ This spell has the effect of **slow** (the reverse of **haste**) when cast up
 
 Range: 60’
 
-Magic User 5
+The Studious 5
 
 Duration: special
 
@@ -804,7 +804,7 @@ If the host’s spirit is in the magic jar, and the jar is broken while in spell
 
 Range: 100’+10’/level
 
-Magic User 1
+The Studious 1
 
 Duration: instantaneous
 
@@ -816,7 +816,7 @@ For every three caster levels beyond 1st, an additional missile is fired – two
 
 Range: 30’
 
-Magic User 1
+The Studious 1
 
 Duration: special
 
@@ -836,7 +836,7 @@ Triggers have an effective sensory range of 10 feet per caster level; sounds, si
 
 Range: 100’+10’/level
 
-Magic User 4
+The Studious 4
 
 Duration: 1 hour/level
 
@@ -848,7 +848,7 @@ Those affected are thus concealed from other creatures passing through the area 
 
 Range: 60’
 
-Magic User 2
+The Studious 2
 
 Duration: 1 turn/level
 
@@ -860,7 +860,7 @@ Rock more than 2 inches thick or even a very thin covering of lead or gold will 
 
 Range: self
 
-Magic User 2
+The Studious 2
 
 Duration: 1 turn/level
 
@@ -874,7 +874,7 @@ Any opponent who attacks or casts spells directly on the caster will always hit 
 
 Range: touch
 
-Cleric 4
+The Faithful 4
 
 Duration: instantaneous
 
@@ -886,7 +886,7 @@ Reversed, this spell becomes **poison**. The caster must make a successful atta
 
 Range: 30’
 
-Magic User 5
+The Studious 5
 
 Duration: 3 turns
 
@@ -896,7 +896,7 @@ Passwall creates a passage through wooden, plaster, or stone walls, but not thro
 
 Range: 180’
 
-Magic User 2
+The Studious 2
 
 Duration: concentration
 
@@ -910,7 +910,7 @@ Attempting to animate more creatures than the caster’s level grants viewing cr
 
 Range: 30’
 
-Magic User 4
+The Studious 4
 
 Duration: permanent
 
@@ -926,7 +926,7 @@ Unwilling targets that successfully save against Polymorph are not affected. The
 
 Range: self
 
-Magic User 4
+The Studious 4
 
 Duration: 1 hour/level
 
@@ -944,7 +944,7 @@ The caster can remain transformed up to one hour per level of ability, or may ch
 
 Range: 240’
 
-Magic User 6
+The Studious 6
 
 Duration: 6 turns
 
@@ -954,7 +954,7 @@ A line of sight between the caster and their illusory self must be maintained or
 
 ## Protection from Evil*[](https://www.basicfantasy.org/srd/allSpells.html#protection-from-evil)
 
-Cleric 1, Magic-User 1
+The Faithful 1, Magic-User 1
 
 Range: touch
 
@@ -970,7 +970,7 @@ Reversed, this spell becomes **protection from good**. It functions in all ways
 
 ## Protection from Evil 10’ Radius*[](https://www.basicfantasy.org/srd/allSpells.html#protection-from-evil-10-radius)
 
-Cleric 4, Magic-User 3
+The Faithful 4, Magic-User 3
 
 Range: touch
 
@@ -982,7 +982,7 @@ Reversed, this spell becomes **protection from good 10’ radius**, and functio
 
 ## Protection from Normal Missiles[](https://www.basicfantasy.org/srd/allSpells.html#protection-from-normal-missiles)
 
-Magic User 3
+The Studious 3
 
 Range: self
 
@@ -992,7 +992,7 @@ The caster is completely protected from small sized, non-magical missile attacks
 
 ## Purify Food and Water[](https://www.basicfantasy.org/srd/allSpells.html#purify-food-and-water)
 
-Cleric 1
+The Faithful 1
 
 Range: 10’
 
@@ -1004,7 +1004,7 @@ With this spell the caster makes contaminated food or water pure and safe to eat
 
 Range: 5’/level
 
-Cleric 5
+The Faithful 5
 
 Duration: special
 
@@ -1024,7 +1024,7 @@ A quest (and all effects thereof) can be ended by a **remove curse** spell fro
 
 Range: touch
 
-Cleric 5
+The Faithful 5
 
 Duration: instantaneous
 
@@ -1044,7 +1044,7 @@ The reverse of this spell, **slay living**, will kill instantly the creature to
 
 Range: 0
 
-Magic User 1
+The Studious 1
 
 Duration: special
 
@@ -1064,7 +1064,7 @@ The spell grants the ability to read the texts, but does not in any way hasten t
 
 Range: 0
 
-Magic User 1
+The Studious 1
 
 Duration: permanent
 
@@ -1074,7 +1074,7 @@ When cast upon any magical text, such as a spellbook or magic-user spell scroll,
 
 Range: touch
 
-Cleric 6
+The Faithful 6
 
 Duration: permanent
 
@@ -1086,7 +1086,7 @@ This spell also heals 3d8 points of damage. Regenerate has no effect on nonlivin
 
 Range: touch
 
-Magic User 6
+The Studious 6
 
 Duration: instantaneous
 
@@ -1131,7 +1131,7 @@ Undead creatures are not affected by this spell; such creatures can no longer be
 
 Range: 30’
 
-Cleric 3, Magic-User 4
+The Faithful 3, Magic-User 4
 
 Duration: instantaneous
 
@@ -1154,7 +1154,7 @@ The caster may also invent his or her own curse, but it should be no more powerf
 
 Range: touch (120’)
 
-Cleric 1
+The Faithful 1
 
 Duration: instantaneous (2 turns)
 
@@ -1166,7 +1166,7 @@ The reverse of this spell, **cause fear**, causes one target creature within 12
 
 Range: touch
 
-Cleric 1
+The Faithful 1
 
 Duration: 1 round/level
 
@@ -1176,7 +1176,7 @@ This spell makes the caster, or any living creature the caster touches, complete
 
 Range: touch
 
-Cleric 2
+The Faithful 2
 
 Duration: 1 round/level
 
@@ -1186,7 +1186,7 @@ This spell makes the caster, or any living creature the caster touches, complete
 
 Range: touch
 
-Cleric 6
+The Faithful 6
 
 Duration: permanent
 
@@ -1200,7 +1200,7 @@ Restoration does not restore levels lost due to death (as described for the spel
 
 Range: self
 
-Magic User 1
+The Studious 1
 
 Duration: 5 rounds+1/level
 
@@ -1208,7 +1208,7 @@ Shield creates an invisible, shield-like mobile disk of force that hovers in fro
 
 ## Silence 15’ Radius[](https://www.basicfantasy.org/srd/allSpells.html#silence-15-radius)
 
-Cleric 2
+The Faithful 2
 
 Range: 360’
 
@@ -1224,7 +1224,7 @@ This spell can be used to protect against any kind of attack or magic where the 
 
 Range: 90’
 
-Magic User 1
+The Studious 1
 
 Duration: 5 rounds/level
 
@@ -1238,7 +1238,7 @@ When the duration elapses, the sleeping creatures normally wake up immediately; 
 
 ## Speak with Animals[](https://www.basicfantasy.org/srd/allSpells.html#speak-with-animals)
 
-Cleric 2
+The Faithful 2
 
 Range: special
 
@@ -1248,7 +1248,7 @@ This spell allows the caster to speak to and understand any single animal (norma
 
 ## Speak with Monsters[](https://www.basicfantasy.org/srd/allSpells.html#speak-with-monsters)
 
-Cleric 6
+The Faithful 6
 
 Range: special
 
@@ -1260,7 +1260,7 @@ This spell allows the caster to speak to and understand any single living monste
 
 Range: 20’
 
-Cleric 4
+The Faithful 4
 
 Duration: 1 turn
 
@@ -1270,7 +1270,7 @@ This spell allows the caster to speak to and understand any single plant (either
 
 Range: 10’
 
-Cleric 3
+The Faithful 3
 
 Duration: 3 rounds/level
 
@@ -1286,17 +1286,17 @@ If the corpse has been roused by this spell within the last seven days, the spel
 
 Range: 30’
 
-Cleric 2
+The Faithful 2
 
 Duration: 1 round/level
 
-This spell causes a warhammer made of pure force to spring into existence, attacking any foe chosen by the Cleric within range once per round. It deals 1d6 hit points of damage per strike, +1 point per three caster levels (maximum of +5). It uses the caster’s normal attack bonus, striking as a magical weapon, and thus can inflict damage upon creatures that are only hit by magic weapons. If the hammer goes beyond the spell range, the Cleric loses sight of it, or the caster ceases to direct it, the hammer disappears. The hammer cannot be attacked or harmed by physical attacks, but **dispel magic**, **disintegrate**, or a **rod of cancellation** will dispel it.
+This spell causes a warhammer made of pure force to spring into existence, attacking any foe chosen by the The Faithful within range once per round. It deals 1d6 hit points of damage per strike, +1 point per three caster levels (maximum of +5). It uses the caster’s normal attack bonus, striking as a magical weapon, and thus can inflict damage upon creatures that are only hit by magic weapons. If the hammer goes beyond the spell range, the The Faithful loses sight of it, or the caster ceases to direct it, the hammer disappears. The hammer cannot be attacked or harmed by physical attacks, but **dispel magic**, **disintegrate**, or a **rod of cancellation** will dispel it.
 
 ## Sticks to Snakes[](https://www.basicfantasy.org/srd/allSpells.html#sticks-to-snakes)
 
 Range: 120’
 
-Cleric 4
+The Faithful 4
 
 Duration: 6 turns
 
@@ -1306,7 +1306,7 @@ This spell transforms normal wooden sticks into 1d4 hit dice worth of normal (no
 
 Range: touch
 
-Cleric 3
+The Faithful 3
 
 Duration: 1 round/level
 
@@ -1316,7 +1316,7 @@ This spell bestows upon one weapon the ability to deal 1d6 points of additional 
 
 Range: self
 
-Magic User 5
+The Studious 5
 
 Duration: 3 turns
 
@@ -1328,7 +1328,7 @@ In order to use this power the caster must maintain concentration, moving no mor
 
 Range: self
 
-Magic User 5
+The Studious 5
 
 Duration: instantaneous
 
@@ -1365,7 +1365,7 @@ To determine the results of this spell, roll d% and consult the table below. Bel
 
 Range: touch
 
-Cleric 5
+The Faithful 5
 
 Duration: 1 round/level
 
@@ -1377,7 +1377,7 @@ True seeing, however, does not penetrate solid objects. It in no way confers X-r
 
 Range: 60’
 
-Magic User 1
+The Studious 1
 
 Duration: 1 turn/level
 
@@ -1387,7 +1387,7 @@ This spell causes the caster’s voice to appear to come from another location w
 
 Range: 180’
 
-Cleric 5, Magic-User 4
+The Faithful 5, Magic-User 4
 
 Duration: 1 round/level (or special)
 
@@ -1405,7 +1405,7 @@ The caster may choose to maintain the spell indefinitely (within reasonable limi
 
 Range: 90’
 
-Magic User 6
+The Studious 6
 
 Duration: permanent
 
@@ -1421,7 +1421,7 @@ The wall is permanent, as indicated, but being made of iron is susceptible to ru
 
 Range: 15’ per level
 
-Magic User 5
+The Studious 5
 
 Duration: permanent
 
@@ -1437,7 +1437,7 @@ The wall can be formed into a container to trap creatures, and if this is attemp
 
 Range: touch
 
-Magic User 3
+The Studious 3
 
 Duration: 2 hours/level
 
@@ -1447,7 +1447,7 @@ This spell grants living creatures touched by the caster (including the caster, 
 
 Range: 10’ per level
 
-Magic User 2
+The Studious 2
 
 Duration: 2 turns/level
 
@@ -1467,7 +1467,7 @@ Creatures trapped within the burning web suffer 2d4 points of damage when the cu
 
 Range: 240’
 
-Magic User 4
+The Studious 4
 
 Duration: 6 turns
 
@@ -1477,7 +1477,7 @@ With this spell the caster creates an invisible magical “eye” through which 
 
 Range: 20’
 
-Magic User 2
+The Studious 2
 
 Duration: permanent
 
@@ -1487,7 +1487,7 @@ This spell magically holds shut a door, gate, window, or shutter of wood, metal,
 
 Range: self (special)
 
-Cleric 6
+The Faithful 6
 
 Duration: instantaneous
 
