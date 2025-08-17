@@ -7,15 +7,15 @@ nav_order: 2
 ## Ability Scores
 Ability Scores are created by rolling 3d6 and assigning the results in the order below. 
 
-__Strength__ – physical power. Your STR modifier adjusts your hit bonus for melee attacks. For Fighters it also modifies their damage rolls.
+__Strength__ – physical power. Your STR modifier adjusts your hit bonus for melee attacks. For the Strong it also modifies their damage rolls.
 
 __Dexterity__ – agility and quickness. Your DEX modifier adjusts your hit bonus for ranged attacks and it adjusts your character’s AC.
 
 __Constitution__ – endurance and vitality. The CON modifier adjusts your hit points for each hit die you roll for your character.
 
-__Intelligence__ – reasoning and memory. Magic-Users with INT 15+ receive an additional 1st level spell.
+__Intelligence__ – reasoning and memory. The Studious with INT 15+ receive an additional 1st level spell.
 
-__Wisdom__ – insight and perception. Clerics with WIS 15+ receive an additional 1st level spell.
+__Wisdom__ – insight and perception. The Faithful with WIS 15+ receive an additional 1st level spell.
 
 __Charisma__ – force of personality. Modifies reaction rolls when first encountering intelligent monsters. 
 
