@@ -3,6 +3,7 @@ layout: default
 title: Classes
 nav_order: 3
 ---
+![image](classes.jpeg)
 # The Strong
 Seasoned combatants apt at fighting with any tool.
 
