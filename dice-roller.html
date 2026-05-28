@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dice Roller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f5f4f0;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 2rem 1rem;
+      font-family: 'Crimson Text', Georgia, serif;
+    }
+
+    .roller-app {
+      background: #ffffff;
+      border: 1px solid #dddbd0;
+      border-radius: 12px;
+      padding: 1.5rem;
+      width: 100%;
+      max-width: 680px;
+    }
+
+    .app-title {
+      font-family: 'Cinzel', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a1a18;
+      text-align: center;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #dddbd0;
+      padding-bottom: 1rem;
+    }
+
+    /* ── Dice grid ── */
+    .dice-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 6px;
+      margin-bottom: 1.25rem;
+    }
+
+    .die-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      padding: 8px 2px 6px;
+      border: 1px solid #c8c6bc;
+      border-radius: 8px;
+      background: #f5f4f0;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      position: relative;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .die-btn:hover  { border-color: #999890; background: #ffffff; }
+    .die-btn.active { border-color: #7F77DD; background: #EEEDFE; }
+
+    .die-icon { width: 28px; height: 28px; }
+
+    .die-label {
+      font-family: 'Cinzel', serif;
+      font-size: 10px;
+      font-weight: 600;
+      color: #888780;
+      letter-spacing: 0.04em;
+    }
+    .die-btn.active .die-label { color: #534AB7; }
+
+    .die-count-badge {
+      position: absolute;
+      top: -5px; right: -5px;
+      width: 17px; height: 17px;
+      border-radius: 50%;
+      background: #534AB7;
+      color: #ffffff;
+      font-size: 10px;
+      font-weight: 700;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cinzel', serif;
+    }
+    .die-btn.active .die-count-badge { display: flex; }
+
+    /* ── Controls row ── */
+    .controls-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .modifier-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: auto;
+    }
+
+    .mod-label {
+      font-size: 13px;
+      color: #888780;
+      font-family: 'Cinzel', serif;
+      letter-spacing: 0.04em;
+    }
+
+    .mod-btn {
+      width: 30px; height: 30px;
+      border: 1px solid #c8c6bc;
+      border-radius: 50%;
+      background: transparent;
+      cursor: pointer;
+      font-size: 17px;
+      color: #1a1a18;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.1s;
+      line-height: 1;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .mod-btn:hover { background: #f5f4f0; }
+
+    .mod-val {
+      font-size: 16px;
+      font-weight: 600;
+      min-width: 32px;
+      text-align: center;
+      color: #1a1a18;
+      font-family: 'Cinzel', serif;
+    }
+
+    .roll-btn {
+      flex: 1;
+      min-width: 80px;
+      padding: 11px 0;
+      border: 1px solid #c8c6bc;
+      border-radius: 8px;
+      background: #ffffff;
+      cursor: pointer;
+      font-family: 'Cinzel', serif;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      color: #1a1a18;
+      transition: all 0.15s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .roll-btn:hover  { background: #f5f4f0; border-color: #999890; }
+    .roll-btn:active { transform: scale(0.97); }
+    .roll-btn.primary { background: #534AB7; color: #ffffff; border-color: #534AB7; }
+    .roll-btn.primary:hover { background: #3C3489; }
+
+    .clear-btn {
+      padding: 11px 16px;
+      border: 1px solid #c8c6bc;
+      border-radius: 8px;
+      background: transparent;
+      cursor: pointer;
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+      color: #888780;
+      transition: all 0.15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .clear-btn:hover { background: #f5f4f0; color: #1a1a18; }
+
+    /* ── Result area ── */
+    .result-area {
+      border: 1px solid #dddbd0;
+      border-radius: 8px;
+      padding: 1.25rem;
+      min-height: 120px;
+      background: #f5f4f0;
+      margin-bottom: 1rem;
+    }
+
+    .result-total {
+      font-family: 'Cinzel', serif;
+      font-size: 52px;
+      font-weight: 700;
+      text-align: center;
+      color: #1a1a18;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .result-formula {
+      text-align: center;
+      font-size: 15px;
+      color: #888780;
+      margin-bottom: 14px;
+      font-style: italic;
+    }
+
+    .dice-results {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* ── Shaped chips ── */
+    .die-chip-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 44px;
+      height: 44px;
+      flex-shrink: 0;
+    }
+    .die-chip-wrap svg {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      overflow: visible;
+    }
+    .die-chip-wrap .chip-val {
+      position: relative;
+      z-index: 1;
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: #1a1a18;
+      line-height: 1;
+    }
+
+    .result-placeholder {
+      text-align: center;
+      color: #b4b2a9;
+      font-style: italic;
+      font-size: 16px;
+      padding: 1.5rem 0;
+    }
+
+    /* ── History ── */
+    .history-title {
+      font-family: 'Cinzel', serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      color: #b4b2a9;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .history-list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      max-height: 130px;
+      overflow-y: auto;
+    }
+
+    .history-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 10px;
+      border-radius: 8px;
+      background: #f5f4f0;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background 0.1s;
+      border: 1px solid transparent;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .history-item:hover { background: #ffffff; border-color: #dddbd0; }
+
+    .history-total {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      color: #1a1a18;
+      min-width: 28px;
+    }
+    .history-formula {
+      color: #888780;
+      font-style: italic;
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 13px;
+    }
+    .history-time { color: #b4b2a9; font-size: 11px; }
+
+    /* ── Animation ── */
+    .roll-anim { animation: bounceIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); }
+    @keyframes bounceIn { from { transform: scale(0.6); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+    /* ── Mobile tweaks ── */
+    @media (max-width: 480px) {
+      body { padding: 0.75rem 0.5rem; }
+
+      .roller-app { padding: 1rem; border-radius: 10px; }
+
+      .app-title { font-size: 17px; margin-bottom: 1rem; padding-bottom: 0.75rem; }
+
+      .dice-grid { gap: 5px; margin-bottom: 1rem; }
+
+      .die-btn { padding: 7px 2px 5px; border-radius: 7px; }
+      .die-icon { width: 24px; height: 24px; }
+      .die-label { font-size: 9px; }
+
+      .controls-row { gap: 6px; margin-bottom: 1rem; }
+
+      .roll-btn  { font-size: 13px; padding: 10px 0; }
+      .clear-btn { font-size: 11px; padding: 10px 12px; }
+
+      .mod-btn { width: 28px; height: 28px; font-size: 15px; }
+      .mod-val  { font-size: 14px; min-width: 28px; }
+
+      .result-total { font-size: 42px; }
+      .result-formula { font-size: 13px; margin-bottom: 10px; }
+
+      .die-chip-wrap { width: 38px; height: 38px; }
+      .die-chip-wrap .chip-val { font-size: 11px; }
+
+      .dice-results { gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="roller-app">
+    <div class="app-title">&#9876; Dice Roller &#9876;</div>
+
+    <div class="dice-grid" id="diceGrid"></div>
+
+    <div class="controls-row">
+      <button type="button" class="roll-btn primary" onclick="rollDice()">Roll</button>
+      <button type="button" class="clear-btn" onclick="clearAll()">Clear</button>
+      <div class="modifier-group">
+        <span class="mod-label">MOD</span>
+        <button type="button" class="mod-btn" onclick="changeMod(-1)">&#8722;</button>
+        <span class="mod-val" id="modVal">+0</span>
+        <button type="button" class="mod-btn" onclick="changeMod(1)">+</button>
+      </div>
+    </div>
+
+    <div class="result-area" id="resultArea">
+      <div class="result-placeholder">Select dice and roll...</div>
+    </div>
+
+    <div>
+      <div class="history-title">Roll History</div>
+      <div class="history-list" id="historyList">
+        <div style="color:#b4b2a9;font-size:13px;font-style:italic;padding:4px 10px;">No rolls yet.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var DICE = [
+      { label: 'D4',   sides: 4,   shape: 'triangle' },
+      { label: 'D6',   sides: 6,   shape: 'square'   },
+      { label: 'D8',   sides: 8,   shape: 'diamond'  },
+      { label: 'D10',  sides: 10,  shape: 'd10'      },
+      { label: 'D12',  sides: 12,  shape: 'pentagon' },
+      { label: 'D20',  sides: 20,  shape: 'hexagon'  },
+      { label: 'D100', sides: 100, shape: 'circle'   }
+    ];
+
+    var COLORS = {
+      4: '#7F77DD', 6: '#1D9E75', 8: '#D85A30',
+      10: '#185FA5', 12: '#BA7517', 20: '#A32D2D', 100: '#D4537E'
+    };
+
+    var NUDGE = {
+      triangle: '4px', square: '0', diamond: '0',
+      d10: '1px', pentagon: '1px', hexagon: '0', circle: '0'
+    };
+
+    var selection = {};
+    var modifier = 0;
+    var rollHistory = [];
+
+    function gridSVG(shape, color) {
+      var s = 'fill="none" stroke="' + color + '" stroke-width="2" stroke-linejoin="round"';
+      var paths = {
+        triangle: '<polygon points="16,4 30,28 2,28" ' + s + '/>',
+        square:   '<rect x="4" y="4" width="24" height="24" rx="4" ' + s + '/>',
+        diamond:  '<polygon points="16,2 30,16 16,30 2,16" ' + s + '/>',
+        d10:      '<polygon points="16,2 29,10 29,22 16,30 3,22 3,10" ' + s + '/>',
+        pentagon: '<polygon points="16,2 29,11 24,28 8,28 3,11" ' + s + '/>',
+        hexagon:  '<polygon points="16,2 29,9 29,23 16,30 3,23 3,9" ' + s + '/>',
+        circle:   '<circle cx="16" cy="16" r="13" ' + s + '/>'
+      };
+      return '<svg class="die-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">' + (paths[shape] || paths.circle) + '</svg>';
+    }
+
+    function chipSVG(shape, color) {
+      var s = 'fill="none" stroke="' + color + '" stroke-width="1.5" stroke-linejoin="round"';
+      var paths = {
+        triangle: '<polygon points="22,4 40,38 4,38" ' + s + '/>',
+        square:   '<rect x="5" y="5" width="34" height="34" rx="5" ' + s + '/>',
+        diamond:  '<polygon points="22,3 41,22 22,41 3,22" ' + s + '/>',
+        d10:      '<polygon points="22,3 40,14 40,32 22,41 4,32 4,14" ' + s + '/>',
+        pentagon: '<polygon points="22,3 40,15 34,36 10,36 4,15" ' + s + '/>',
+        hexagon:  '<polygon points="22,3 39,12 39,32 22,41 5,32 5,12" ' + s + '/>',
+        circle:   '<circle cx="22" cy="22" r="18" ' + s + '/>'
+      };
+      return '<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">' + (paths[shape] || paths.circle) + '</svg>';
+    }
+
+    function buildGrid() {
+      var grid = document.getElementById('diceGrid');
+      grid.innerHTML = '';
+      DICE.forEach(function(d) {
+        var count = selection[d.sides] || 0;
+        var btn = document.createElement('button');
+        btn.className = 'die-btn' + (count > 0 ? ' active' : '');
+        btn.setAttribute('type', 'button');
+        btn.title = 'Tap to add a ' + d.label + '. Ctrl+click to remove one.';
+
+        // Build SVG via a temporary container so it parses correctly in all browsers incl. iOS Safari
+        var iconWrap = document.createElement('div');
+        iconWrap.innerHTML = gridSVG(d.shape, count > 0 ? COLORS[d.sides] : '#b4b2a9');
+        btn.appendChild(iconWrap.firstChild);
+
+        var label = document.createElement('span');
+        label.className = 'die-label';
+        label.textContent = d.label;
+        btn.appendChild(label);
+
+        var badge = document.createElement('span');
+        badge.className = 'die-count-badge';
+        badge.textContent = count > 0 ? String(count) : '';
+        btn.appendChild(badge);
+        (function(sides) {
+          btn.addEventListener('click', function(e) {
+            var current = selection[sides] || 0;
+            if (e.ctrlKey || e.metaKey || e.shiftKey) {
+              if (current > 0) {
+                selection[sides] = current - 1;
+                if (!selection[sides]) delete selection[sides];
+              }
+            } else {
+              selection[sides] = current + 1;
+            }
+            buildGrid();
+          });
+        })(d.sides);
+        grid.appendChild(btn);
+      });
+    }
+
+    function changeMod(delta) {
+      modifier = Math.max(-20, Math.min(20, modifier + delta));
+      document.getElementById('modVal').textContent = (modifier >= 0 ? '+' : '') + modifier;
+    }
+
+    function roll(sides) { return Math.floor(Math.random() * sides) + 1; }
+
+    function rollDice() {
+      if (!Object.keys(selection).length) {
+        document.getElementById('resultArea').innerHTML = '<div class="result-placeholder">Pick some dice first!</div>';
+        return;
+      }
+
+      var chips = [];
+      var formulaParts = [];
+      var total = 0;
+
+      var shapeMap = {};
+      DICE.forEach(function(d) { shapeMap[d.sides] = d.shape; });
+
+      Object.keys(selection).sort(function(a, b) { return parseInt(a, 10) - parseInt(b, 10); }).forEach(function(s) {
+        var sides = parseInt(s, 10);
+        var cnt   = selection[sides];
+        var shape = shapeMap[sides] || 'circle';
+        var color = COLORS[sides]   || '#888780';
+        var nudge = NUDGE[shape]    || '0';
+        for (var i = 0; i < cnt; i++) {
+          var val = roll(sides);
+          total += val;
+          chips.push({ shape: shape, color: color, nudge: nudge, val: val });
+        }
+        formulaParts.push(cnt + 'd' + s);
+      });
+
+      total += modifier;
+      var modStr = modifier > 0 ? ' + ' + modifier : modifier < 0 ? ' - ' + Math.abs(modifier) : '';
+      var formula = formulaParts.join(' + ') + modStr;
+
+      // Build result area via DOM to avoid iOS Safari SVG-in-innerHTML issues
+      var resultArea = document.getElementById('resultArea');
+      resultArea.innerHTML = '';
+
+      var totalDiv = document.createElement('div');
+      totalDiv.className = 'result-total roll-anim';
+      totalDiv.textContent = total;
+      resultArea.appendChild(totalDiv);
+
+      var formulaDiv = document.createElement('div');
+      formulaDiv.className = 'result-formula';
+      formulaDiv.textContent = formula;
+      resultArea.appendChild(formulaDiv);
+
+      var resultsDiv = document.createElement('div');
+      resultsDiv.className = 'dice-results';
+      chips.forEach(function(c) {
+        var wrap = document.createElement('span');
+        wrap.className = 'die-chip-wrap';
+
+        var svgWrap = document.createElement('div');
+        svgWrap.innerHTML = chipSVG(c.shape, c.color);
+        wrap.appendChild(svgWrap.firstChild);
+
+        var valSpan = document.createElement('span');
+        valSpan.className = 'chip-val';
+        valSpan.style.marginTop = c.nudge;
+        valSpan.textContent = c.val;
+        wrap.appendChild(valSpan);
+
+        resultsDiv.appendChild(wrap);
+      });
+      resultArea.appendChild(resultsDiv);
+
+      var now = new Date();
+      rollHistory.unshift({
+        total: total,
+        formula: formula,
+        time: now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+      });
+      if (rollHistory.length > 8) rollHistory.pop();
+      renderHistory();
+    }
+
+    function renderHistory() {
+      var list = document.getElementById('historyList');
+      if (!rollHistory.length) {
+        list.innerHTML = '<div style="color:#b4b2a9;font-size:13px;font-style:italic;padding:4px 10px;">No rolls yet.</div>';
+        return;
+      }
+      list.innerHTML = rollHistory.map(function(h, i) {
+        return '<div class="history-item" data-idx="' + i + '">' +
+          '<span class="history-total">' + h.total + '</span>' +
+          '<span class="history-formula">' + h.formula + '</span>' +
+          '<span class="history-time">' + h.time + '</span>' +
+          '</div>';
+      }).join('');
+      list.querySelectorAll('.history-item').forEach(function(el) {
+        el.addEventListener('click', function() {
+          recallHistory(parseInt(this.getAttribute('data-idx'), 10));
+        });
+      });
+    }
+
+    function recallHistory(i) {
+      var h = rollHistory[i];
+      if (!h) return;
+      document.getElementById('resultArea').innerHTML =
+        '<div class="result-total">' + h.total + '</div>' +
+        '<div class="result-formula">' + h.formula + '</div>';
+    }
+
+    function clearAll() {
+      selection = {};
+      modifier = 0;
+      rollHistory = [];
+      document.getElementById('modVal').textContent = '+0';
+      buildGrid();
+      document.getElementById('resultArea').innerHTML = '<div class="result-placeholder">Select dice and roll...</div>';
+      renderHistory();
+    }
+
+    buildGrid();
+  </script>
+</body>
+</html>
