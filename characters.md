@@ -4,6 +4,9 @@ title: Making Characters
 nav_order: 2
 ---
 # Creating Characters
+
+<a href="dice-roller.html">Use this dice roller</a>
+
 ## Ability Scores
 Ability Scores are created by rolling 3d6 and assigning the results in the order below. 
 
