@@ -72,7 +72,7 @@ Silent shadows in the night apt at delicate tasks.
 **_Hit Dice_**: 1d4 per level
 **_Saving Throw_**_:_ 15, +2 vs devices
 
-The  Nimble may wear only Leather Armor. Thieves use any weapon.
+The  Nimble may wear only Leather Armor. The Nimble use any weapon.
 The  Nimble start with either _Long Sword_ and _Dagger_ OR _Club_ and _Short Sword_ with _Leather Armor_ (AC12).
 The  Nimble have class abilities as follows:
 
