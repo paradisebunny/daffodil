@@ -38,31 +38,3 @@ __Strigum__ Those of the owles. Their keen eyes find secret doors on a 4 in 6. T
 __Murium__ Those of the mice. Their small size and wily ways grant them a +4 on saving throws against magic and a +1 to all ranged attacks. 
 
 __Humanus__ Those of mankind. Their versatile nature allows them to switch the places of two ability scores at character creation.
-
-## Starting Equipment
-Each character starts with the following items: Backpack, bedroll, 3 days rations, 2 torches
-
-Additionally they receive items from the following table.
-
-|**Result**|**Roll Twice**|**Roll Once**|**Roll Once**|
-|---|---|---|---|
-|1|Rope, 50ft|Air bladder|Incense|
-|2|Pulleys|Bear trap|Sponge|
-|3|Candles, 5|Shovel|Lens|
-|4|Chain, 10ft|Bellows|Perfume|
-|5|Chalk, 10|Grease|Horn|
-|6|Crowbar|Saw|Bottle|
-|7|Tinderbox|Bucket|Soap|
-|8|Grap. hook|Caltrops|Spyglass|
-|9|Hammer|Chisel|Tar pot|
-|10|Waterskin|Drill|Twine|
-|11|Lantern|Fish. rod|Fake jewels|
-|12|Lamp oil|Marbles|Blank book|
-|13|Padlock|Glue|Card deck|
-|14|Manacles|Pick|Dice set|
-|15|Mirror|Hourglass|Cook pots|
-|16|Pole, 10ft|Net|Face paint|
-|17|Sack|Tongs|Whistle|
-|18|Tent|Lockpicks|Instrument|
-|19|Spikes, 5|Metal file|Quill & Ink|
-|20|Torches, 5|Nails|Small bell|
