@@ -38,7 +38,7 @@ __Strigum__ Those of the owles. Their keen eyes find secret doors on a 4 in 6. T
 
 __Murium__ Those of the mice. Their small size and wily ways grant them a +4 on saving throws against magic and a +1 to all ranged attacks. 
 
-__Humans__ may switch the places of two ability scores at character creation.
+__Humanus__ Those of mankind. Their versatile nature allows them to switch the places of two ability scores at character creation.
 
 ## Starting Equipment
 Each character starts with the following items: Backpack, bedroll, 3 days rations, 2 torches
