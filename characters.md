@@ -32,11 +32,14 @@ Each time a character survives an adventure, they gain a story: write down the t
 
 As the characters advance, they improve their saving throws. It is 15 at level 1, then reduced by 1 per level gained, but never lower than 5.
 ## Character Ancestries
-__Dwarves__ easily recognize irregularities in stonework and find traps hidden therein on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
+__Luporum__ Those of the wolves. Their keen senses find traps on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
 
-__Elves__ have keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
+__Strigum__ Those of the owles. Their keen eyes find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
+
+__Murium__ Those of the mice. Their small size and wily ways grant them a +4 on saving throws against magic and a +1 to all ranged attacks. 
 
 __Humans__ may switch the places of two ability scores at character creation.
+
 ## Starting Equipment
 Each character starts with the following items: Backpack, bedroll, 3 days rations, 2 torches
 
