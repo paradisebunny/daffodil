@@ -8,17 +8,22 @@ nav_order: 3
 Seasoned combatants apt at fighting with any tool.
 
 **_Hit Dice_**: 1d8 per level
+
 **_Saving Throw_**: 15, +1 vs all except spells
-**_Hit Bonus (HB)_**: +1 at 3rd level
+
+**_Hit Bonus (HB)_**: +1 at level 3, +2 at level 4, +3 level 6, +1 per level from thereafter
 
 The Strong start with either _Long Sword_ or _Battle Axe_ and _Bow_ with _Chain Armor_ and _Shield_ (AC15) OR with a _Two-Handed Sword_ and _Crossbow_ with _Chain Armor_ (AC14).
 The Strong use the STR modifier to adjust their damage bonus for melee attacks. The Strong have no armor or weapon restrictions. The Strong get one attack per level each round against foes of 1 Hit Die (HD) or fewer. The Strong also get +1 on all _Saving Throws_ except vs. spells.
+
 # The Faithful
 Devout servants of their faith who bear weapons in its name.
 
 **_Hit Dice_**: 1d6 per level
+
 **_Saving Throw_**: 15, +2 vs paralysis or poison
-**_Hit Bonus (HB)_**: +1 at 3rd lvl
+
+**_Hit Bonus (HB)_**: +1 at level 3, +2 at level 5, +3 at level 7, +4 at level 9, +1 per level thereafter
 
 The Faithful start with a _Mace_ or _Warhammer_ with _Chain Armor_ and _Shield_ (AC15).
 The Faithful have no armor restrictions, but may only use blunt weapons (club, flail, mace).
@@ -46,7 +51,11 @@ Starting at 2nd level the faithful can cast spells. They have to pray for a set 
 Students of the arcane arts.
 
 **_Hit Dice_**: 1d4 per level
+
 **_Saving Throw_**: 15, +2 vs spells
+
+**_Hit Bonus (HB)_**: +1 at level 4, +2 at level 6, +3 at level 8, +4 at level 10, +1 per every other level thereafter
+
 
 The Studious can only use a _Dagger_ or _Stave_ (start with one of these). They cannot use armor (AC10). The Studious starts with a spellbook, it contains four spells initially. _Read Magic_, _Detect Magic_ and two other spells of the player's choice. If their INT is 15+, they start with an additional 1st level spell. Using the book, the Studious memorizes a spell that they then can cast once during that day. The table below shows how many spells per tier the Studious can memorize. Found scrolls of spells can be copied into their spellbook with the use of _Read Magic_. 
 
@@ -70,7 +79,11 @@ The Studious can only use a _Dagger_ or _Stave_ (start with one of these). They 
 Silent shadows in the night apt at delicate tasks.
 
 **_Hit Dice_**: 1d4 per level
+
 **_Saving Throw_**_:_ 15, +2 vs devices
+
+**_Hit Bonus (HB)_**: +1 at level 4, +2 at level 6, +3 at level 8, +4 at level 10, +1 per every other level thereafter
+
 
 The  Nimble may wear only Leather Armor. The Nimble use any weapon.
 The  Nimble start with either _Long Sword_ and _Dagger_ OR _Club_ and _Short Sword_ with _Leather Armor_ (AC12).
