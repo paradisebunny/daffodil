@@ -4,7 +4,7 @@ title: Spells
 nav_order: 4
 ---
 # Spellcasting
-The number of spells of each level which the Faithful or the Studious may cast per day is shown on the appropriate table in the classes section. Each day, usually in the morning, spellcasters prepare spells to replace those they have used. The Faithful do this through prayer, while the Studious must study their spellbooks. 
+The number of spells of each level which the Faithful or the Studious may cast per day is shown on the appropriate table in the classes section. Each day, usually in the morning, spellcasters prepare spells to replace those they have used. The Faithful do this through prayer, while the Studious must study their spellbooks. This takes usually about an hour.
 
 Spellcasters must have at least one hand free, and be able to speak, in order to cast spells; thus, binding and gagging a spellcaster is an effective means of preventing him or her from casting spells. In combat, casting a spell usually takes the same time as making an attack.
 
