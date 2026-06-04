@@ -29,13 +29,13 @@ __Charisma__ – force of personality. Modifies reaction rolls when first encoun
 ## Attribute Bonus
 Ability scores of 8 or lower have a -1 modifier. Scores of 13 or higher have a +1 modifier.
 ## Character Ancestries
+__Humanus__ Those of mankind. Their versatile nature allows them to switch the places of two ability scores at character creation.
+
 __Luporum__ Those of the wolves. Their keen senses find traps on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
 
 __Strigum__ Those of the owles. Their keen eyes find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
 
 __Murium__ Those of the mice. Their small size and wily ways grant them a +4 on saving throws against magic and a +1 to all ranged attacks. 
-
-__Humanus__ Those of mankind. Their versatile nature allows them to switch the places of two ability scores at character creation.
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
