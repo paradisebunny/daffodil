@@ -3,7 +3,7 @@ layout: default
 title: Equipment
 nav_order: 5
 ---
-# Equipment
+# Equipment & Hirelings
 
 ## Starting Equipment
 Each character starts with the following items: Backpack, bedroll, 3 days rations, 2 torches
