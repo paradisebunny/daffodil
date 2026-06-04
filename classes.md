@@ -91,6 +91,6 @@ The  Nimble have class abilities as follows:
 
 **_Backstab–_** When attacking with surprise and from behind the Nimble attacks at +4 to hit and does double damage
 
-**_Tricks of the Trade–_** You have special training that goes beyond the abilities of common men. You have a 2 in 6 chance to succeed at the following tasks (3 in 6 for levels 4-6; 4 in 6 for levels 7-10):
+**_Tricks of the Trade–_** You have special training that goes beyond the abilities of common men. You have a 2 in 6 chance to succeed at the following tasks (3 in 6 for levels 4-6; 4 in 6 for levels 7-10, 5 in 6 for levels 10+:
 
-_Climbing sheer surfaces, Hiding in shadows, Hear Noise, Moving Silently, Finding and remove traps, opening locks, pick pockets_
+_Climbing sheer surfaces, Hiding in shadows, Hear faint Noise, Moving Silently, Finding and remove traps, opening locks, pick pockets_
