@@ -27,7 +27,18 @@ __Wisdom__ – insight and perception. The Faithful with WIS 15+ receive an addi
 __Charisma__ – force of personality. Modifies reaction rolls when first encountering intelligent monsters. 
 
 ## Attribute Bonus
-Ability scores of 8 or lower have a -1 modifier. Scores of 13 or higher have a +1 modifier.
+Ability scores of 8 or lower have a -1 modifier. Scores of 13 or higher have a +1 modifier. Alternatively you can use the BX modifiers, as listed in the table below.
+
+| Ability Score | Modifier | 
+| --------------| -------- | 
+| 3             | -3       | 
+| 4-5           | -2       | 
+| 6-8           | -1       | 
+| 9-12          | 0        |
+| 13-15         | +1       |
+| 16-17         | +2       |
+| 18            | +3       |
+
 ## Character Ancestries
 __Humanus__ Those of mankind. Their versatile nature allows them to switch the places of two ability scores at character creation.
 
