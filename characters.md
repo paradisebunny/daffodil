@@ -5,7 +5,7 @@ nav_order: 2
 ---
 # Creating Characters
 1. Roll ability scores and note attribute boni.
-2. Choose an ancestry and class, roll hit point die, note result and other special abilities.
+2. Choose an ancestry and class, note down saving throw and modifiers, the maximum possible roll of your hit die for HP and other special abilities.
 3. Choose starting gear listed in class description, note down armor class (adding armor and DEX modifier)
 4. Note down and roll additional starting gear in the equipment section.
 5. Name your character.
