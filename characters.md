@@ -10,7 +10,7 @@ nav_order: 2
 4. Note down and roll additional starting gear in the equipment section.
 5. Name your character.
 
-<a href="dice-roller.html" target="_blank" rel="noopener noreferrer">Use this dice roller</a>
+<a href="dice-roller.html" target="_blank" rel="noopener noreferrer">Digital dice roller</a>
 ## Ability Scores
 Ability Scores are created by rolling 3d6 and assigning the results in the order below. 
 
