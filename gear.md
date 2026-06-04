@@ -3,7 +3,7 @@ layout: default
 title: Equipment
 nav_order: 5
 ---
-# Tables
+# Equipment
 
 ## Starting Equipment
 Each character starts with the following items: Backpack, bedroll, 3 days rations, 2 torches
@@ -67,6 +67,9 @@ Additionally they receive items from the following table.
 | Sword, long  | 1d8    | 15 gp |
 | Sword, 2H    | 1d10   | 30 gp |
 
-
+## Hirelings
+Players can try to hire help for their adventures. They need to post notices (25g, 2 in 6 chance) or spend money on drinks in the tavern (50g, 3 in 6 chance) to locate potential candidates. These come in two categories.
+1. Villagers: simple townsfolk without particular talents. Mainly serve as torchbearers or porters. Cost: 1gp a day. (AC10, HP d4, save 18, -1 attack)
+2. Other Adventurers: regular randomly generated characters from any class. Gain experience. Cost: 1/2 share of loot.
 
 
