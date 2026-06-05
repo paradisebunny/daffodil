@@ -11,6 +11,8 @@ nav_order: 2
 5. Name your character.
 
 <a href="dice-roller.html" target="_blank" rel="noopener noreferrer">Digital dice roller</a>
+
+<a href="daffodil-character-generator.html" target="_blank" rel="noopener noreferrer">Character Generator</a>
 ## Ability Scores
 Ability Scores are created by rolling 3d6 and assigning the results in the order below. 
 
