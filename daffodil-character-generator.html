@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Generator | DAFFODIL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+DW+Pica:ital@0;1&family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1208;
+      --ink-faded: #5a4a30;
+      --parchment: #f5efd8;
+      --parchment-dark: #ecdfc0;
+      --parchment-mid: #e8ddb5;
+      --gold: #b8860b;
+      --gold-light: #d4a843;
+      --red: #8b1a1a;
+      --green-dark: #2d5a27;
+      --rule: #c8b882;
+      --shadow: rgba(26,18,8,0.18);
+    }
+
+    body {
+      background-color: #2a1f0e;
+      background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 30px, rgba(255,255,255,0.01) 30px, rgba(255,255,255,0.01) 31px),
+        repeating-linear-gradient(90deg, transparent, transparent 30px, rgba(255,255,255,0.01) 30px, rgba(255,255,255,0.01) 31px);
+      min-height: 100vh;
+      font-family: 'IM Fell English', Georgia, serif;
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .page-header {
+      text-align: center;
+      margin-bottom: 2rem;
+      animation: fadeDown 0.6s ease both;
+    }
+    .site-name {
+      font-family: 'IM Fell DW Pica', Georgia, serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 0.4rem;
+    }
+    .page-title {
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      color: var(--parchment);
+      font-style: italic;
+      line-height: 1.1;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    .page-subtitle {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--gold-light);
+      font-style: italic;
+      opacity: 0.8;
+    }
+
+    .scroll {
+      width: 100%;
+      max-width: 780px;
+      background: var(--parchment);
+      background-image:
+        radial-gradient(ellipse at 10% 10%, rgba(255,240,180,0.6) 0%, transparent 60%),
+        radial-gradient(ellipse at 90% 90%, rgba(200,170,100,0.3) 0%, transparent 50%);
+      border-radius: 3px;
+      box-shadow: 0 0 0 1px var(--rule), 0 0 0 4px var(--parchment-dark), 0 0 0 5px var(--gold), 0 8px 40px rgba(0,0,0,0.6), 0 2px 8px rgba(0,0,0,0.4);
+      padding: 2.5rem 2.5rem 2rem;
+      animation: fadeUp 0.7s ease both 0.15s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ornament {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 1.2rem 0;
+      color: var(--gold);
+      font-size: 1rem;
+    }
+    .ornament::before, .ornament::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--rule), transparent);
+    }
+
+    h2 {
+      font-family: 'IM Fell DW Pica', Georgia, serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--ink-faded);
+      margin-bottom: 0.75rem;
+    }
+
+    .btn-roll {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--red);
+      color: var(--parchment);
+      border: none;
+      border-radius: 2px;
+      padding: 0.65rem 1.5rem;
+      font-family: 'IM Fell DW Pica', Georgia, serif;
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      box-shadow: 0 2px 0 #5a0e0e, 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.1s, box-shadow 0.1s, background 0.15s;
+    }
+    .btn-roll:hover { background: #a02020; }
+    .btn-roll:active { transform: translateY(2px); box-shadow: 0 0 0 #5a0e0e; }
+    .btn-roll .dice-icon { font-size: 1.1rem; display: inline-block; transition: transform 0.3s; }
+    .btn-roll:hover .dice-icon { transform: rotate(20deg) scale(1.15); }
+
+    .btn-print {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: transparent;
+      color: var(--ink-faded);
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      padding: 0.5rem 1rem;
+      font-family: 'IM Fell English', Georgia, serif;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .btn-print:hover { background: var(--parchment-mid); color: var(--ink); }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+    .controls-left { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+
+    .select-group { display: flex; flex-direction: column; gap: 0.2rem; }
+    .select-group label { font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); }
+    select {
+      font-family: 'IM Fell English', Georgia, serif;
+      font-size: 0.9rem;
+      color: var(--ink);
+      background: var(--parchment-dark);
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      padding: 0.35rem 1.6rem 0.35rem 0.6rem;
+      cursor: pointer;
+      outline: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%235a4a30'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.5rem center;
+    }
+    select:focus { border-color: var(--gold); }
+
+    #sheet { display: none; }
+    #sheet.visible { display: block; animation: fadeUp 0.5s ease both; }
+
+    .char-banner { display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.2rem; }
+    .char-avatar {
+      width: 56px; height: 56px; flex-shrink: 0; border-radius: 50%;
+      background: var(--parchment-dark); border: 2px solid var(--gold);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.8rem; box-shadow: 0 2px 8px var(--shadow);
+    }
+    .char-name { font-family: 'IM Fell DW Pica', Georgia, serif; font-size: clamp(1.4rem, 4vw, 2rem); line-height: 1.1; }
+    .char-tagline { font-style: italic; color: var(--ink-faded); font-size: 0.9rem; margin-top: 0.2rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; }
+    .badge {
+      font-family: 'Inconsolata', monospace; font-size: 0.65rem;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      padding: 0.15rem 0.5rem; border: 1px solid; border-radius: 1px;
+    }
+    .badge-class { border-color: var(--red); color: var(--red); }
+    .badge-ancestry { border-color: var(--green-dark); color: var(--green-dark); }
+    .badge-level { border-color: var(--gold); color: var(--gold); }
+
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem; margin-bottom: 1rem; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-bottom: 1rem; }
+
+    @media (max-width: 500px) {
+      .grid-3 { grid-template-columns: 1fr 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+      .scroll { padding: 1.5rem 1.25rem; }
+    }
+
+    .stat-box {
+      background: var(--parchment-dark); border: 1px solid var(--rule); border-radius: 2px;
+      padding: 0.6rem 0.7rem; text-align: center; box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+    }
+    .stat-box .label { font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); display: block; margin-bottom: 0.15rem; }
+    .stat-box .value { font-family: 'IM Fell DW Pica', Georgia, serif; font-size: 1.9rem; line-height: 1; color: var(--ink); }
+    .stat-box .sub { font-size: 0.65rem; color: var(--ink-faded); font-style: italic; margin-top: 0.1rem; display: block; }
+
+    .abilities-table { width: 100%; border-collapse: collapse; }
+    .abilities-table tr { border-bottom: 1px solid var(--parchment-mid); }
+    .abilities-table tr:last-child { border-bottom: none; }
+    .abilities-table td { padding: 0.35rem 0.3rem; font-size: 0.9rem; }
+    .abilities-table td:first-child { color: var(--ink-faded); font-size: 0.82rem; }
+    .abilities-table td:nth-child(2) { text-align: center; font-family: 'IM Fell DW Pica', Georgia, serif; font-size: 1.15rem; font-weight: bold; }
+    .abilities-table td:last-child { text-align: right; }
+    .mod-pill { font-family: 'Inconsolata', monospace; font-size: 0.72rem; padding: 0.1rem 0.45rem; border-radius: 999px; display: inline-block; }
+    .mod-pos { background: #d4edda; color: var(--green-dark); }
+    .mod-neg { background: #f8d7da; color: var(--red); }
+    .mod-zero { background: var(--parchment-mid); color: var(--ink-faded); }
+
+    .panel { background: var(--parchment-dark); border: 1px solid var(--rule); border-radius: 2px; padding: 0.8rem 1rem; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05); }
+    .panel h2 { margin-bottom: 0.6rem; }
+
+    .tricks-table { width: 100%; border-collapse: collapse; }
+    .tricks-table tr { border-bottom: 1px solid rgba(200,184,130,0.4); }
+    .tricks-table tr:last-child { border-bottom: none; }
+    .tricks-table td { padding: 0.28rem 0.25rem; font-size: 0.83rem; }
+    .tricks-table td:last-child { text-align: right; font-family: 'Inconsolata', monospace; font-size: 0.78rem; color: var(--red); }
+
+    .gear-list { list-style: none; }
+    .gear-list li { padding: 0.28rem 0; border-bottom: 1px solid rgba(200,184,130,0.4); font-size: 0.87rem; display: flex; align-items: center; gap: 0.5rem; }
+    .gear-list li:last-child { border-bottom: none; }
+    .gear-list .gear-dot { color: var(--gold); font-size: 0.7rem; }
+
+    .ability-line { font-size: 0.85rem; padding: 0.3rem 0; border-bottom: 1px solid rgba(200,184,130,0.4); line-height: 1.4; }
+    .ability-line:last-child { border-bottom: none; }
+    .ability-line strong { color: var(--red); }
+
+    .backstab-callout { background: rgba(139,26,26,0.08); border-left: 3px solid var(--red); padding: 0.5rem 0.75rem; font-size: 0.85rem; margin-top: 0.6rem; border-radius: 0 2px 2px 0; }
+    .backstab-callout strong { color: var(--red); }
+    .turn-callout { background: rgba(184,134,11,0.08); border-left: 3px solid var(--gold); padding: 0.5rem 0.75rem; font-size: 0.85rem; margin-top: 0.6rem; border-radius: 0 2px 2px 0; }
+
+    .spell-block { font-size: 0.85rem; line-height: 1.6; }
+    .spell-block p { margin-bottom: 0.3rem; }
+    .spell-list { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.4rem; }
+    .spell-item { font-size: 0.78rem; padding: 0.15rem 0.5rem; background: var(--parchment-mid); border: 1px solid var(--rule); border-radius: 1px; font-style: italic; }
+
+    .stories-area { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; }
+    .story-line { display: flex; align-items: center; gap: 0.6rem; }
+    .story-num { font-family: 'Inconsolata', monospace; font-size: 0.7rem; color: var(--ink-faded); width: 1.2rem; }
+    .story-input { flex: 1; border: none; border-bottom: 1px dashed var(--rule); background: transparent; font-family: 'IM Fell English', Georgia, serif; font-size: 0.88rem; color: var(--ink); padding: 0.1rem 0.3rem; outline: none; }
+    .story-input::placeholder { color: var(--rule); font-style: italic; }
+    .story-input:focus { border-bottom-color: var(--gold); }
+
+    .adv-note { font-size: 0.8rem; font-style: italic; color: var(--ink-faded); margin-bottom: 0.6rem; }
+
+    @keyframes rollDice {
+      0% { transform: rotate(0deg) scale(1); }
+      25% { transform: rotate(-15deg) scale(1.3); }
+      50% { transform: rotate(20deg) scale(0.9); }
+      75% { transform: rotate(-10deg) scale(1.2); }
+      100% { transform: rotate(0deg) scale(1); }
+    }
+    .rolling { animation: rollDice 0.4s ease; }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+    hr.fancy { border: none; border-top: 1px solid var(--rule); margin: 1rem 0; }
+
+    .footer { margin-top: 1.5rem; font-size: 0.72rem; color: rgba(245,239,216,0.4); text-align: center; font-style: italic; }
+    .footer a { color: var(--gold-light); opacity: 0.7; text-decoration: none; }
+    .footer a:hover { opacity: 1; }
+
+    @media print {
+      body { background: white; padding: 0; }
+      .scroll { box-shadow: none; border: 1px solid #ccc; max-width: 100%; }
+      .controls, .page-header, .footer, .btn-print { display: none !important; }
+      #sheet { display: block !important; }
+      .panel { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-header">
+  <div class="site-name">✦ Daffodil ✦</div>
+  <h1 class="page-title">Character Generator</h1>
+  <p class="page-subtitle">Roll up a new adventurer, ready for the dungeon</p>
+</div>
+
+<div class="scroll">
+  <div class="controls">
+    <div class="controls-left">
+      <button class="btn-roll" onclick="generateCharacter()">
+        <span class="dice-icon" id="diceIcon">⚄</span> Roll Character
+      </button>
+      <div class="select-group">
+        <label for="selAncestry">Ancestry</label>
+        <select id="selAncestry">
+          <option value="random">Random</option>
+          <option value="Humanus">Humanus</option>
+          <option value="Luporum">Luporum</option>
+          <option value="Strigum">Strigum</option>
+          <option value="Murium">Murium</option>
+        </select>
+      </div>
+      <div class="select-group">
+        <label for="selClass">Class</label>
+        <select id="selClass">
+          <option value="random">Random</option>
+          <option value="The Strong">The Strong</option>
+          <option value="The Faithful">The Faithful</option>
+          <option value="The Studious">The Studious</option>
+          <option value="The Nimble">The Nimble</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn-print" onclick="window.print()">🖨 Print</button>
+  </div>
+
+  <div id="sheet"></div>
+
+  <div id="placeholder" style="text-align:center; padding: 2rem 0; color: var(--ink-faded); font-style:italic; font-size:0.95rem;">
+    Press <em>Roll Character</em> to generate your adventurer…
+  </div>
+</div>
+
+<div class="footer">
+  Content under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> ·
+  Rules from <a href="https://daffodilrpg.com/" target="_blank">Daffodil RPG</a>
+</div>
+
+<script>
+const ANCESTRIES = {
+  Humanus: {
+    emoji: '🧑',
+    tagline: 'Those of mankind.',
+    abilities: ['Versatile nature: swap any two ability scores at character creation.']
+  },
+  Luporum: {
+    emoji: '🐺',
+    tagline: 'Those of the wolves.',
+    abilities: [
+      'Keen senses: find traps on a <strong>4-in-6</strong> when actively searching.',
+      'Passive detection: <strong>1-in-6</strong> chance to notice a trap without searching.'
+    ]
+  },
+  Strigum: {
+    emoji: '🦉',
+    tagline: 'Those of the owls.',
+    abilities: [
+      'Keen eyes: find secret doors on a <strong>4-in-6</strong> when actively searching.',
+      'Passive detection: <strong>1-in-6</strong> chance to notice a secret door without searching.'
+    ]
+  },
+  Murium: {
+    emoji: '🐭',
+    tagline: 'Those of the mice.',
+    abilities: [
+      'Small & wily: <strong>+4 on saving throws</strong> against magic.',
+      '<strong>+1 to all ranged attacks.</strong>'
+    ]
+  }
+};
+
+const CLASSES = {
+  'The Strong': {
+    emoji: '⚔️', tagline: 'Seasoned combatants apt at fighting with any tool.',
+    hitDie: 8, saveMod: '+1 vs all except spells', armorNote: 'Any armor, any weapon',
+    startingOptions: ['Long Sword & Bow, Chain Armor & Shield (AC base 15)', 'Two-Handed Sword & Crossbow, Chain Armor (AC base 14)'],
+    baseACs: [15, 14],
+    specialAbilities: [
+      { name: 'Multiple Attacks', desc: 'One attack per level each round against foes of 1 HD or fewer.' },
+      { name: 'Saving Throw Bonus', desc: '+1 on all saving throws except vs. spells.' },
+      { name: 'Damage Bonus', desc: 'STR modifier applies to melee damage rolls.' }
+    ],
+    tricks: null, spells: null
+  },
+  'The Faithful': {
+    emoji: '☩', tagline: 'Devout servants of their faith who bear weapons in its name.',
+    hitDie: 6, saveMod: '+2 vs paralysis or poison', armorNote: 'Any armor; blunt weapons only',
+    startingOptions: ['Mace or Warhammer, Chain Armor & Shield (AC base 15)'],
+    baseACs: [15],
+    specialAbilities: [
+      { name: 'Turn Undead', desc: 'Roll 2d6 (±2 per level difference). ≤4: no effect. 5–6: 2d4 stunned 1 round. 7–12: 2d4 flee 1 turn. 13+: 2d4 destroyed.' },
+      { name: 'Spellcasting', desc: 'From level 2, prepares spells through morning prayer. WIS 15+ grants an extra 1st-tier spell slot.' }
+    ],
+    tricks: null, spells: 'Faithful',
+    spellList: ['Cure Light Wounds*','Detect Evil*','Detect Magic','Light*','Protection from Evil*','Purify Food and Water','Remove Fear*','Resist Cold']
+  },
+  'The Studious': {
+    emoji: '📖', tagline: 'Students of the arcane arts.',
+    hitDie: 4, saveMod: '+2 vs spells', armorNote: 'No armor (AC 10); Dagger or Stave only',
+    startingOptions: ['Dagger or Stave'],
+    baseACs: [10],
+    specialAbilities: [
+      { name: 'Spellbook', desc: 'Starts with Read Magic, Detect Magic, and two chosen spells. Memorizes 1 Tier 1 spell per day. Copies found scrolls using Read Magic.' },
+      { name: 'INT Bonus', desc: 'INT 15+ grants an additional memorizable spell at level 1.' }
+    ],
+    tricks: null, spells: 'Studious',
+    spellList: ['Charm Person','Detect Magic','Floating Disc','Hold Portal','Light*','Magic Missile','Magic Mouth','Protection from Evil*','Read Languages','Shield','Sleep','Ventriloquism']
+  },
+  'The Nimble': {
+    emoji: '🗡️', tagline: 'Silent shadows in the night apt at delicate tasks.',
+    hitDie: 4, saveMod: '+2 vs devices', armorNote: 'Leather armor only; any weapon',
+    startingOptions: ['Long Sword & Dagger, Leather Armor (AC base 12)', 'Club & Short Sword, Leather Armor (AC base 12)'],
+    baseACs: [12, 12],
+    specialAbilities: [
+      { name: 'Backstab', desc: 'Surprise + attack from behind: <strong>+4 to hit, double damage</strong>.' },
+      { name: 'Tricks of the Trade', desc: '<strong>2-in-6</strong> chance (3-in-6 at levels 4–6; 4-in-6 at levels 7–10; 5-in-6 at level 11+).' }
+    ],
+    tricks: ['Climb sheer surfaces','Hide in shadows','Hear faint noise','Move silently','Find & remove traps','Open locks','Pick pockets'],
+    spells: null
+  }
+};
+
+const ABILITY_NAMES = ['Strength','Dexterity','Constitution','Intelligence','Wisdom','Charisma'];
+
+const GEAR_TABLE = {
+  rollTwice: ['Rope, 50ft','Pulleys','Candles, 5','Chain, 10ft','Chalk, 10','Crowbar','Tinderbox','Grappling hook','Hammer','Waterskin','Lantern','Lamp oil','Padlock','Manacles','Mirror','Pole, 10ft','Sack','Tent','Spikes, 5','Torches, 5'],
+  rollOnce1: ['Air bladder','Bear trap','Shovel','Bellows','Grease','Saw','Bucket','Caltrops','Chisel','Drill','Fishing rod','Marbles','Glue','Pick','Hourglass','Net','Tongs','Lockpicks','Metal file','Nails'],
+  rollOnce2: ['Incense','Sponge','Lens','Perfume','Horn','Bottle','Soap','Spyglass','Tar pot','Twine','Fake jewels','Blank book','Card deck','Dice set','Cook pots','Face paint','Whistle','Instrument','Quill & Ink','Small bell']
+};
+
+const FIRST_NAMES = ['Aldric','Bram','Calla','Dex','Edra','Finn','Gwyn','Holt','Isolde','Jasper','Keira','Lorn','Mira','Noel','Orla','Pell','Quinn','Roswyn','Sable','Thane','Uma','Vane','Wren','Xara','Yule','Zora','Sera','Davan','Rennis','Cael','Brynn','Aldous','Faelan','Obrin','Tilda','Elara','Cormac','Lirien','Oswin','Briar','Colm','Delia','Emric','Fern','Gavric','Hessa','Idris','Jael','Kaius'];
+const LAST_NAMES = ['Ashford','Blackwood','Coldwater','Duskmore','Emberton','Finch','Greystone','Holloway','Ironside','Kettridge','Longbow','Marsh','Nightshade','Oakdown','Quickpaw','Ravenstone','Silverthorn','Thatch','Underwood','Vane','Whitmore','Yarrow','Dunmore','Hallmark','Ironbell','Frosthollow','Swiftbrook','Ashlen','Crownfield','Duskfall','Emberglow','Fenwick'];
+
+function d(n) { return Math.floor(Math.random() * n) + 1; }
+function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+function modifier(score) {
+  if (score <= 3) return -3;
+  if (score <= 5) return -2;
+  if (score <= 8) return -1;
+  if (score <= 12) return 0;
+  if (score <= 15) return 1;
+  if (score <= 17) return 2;
+  return 3;
+}
+
+function modStr(m) {
+  if (m > 0) return '+' + m;
+  if (m < 0) return String(m);
+  return '±0';
+}
+
+function modClass(m) {
+  return m > 0 ? 'mod-pos' : m < 0 ? 'mod-neg' : 'mod-zero';
+}
+
+function generateCharacter() {
+  // Animate
+  const icon = document.getElementById('diceIcon');
+  icon.classList.remove('rolling');
+  void icon.offsetWidth;
+  icon.classList.add('rolling');
+  const faces = ['⚀','⚁','⚂','⚃','⚄','⚅'];
+  let t = 0;
+  const iv = setInterval(() => { icon.textContent = pick(faces); if (++t > 8) clearInterval(iv); }, 60);
+
+  // Pick ancestry & class
+  const ancestryNames = Object.keys(ANCESTRIES);
+  const classNames = Object.keys(CLASSES);
+  const selA = document.getElementById('selAncestry').value;
+  const selC = document.getElementById('selClass').value;
+  const aName = selA === 'random' ? pick(ancestryNames) : selA;
+  const cName = selC === 'random' ? pick(classNames) : selC;
+  const ancestry = ANCESTRIES[aName];
+  const cls = CLASSES[cName];
+
+  // Roll 3d6 in order
+  let scores = Array.from({length: 6}, () => d(6) + d(6) + d(6));
+
+  // Humanus: swap two random scores
+  if (aName === 'Humanus') {
+    let i = Math.floor(Math.random() * 6), j;
+    do { j = Math.floor(Math.random() * 6); } while (j === i);
+    [scores[i], scores[j]] = [scores[j], scores[i]];
+  }
+
+  const mods = scores.map(modifier);
+
+  // HP
+  const hp = Math.max(1, d(cls.hitDie) + mods[2]);
+
+  // Starting gear choice
+  const optIdx = cls.startingOptions.length > 1 ? (d(2) - 1) : 0;
+  const weaponLoad = cls.startingOptions[optIdx];
+  const baseAC = cls.baseACs[optIdx];
+  const ac = baseAC + mods[1]; // + DEX
+
+  // Additional gear: Roll Twice x2, Roll Once x1 from each col
+  const extras = [
+    GEAR_TABLE.rollTwice[d(20) - 1],
+    GEAR_TABLE.rollTwice[d(20) - 1],
+    GEAR_TABLE.rollOnce1[d(20) - 1],
+    GEAR_TABLE.rollOnce2[d(20) - 1]
+  ];
+  const extraUniq = [...new Set(extras)];
+
+  // Name
+  const charName = pick(FIRST_NAMES) + ' ' + pick(LAST_NAMES);
+
+  // Spell section
+  let spellHTML = '';
+  if (cls.spells === 'Faithful') {
+    const wisBonus = mods[4] >= 1 ? '<p style="color:var(--red);font-style:italic;margin-top:0.3rem">WIS 15+: one extra Tier 1 spell slot available at level 1.</p>' : '';
+    spellHTML = `<div class="panel" style="margin-bottom:1rem">
+      <h2>Spells — The Faithful</h2>
+      <div class="spell-block">
+        <p>Pray each morning. Spellcasting begins at <strong>level 2</strong> (1 Tier 1 slot). WIS 15+ grants a bonus slot.</p>
+        ${wisBonus}
+        <p style="margin-top:0.5rem;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--ink-faded)">Tier 1 Spells Available</p>
+        <div class="spell-list">${cls.spellList.map(s => `<span class="spell-item">${s}</span>`).join('')}</div>
+      </div>
+    </div>`;
+  } else if (cls.spells === 'Studious') {
+    const pool = cls.spellList.filter(s => s !== 'Detect Magic');
+    const chosen = [];
+    while (chosen.length < 2) { const s = pick(pool); if (!chosen.includes(s)) chosen.push(s); }
+    const spellbook = ['Read Magic', 'Detect Magic', ...chosen];
+    const intBonus = mods[3] >= 1 ? '<p style="color:var(--red);font-style:italic;margin-top:0.3rem">INT 15+: may memorize one additional Tier 1 spell per day.</p>' : '';
+    spellHTML = `<div class="panel" style="margin-bottom:1rem">
+      <h2>Spells — The Studious</h2>
+      <div class="spell-block">
+        <p>Study spellbook each morning after rest. Memorize <strong>1 Tier 1 spell</strong> per day at level 1. Spellbook contains:</p>
+        ${intBonus}
+        <div class="spell-list">${spellbook.map(s => `<span class="spell-item">${s}</span>`).join('')}</div>
+        <p style="margin-top:0.5rem;font-size:0.8rem;font-style:italic;color:var(--ink-faded)">Additional Tier 1 spells may be copied from found scrolls using Read Magic.</p>
+      </div>
+    </div>`;
+  }
+
+  // Build sheet HTML
+  const melee = cName === 'The Strong' ? mods[0] : 0;
+  const ranged = mods[1];
+  const showHB = melee !== 0 || (cName !== 'The Faithful' && cName !== 'The Studious' && ranged !== 0);
+
+  const html = `
+    <div class="char-banner">
+      <div class="char-avatar">${ancestry.emoji}</div>
+      <div>
+        <div class="char-name">${charName}</div>
+        <div class="char-tagline">${cls.tagline}</div>
+        <div class="badges">
+          <span class="badge badge-class">${cName}</span>
+          <span class="badge badge-ancestry">${aName}</span>
+          <span class="badge badge-level">Level 1</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <div class="stat-box">
+        <span class="label">Hit Points</span>
+        <span class="value">${hp}</span>
+        <span class="sub">1d${cls.hitDie}${mods[2] !== 0 ? (mods[2] > 0 ? ' +' : ' ') + mods[2] + ' CON' : ''}</span>
+      </div>
+      <div class="stat-box">
+        <span class="label">Armor Class</span>
+        <span class="value">${ac}</span>
+        <span class="sub">${weaponLoad.includes('Chain') ? 'Chain' : weaponLoad.includes('Leather') ? 'Leather' : 'Unarmored'}${mods[1] !== 0 ? (mods[1] > 0 ? ' +' : ' ') + mods[1] + ' DEX' : ''}</span>
+      </div>
+      <div class="stat-box">
+        <span class="label">Saving Throw</span>
+        <span class="value">15</span>
+        <span class="sub">${cls.saveMod}</span>
+      </div>
+    </div>
+
+    ${showHB ? `<div class="grid-2" style="margin-bottom:1rem">
+      <div class="stat-box">
+        <span class="label">Melee Hit Bonus</span>
+        <span class="value">${modStr(melee)}</span>
+        <span class="sub">STR modifier${cName === 'The Strong' ? ' (also damage)' : ''}</span>
+      </div>
+      <div class="stat-box">
+        <span class="label">Ranged Hit Bonus</span>
+        <span class="value">${modStr(ranged)}</span>
+        <span class="sub">DEX modifier${cName === 'The Murium' ? ' +1 ancestry' : ''}</span>
+      </div>
+    </div>` : ''}
+
+    <div class="grid-2">
+      <div class="panel">
+        <h2>Ability Scores</h2>
+        <table class="abilities-table">
+          ${ABILITY_NAMES.map((n, i) => `<tr>
+            <td>${n}</td>
+            <td>${scores[i]}</td>
+            <td><span class="mod-pill ${modClass(mods[i])}">${modStr(mods[i])}</span></td>
+          </tr>`).join('')}
+        </table>
+        ${aName === 'Humanus' ? '<p style="font-size:0.75rem;font-style:italic;margin-top:0.5rem;color:var(--ink-faded)">Two scores were swapped (Humanus versatility).</p>' : ''}
+        ${aName === 'Murium' ? '<p style="font-size:0.75rem;font-style:italic;margin-top:0.5rem;color:var(--ink-faded)">+4 saves vs magic · +1 ranged attacks (ancestry bonuses).</p>' : ''}
+      </div>
+
+      <div class="panel">
+        <h2>Class Abilities</h2>
+        ${cls.specialAbilities.map(a => `<div class="ability-line"><strong>${a.name}</strong> — ${a.desc}</div>`).join('')}
+        ${cName === 'The Nimble' ? `<div class="backstab-callout"><strong>Backstab:</strong> Surprise + behind → +4 to hit, ×2 damage</div>` : ''}
+        ${cName === 'The Faithful' ? `<div class="turn-callout"><strong>Turn Undead (2d6):</strong> ≤4 fail &middot; 5–6 stun &middot; 7–12 flee &middot; 13+ destroy</div>` : ''}
+      </div>
+    </div>
+
+    ${cName === 'The Nimble' ? `<div class="panel" style="margin-bottom:1rem">
+      <h2>Tricks of the Trade</h2>
+      <table class="tricks-table">
+        ${cls.tricks.map(t => `<tr><td>${t}</td><td>2-in-6</td></tr>`).join('')}
+      </table>
+    </div>` : ''}
+
+    <div class="grid-2">
+      <div class="panel">
+        <h2>Starting Equipment</h2>
+        <ul class="gear-list">
+          <li><span class="gear-dot">◆</span>${weaponLoad}</li>
+          <li><span class="gear-dot">◆</span>Backpack</li>
+          <li><span class="gear-dot">◆</span>Bedroll</li>
+          <li><span class="gear-dot">◆</span>Rations, 3 days</li>
+          <li><span class="gear-dot">◆</span>Torches ×2</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2>Additional Gear</h2>
+        <ul class="gear-list">
+          ${extraUniq.map(g => `<li><span class="gear-dot">◆</span>${g}</li>`).join('')}
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-bottom:1rem">
+      <h2>Ancestry — ${aName} · ${ancestry.tagline}</h2>
+      ${ancestry.abilities.map(a => `<div class="ability-line">${a}</div>`).join('')}
+    </div>
+
+    ${spellHTML}
+
+    <div class="panel">
+      <h2>Stories &amp; Advancement</h2>
+      <p class="adv-note">Write the title of each completed adventure. Gain <strong>1 story</strong> to advance to level 2. Saving throw decreases by 1 per level (minimum 5).</p>
+      <div class="stories-area">
+        ${[1,2,3].map(n => `<div class="story-line"><span class="story-num">${n}.</span><input class="story-input" type="text" placeholder="Adventure title…"></div>`).join('')}
+      </div>
+    </div>
+  `;
+
+  document.getElementById('placeholder').style.display = 'none';
+  const sheetEl = document.getElementById('sheet');
+  sheetEl.innerHTML = '<div class="ornament">✦ ✦ ✦</div>' + html + '<hr class="fancy" style="margin-top:1.5rem">';
+  sheetEl.style.display = 'block';
+  sheetEl.style.animation = 'none';
+  void sheetEl.offsetWidth;
+  sheetEl.style.animation = 'fadeUp 0.5s ease both';
+}
+</script>
+</body>
+</html>
