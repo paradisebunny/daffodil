@@ -17,9 +17,9 @@ The Strong use the STR modifier to adjust their damage bonus for melee attacks. 
 
 The Strong start with one of these gear choices:
 
-a) _Long Sword_ (d8) and _Bow_ (d6) with _Chain Armor_ (+4AC) and _Shield_ (+1AC) (AC15)
+a) _Long Sword_ (d8) and _Bow_ (d6) with _Chain Armor_ (+4AC) and _Shield_ (+1AC)
 
-b) _Two-Handed Sword_ (d10, 2h) and _Crossbow_ (d4+1) with _Chain Armor_ (+4AC) (AC14)
+b) _Two-Handed Sword_ (d10, 2h) and _Crossbow_ (d4+1) with _Chain Armor_ (+4AC)
 
 # The Faithful
 Devout servants of their faith who bear weapons in its name.
@@ -34,9 +34,9 @@ The Faithful have no armor restrictions, but may only use blunt weapons (club, f
 Starting at 2nd level the faithful can cast spells. They have to pray for a set number of spells from their list each morning. The table below shows how many spells per tier the faithful can pray for. If their WIS is 15+, they start with an additional spell available already at first level.
 The Faithful start with one of these gear choices:
 
-a) _Mace_ (d6) with _Chain Armor_ (+4AC) and _Shield_ (+1AC) (AC15)
+a) _Mace_ (d6) with _Chain Armor_ (+4AC) and _Shield_ (+1AC)
 
-b) _Warhammer_ (d4+1) with _Chain Armor_ (+4AC) and _Shield_ (+1AC) (AC15)
+b) _Warhammer_ (d4+1) with _Chain Armor_ (+4AC) and _Shield_ (+1AC)
 
 **_Turn Undead_** - The Faithful have the ability to turn undead while brandishing their holy symbol, causing them to flee or be destroyed. To resolve the attempt, roll 2d6 and apply any level-based modifiers. If the undead have a lower Level than the character, add +2 to the roll for each level of difference. Similarly, if the monsters are higher level, subtract -2 for each level of difference. Neither bonus or malus can exceed 6. If the final total is 4 or below, the undead are unaffected. On a 5-6 2d4 undead are stunned for a round. On a 7-12 2d4 undead flee for a turn. On a 13+ 2d4 undead are destroyed.
 
@@ -106,7 +106,7 @@ The  Nimble start with one of these gear choices:
 
 a) _Long Sword_ (d8) and _Dagger_ (d4)
 
-b) _Club_ (d4) and _Short Sword_ (d6) with _Leather Armor_ (+2AC).
+b) _Club_ (d4) and _Short Sword_ (d6) with _Leather Armor_ (+2AC)
 
 The  Nimble have class abilities as follows:
 
