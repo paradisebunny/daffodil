@@ -40,6 +40,18 @@ Distances are close, near and far. A character can take one action and move near
 For long distance travel, characters can hike up to 12 miles in a day. They can hike 18 if travelling on roads and only 6 if travelling in rough terrain or under adverse conditions. All movement is reduced to a third of these values if their inventory is full.
 ## Damage and Death
 When a character is hit, the amount of damage is subtracted from their hit points. When these reach zero, roll a final saving throw. On a success the character awakes after combat with 1 HP and rolls the scars table. If they fail the character is dead. Monsters die at 0 hit points.
+
+
+| Roll | Effect      |
+| 1 | Lose an eye. Permanent -1 to hit |
+| 2 | Horrible wound. Lose 1 STR permanently |
+| 3 | Fingers crushed. Lose 1 DEX permanently |
+| 4 | Was that a heart attack? Lose 1 CON permanently |
+| 5 | Heavy concussion. Lose 1 INT permanently |
+| 6 | You have briefly seen the other side and it was not encouraging. Lose 1 WIS permanently |
+| 7 | Disfiguring facial scar. Lose 1 CHA permanently |
+| 8 | It is but a scratch. No effect |
+
 ## Healing
 Characters recover 1 hit point per day if they eat a meal and have a night of uninterrupted rest.
 ## Treasure
