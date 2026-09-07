@@ -35,6 +35,7 @@ Starting at 2nd level the faithful can cast spells. They have to pray for a set 
 The Faithful start with one of these gear choices:
 
 a) _Mace_ with _Chain Armor_ and _Shield_ (AC15)
+
 b) _Warhammer_ with _Chain Armor_ and _Shield_ (AC15)
 
 **_Turn Undead_** - The Faithful have the ability to turn undead while brandishing their holy symbol, causing them to flee or be destroyed. To resolve the attempt, roll 2d6 and apply any level-based modifiers. If the undead have a lower Level than the character, add +2 to the roll for each level of difference. Similarly, if the monsters are higher level, subtract -2 for each level of difference. Neither bonus or malus can exceed 6. If the final total is 4 or below, the undead are unaffected. On a 5-6 2d4 undead are stunned for a round. On a 7-12 2d4 undead flee for a turn. On a 13+ 2d4 undead are destroyed.
@@ -65,7 +66,12 @@ Students of the arcane arts.
 **_Hit Bonus (HB)_**: +1 at level 4, +2 at level 6, +3 at level 8, +4 at level 10, +1 per every other level thereafter
 
 
-The Studious can only use a _Dagger_ or _Stave_ (start with one of these). They cannot use armor (AC10). The Studious starts with a spellbook, it contains four spells initially. _Read Magic_, _Detect Magic_ and two other spells of the player's choice. If their INT is 15+, they start with an additional 1st level spell. Using the book, the Studious memorizes a spell that they then can cast once during that day. The table below shows how many spells per tier the Studious can memorize. Found scrolls of spells can be copied into their spellbook with the use of _Read Magic_. 
+The Studious can only use a _Dagger_ or _Stave_. They cannot use armor (AC10). The Studious spellbook contains four spells initially. _Read Magic_, _Detect Magic_ and two other spells of the player's choice. If their INT is 15+, they start with an additional 1st level spell. Using the book, the Studious memorizes a spell that they then can cast once during that day. The table below shows how many spells per tier the Studious can memorize. Found scrolls of spells can be copied into their spellbook with the use of _Read Magic_. 
+
+The Studious start with one of these gear choices:
+
+a) _Dagger_ and spellbook
+b) _Stave_ and spellbook
 
 | **Character Level** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** | **Tier 6** |
 | ------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -94,7 +100,13 @@ Silent shadows in the night apt at delicate tasks.
 
 
 The  Nimble may wear only Leather Armor. The Nimble use any weapon.
-The  Nimble start with either _Long Sword_ and _Dagger_ OR _Club_ and _Short Sword_ with _Leather Armor_ (AC12).
+
+The  Nimble start with one of these gear choices:
+
+a) _Long Sword_ and _Dagger_ 
+
+b) _Club_ and _Short Sword_ with _Leather Armor_ (AC12).
+
 The  Nimble have class abilities as follows:
 
 **_Backstab_** - When attacking with surprise and from behind the Nimble attacks at +4 to hit and does double damage (from level 5-8 triple, 9+ quadruple)
