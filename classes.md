@@ -89,7 +89,7 @@ The  Nimble may wear only Leather Armor. The Nimble use any weapon.
 The  Nimble start with either _Long Sword_ and _Dagger_ OR _Club_ and _Short Sword_ with _Leather Armor_ (AC12).
 The  Nimble have class abilities as follows:
 
-**_Backstab–_** When attacking with surprise and from behind the Nimble attacks at +4 to hit and does double damage
+**_Backstab–_** When attacking with surprise and from behind the Nimble attacks at +4 to hit and does double damage (from level 5-8 triple, 9+ quadruple)
 
 **_Tricks of the Trade–_** You have special training that goes beyond the abilities of common men. You have a 2 in 6 chance to succeed at the following tasks (3 in 6 for levels 4-6; 4 in 6 for levels 7-10, 5 in 6 for levels 11+:
 
