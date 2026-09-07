@@ -71,6 +71,7 @@ The Studious can only use a _Dagger_ or _Stave_. They cannot use armor (AC10). T
 The Studious start with one of these gear choices:
 
 a) _Dagger_ and spellbook
+
 b) _Stave_ and spellbook
 
 | **Character Level** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** | **Tier 6** |
