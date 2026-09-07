@@ -24,11 +24,11 @@ Roll the table below when first encountering monsters and modify the roll with t
 ## Combat
 When the adventurers encounters hostile enemies, the action is structured in the following manner:
 
-0. Check for surprise: 2 in 6 chance if applicable
-1. Roll Initiative: d6 1-3 monsters, 4-6 players
-2. Party that won the roll acts first (moving, casting spells, attacking, etc.). Results take effect.
-3. Party that lost the roll acts. Results take effect.
-4. The round is completed. Start over from step two if combat has not been resolved.
+1. Check for surprise: 2 in 6 chance if applicable
+2. Roll Initiative: d6 1-3 monsters, 4-6 players
+3. Party that won the roll acts first (moving, casting spells, attacking, etc.). Results take effect.
+4. Party that lost the roll acts. Results take effect.
+5. The round is completed. Start over from step two if combat has not been resolved.
 
 #### Types of Attacks
 A melee attack is an attack made at close quarters (near). Ranged attacks are attacks with ranged weapons such as a bow or sling at long range (far). When firing ranged attacks into melee, randomly determine if friend or foe is attacked.
