@@ -23,6 +23,7 @@ Roll the table below when first encountering monsters and modify the roll with t
 
 ## Combat
 When the adventurers encounters hostile enemies, the action is structured in the following manner:
+
 0. Check for surprise: 2 in 6 chance if applicable
 1. Roll Initiative: d6 1-3 monsters, 4-6 players
 2. Party that won the roll acts first (moving, casting spells, attacking, etc.). Results take effect.
