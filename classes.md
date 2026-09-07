@@ -19,7 +19,7 @@ The Strong start with one of these gear choices:
 
 a) _Long Sword_ and _Bow_ with _Chain Armor_ and _Shield_ (AC15)
 
-b) _Two-Handed Sword_ and _Crossbow_ with _Chain Armor_ (AC14).
+b) _Two-Handed Sword_ and _Crossbow_ with _Chain Armor_ (AC14)
 
 # The Faithful
 Devout servants of their faith who bear weapons in its name.
@@ -30,9 +30,12 @@ Devout servants of their faith who bear weapons in its name.
 
 **_Hit Bonus (HB)_**: +1 at level 3, +2 at level 5, +3 at level 7, +4 at level 9, +1 per level thereafter
 
-The Faithful start with a _Mace_ or _Warhammer_ with _Chain Armor_ and _Shield_ (AC15).
 The Faithful have no armor restrictions, but may only use blunt weapons (club, flail, mace, sling).
 Starting at 2nd level the faithful can cast spells. They have to pray for a set number of spells from their list each morning. The table below shows how many spells per tier the faithful can pray for. If their WIS is 15+, they start with an additional spell available already at first level.
+The Faithful start with one of these gear choices:
+
+a) _Mace_ with _Chain Armor_ and _Shield_ (AC15)
+b) _Warhammer_ with _Chain Armor_ and _Shield_ (AC15)
 
 **_Turn Undead_** - The Faithful have the ability to turn undead while brandishing their holy symbol, causing them to flee or be destroyed. To resolve the attempt, roll 2d6 and apply any level-based modifiers. If the undead have a lower Level than the character, add +2 to the roll for each level of difference. Similarly, if the monsters are higher level, subtract -2 for each level of difference. Neither bonus or malus can exceed 6. If the final total is 4 or below, the undead are unaffected. On a 5-6 2d4 undead are stunned for a round. On a 7-12 2d4 undead flee for a turn. On a 13+ 2d4 undead are destroyed.
 
