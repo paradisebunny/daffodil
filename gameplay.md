@@ -43,6 +43,7 @@ When a character is hit, the amount of damage is subtracted from their hit point
 
 
 | Roll | Effect      |
+|------|-------------|
 | 1 | Lose an eye. Permanent -1 to hit |
 | 2 | Horrible wound. Lose 1 STR permanently |
 | 3 | Fingers crushed. Lose 1 DEX permanently |
