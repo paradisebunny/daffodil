@@ -5,8 +5,8 @@ nav_order: 2
 ---
 # Creating Characters
 1. Roll ability scores and note attribute boni.
-2. Choose an ancestry and class, note down saving throw and modifiers, the maximum possible roll of your hit die for HP and other special abilities.
-3. Choose starting gear listed in class description, note down armor class (adding armor and DEX modifier)
+2. Choose an ancestry and class, note down the saving throw, the maximum possible roll of your hit die for HP and other special abilities.
+3. Choose a starting gear option listed in class description, note down armor class (adding armor and DEX modifier)
 4. Note down and roll additional starting gear in the equipment section.
 5. Name your character.
 
@@ -42,7 +42,7 @@ The table below lists the modifiers that apply to the scores you just rolled.
 | 18            | +3       |
 
 ## Character Ancestries
-__Humanus__ Those of mankind. Their versatile nature allows them to switch the places of two ability scores at character creation.
+__Humans__ Their versatile nature allows them to switch the places of two ability scores at character creation.
 
 __Dwarves__ Their trained eye finds traps on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
 
