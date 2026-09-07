@@ -39,7 +39,7 @@ Distances are close, near and far. A character can take one action and move near
 
 For long distance travel, characters can hike up to 12 miles in a day. They can hike 18 if travelling on roads and only 6 if travelling in rough terrain or under adverse conditions. All movement is reduced to a third of these values if their inventory is full.
 ## Damage and Death
-When a character is hit, the amount of damage is subtracted from their hit points. When these reach zero, roll a final saving throw. On a success the character awakes after combat with 1 HP and rolls the scars table. If they fail the character is dead. Monsters die at 0 hit points.
+When a character is hit, the amount of damage is subtracted from their hit points. When these reach zero you fall unconscious and you roll a final saving throw. On a success the character awakes after d4 turns with 1 HP and rolls the scars table. If they fail, the character is dead. Monsters die at 0 hit points.
 
 
 | Roll | Effect      |
