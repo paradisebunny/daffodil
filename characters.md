@@ -16,15 +16,15 @@ nav_order: 2
 ## Ability Scores
 Ability Scores are created by rolling 3d6 and assigning the results in the order below. 
 
-__Strength__ – physical power. Your STR modifier adjusts your hit bonus for melee attacks. For the Strong it also modifies their damage rolls.
+__Strength__ - physical power. Your STR modifier adjusts your hit bonus for melee attacks. For the Strong it also modifies their damage rolls.
 
-__Dexterity__ – agility and quickness. Your DEX modifier adjusts your hit bonus for ranged attacks and it adjusts your character’s AC.
+__Dexterity__ - agility and quickness. Your DEX modifier adjusts your hit bonus for ranged attacks and it adjusts your character’s AC.
 
-__Constitution__ – endurance and vitality. The CON modifier adjusts your hit points for each hit die you roll for your character.
+__Constitution__ - endurance and vitality. The CON modifier adjusts your hit points for each hit die you roll for your character.
 
-__Intelligence__ – reasoning and memory. The Studious with INT 15+ receive an additional 1st level spell.
+__Intelligence__ - reasoning and memory. The Studious with INT 15+ receive an additional 1st level spell.
 
-__Wisdom__ – insight and perception. The Faithful with WIS 15+ receive an additional 1st level spell.
+__Wisdom__ - insight and perception. The Faithful with WIS 15+ receive an additional 1st level spell.
 
 __Charisma__ – force of personality. Modifies reaction rolls when first encountering intelligent monsters. 
 
@@ -42,13 +42,13 @@ The table below lists the modifiers that apply to the scores you just rolled.
 | 18            | +3       |
 
 ## Character Ancestries
-__Humans__ Their versatile nature allows them to switch the places of two ability scores at character creation.
+__Humans__ - Their versatile nature allows them to switch the places of two ability scores at character creation.
 
-__Dwarves__ Their trained eye finds traps on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
+__Dwarves__ - Their trained eye finds traps on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
 
-__Elves__ Their keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
+__Elves__ - Their keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
 
-__Halflings__ Their accuracy grants them a +1 to all ranged attacks. 
+__Halflings__ - Their accuracy grants them a +1 to all ranged attacks. 
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
