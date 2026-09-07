@@ -23,15 +23,12 @@ Roll the table below when first encountering monsters and modify the roll with t
 
 ## Combat
 When the adventurers encounters hostile enemies, the action is structured in the following manner:
-
-1. Roll Initiative
+0. Check for surprise: 2 in 6 chance if applicable
+1. Roll Initiative: d6 1-3 monsters, 4-6 players
 2. Party that won the roll acts first (moving, casting spells, attacking, etc.). Results take effect.
 3. Party that lost the roll acts. Results take effect.
 4. The round is completed. Start over from step two if combat has not been resolved.
 
-
-#### Rolling Initiative
-Each side rolls a d6 for Initiative, highest roll wins. If one side surprise the other, they roll with advantage. The winning side acts first (moving, attacking, and spell casting). The losing side follows after. If the initiative roll is tied both sides are acting simultaneously.
 #### Types of Attacks
 A melee attack is an attack made at close quarters (near). Ranged attacks are attacks with ranged weapons such as a bow or sling at long range (far). When firing ranged attacks into melee, randomly determine if friend or foe is attacked.
 #### The Attack Roll
@@ -39,9 +36,9 @@ To make an attack roll, roll a d20 and add any bonuses (HB if available, STR for
 ## Movement
 Distances are close, near and far. A character can take one action and move near, or skip his action and move far. If a character's inventory is full their movement speed is drastically reduced.
 
-For long distance travel, characters can hike up to 12 miles in a day. They can hike 18 if travelling on roads and only 6 if travelling in rough terrain or under adverse conditions. All movement is reduced to a quarter of these values if their inventory is full.
+For long distance travel, characters can hike up to 12 miles in a day. They can hike 18 if travelling on roads and only 6 if travelling in rough terrain or under adverse conditions. All movement is reduced to a third of these values if their inventory is full.
 ## Damage and Death
-When a character is hit, the amount of damage is subtracted from their hit points. When these reach zero, the character is unconscious. There is a 2 in 6 chance the character immediatly dies. Repeat this roll at the end of each round until healed or dead. If healed before succumbing to death, permanently substract 1 from a random attribute. Monsters die at 0 hit points.
+When a character is hit, the amount of damage is subtracted from their hit points. When these reach zero, roll a final saving throw. On a success the character awakes after combat with 1 HP and rolls the scars table. If they fail the character is dead. Monsters die at 0 hit points.
 ## Healing
 Characters recover 1 hit point per day if they eat a meal and have a night of uninterrupted rest.
 ## Treasure
@@ -49,6 +46,6 @@ Create a treasure hoard as you see fit. It is advisable to give out magic weapon
 ## Advantage/Disadvantage
 The GM might grant advantage or disadvantage for a roll. For advantage roll two of the relevant dice instead of one and choose the higher result, for disadvantage do the same but choose the lower result.
 ## Ability Checks
-Roll d20 over or equal a difficulty class of 12 for a regular check. 15 for hard, 9 for easy. Checks should only be rolled when the consequences are meaningful. Default to narrating player actions.
+Roll d20 over or equal a difficulty class of 10 for a regular check. 15 for hard, 5 for easy. Checks should only be rolled when the consequences are meaningful. Default to narrating player actions.
 ## Encumberance
 Each character has 10 or their STR value gear slots. Items smaller than an apple do not take up a gear slot. Coins and gems stack up to 100 in one slot. Other similar items stack up to a reasonable quantity (usually 10). Items that require two hands to hold require two gear slots.
