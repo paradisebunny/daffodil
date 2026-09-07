@@ -14,8 +14,11 @@ Seasoned combatants apt at fighting with any tool.
 **_Hit Bonus (HB)_**: +1 at level 3, +2 at level 4, +3 level 6, +1 per level from thereafter
 
 The Strong use the STR modifier to adjust their damage bonus for melee attacks. The Strong have no armor or weapon restrictions. The Strong get one attack per level each round against foes of 1 Hit Die (HD) or fewer. The Strong also get +1 on all _Saving Throws_ except vs spells.
+
 The Strong start with one of these gear choices:
+
 a) _Long Sword_ and _Bow_ with _Chain Armor_ and _Shield_ (AC15)
+
 b) _Two-Handed Sword_ and _Crossbow_ with _Chain Armor_ (AC14).
 
 # The Faithful
