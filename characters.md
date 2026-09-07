@@ -44,11 +44,11 @@ The table below lists the modifiers that apply to the scores you just rolled.
 ## Character Ancestries
 __Humanus__ Those of mankind. Their versatile nature allows them to switch the places of two ability scores at character creation.
 
-__Luporum__ Those of the wolves. Their keen senses find traps on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
+__Dwarves__ Their trained eye finds traps on a 4 in 6. They also have the chance to find such a trap on a 1 in 6 without searching for it.
 
-__Strigum__ Those of the owles. Their keen eyes find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
+__Elves__ Their keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
 
-__Murium__ Those of the mice. Their wily ways grant them a +1 to all ranged attacks. 
+__Halflings__ Their accuracy grants them a +1 to all ranged attacks. 
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
