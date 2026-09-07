@@ -13,8 +13,10 @@ Seasoned combatants apt at fighting with any tool.
 
 **_Hit Bonus (HB)_**: +1 at level 3, +2 at level 4, +3 level 6, +1 per level from thereafter
 
-The Strong start with either _Long Sword_ or _Battle Axe_ and _Bow_ with _Chain Armor_ and _Shield_ (AC15) OR with a _Two-Handed Sword_ and _Crossbow_ with _Chain Armor_ (AC14).
-The Strong use the STR modifier to adjust their damage bonus for melee attacks. The Strong have no armor or weapon restrictions. The Strong get one attack per level each round against foes of 1 Hit Die (HD) or fewer. The Strong also get +1 on all _Saving Throws_ except vs. spells.
+The Strong use the STR modifier to adjust their damage bonus for melee attacks. The Strong have no armor or weapon restrictions. The Strong get one attack per level each round against foes of 1 Hit Die (HD) or fewer. The Strong also get +1 on all _Saving Throws_ except vs spells.
+The Strong start with one of these gear choices:
+a) _Long Sword_ and _Bow_ with _Chain Armor_ and _Shield_ (AC15)
+b) _Two-Handed Sword_ and _Crossbow_ with _Chain Armor_ (AC14).
 
 # The Faithful
 Devout servants of their faith who bear weapons in its name.
@@ -29,7 +31,7 @@ The Faithful start with a _Mace_ or _Warhammer_ with _Chain Armor_ and _Shield_ 
 The Faithful have no armor restrictions, but may only use blunt weapons (club, flail, mace, sling).
 Starting at 2nd level the faithful can cast spells. They have to pray for a set number of spells from their list each morning. The table below shows how many spells per tier the faithful can pray for. If their WIS is 15+, they start with an additional spell available already at first level.
 
-**_Turn Undead-_** The Faithful have the ability to turn undead while brandishing their holy symbol, causing them to flee or be destroyed. To resolve the attempt, roll 2d6 and apply any level-based modifiers. If the undead have a lower Level than the character, add +2 to the roll for each level of difference. Similarly, if the monsters are higher level, subtract -2 for each level of difference. Neither bonus or malus can exceed 6. If the final total is 4 or below, the undead are unaffected. On a 5-6 2d4 undead are stunned for a round. On a 7-12 2d4 undead flee for a turn. On a 13+ 2d4 undead are destroyed.
+**_Turn Undead_** - The Faithful have the ability to turn undead while brandishing their holy symbol, causing them to flee or be destroyed. To resolve the attempt, roll 2d6 and apply any level-based modifiers. If the undead have a lower Level than the character, add +2 to the roll for each level of difference. Similarly, if the monsters are higher level, subtract -2 for each level of difference. Neither bonus or malus can exceed 6. If the final total is 4 or below, the undead are unaffected. On a 5-6 2d4 undead are stunned for a round. On a 7-12 2d4 undead flee for a turn. On a 13+ 2d4 undead are destroyed.
 
 | **Character Level** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** | **Tier 6** |
 | ------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -89,8 +91,8 @@ The  Nimble may wear only Leather Armor. The Nimble use any weapon.
 The  Nimble start with either _Long Sword_ and _Dagger_ OR _Club_ and _Short Sword_ with _Leather Armor_ (AC12).
 The  Nimble have class abilities as follows:
 
-**_Backstab–_** When attacking with surprise and from behind the Nimble attacks at +4 to hit and does double damage (from level 5-8 triple, 9+ quadruple)
+**_Backstab_** - When attacking with surprise and from behind the Nimble attacks at +4 to hit and does double damage (from level 5-8 triple, 9+ quadruple)
 
-**_Tricks of the Trade–_** You have special training that goes beyond the abilities of common men. You have a 2 in 6 chance to succeed at the following tasks (3 in 6 for levels 4-6; 4 in 6 for levels 7-10, 5 in 6 for levels 11+:
+**_Tricks of the Trade_** - You have special training that goes beyond the abilities of common men. You have a 2 in 6 chance to succeed at the following tasks (3 in 6 for levels 4-6; 4 in 6 for levels 7-10, 5 in 6 for levels 11+:
 
 _Climbing sheer surfaces, Hiding in shadows, Hear faint Noise, Moving Silently, Finding and remove traps, opening locks, pick pockets_
