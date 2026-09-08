@@ -37,6 +37,8 @@ __Dwarves__ - Their trained eye finds traps on a 4 in 6. They also have the chan
 
 __Elves__ - Their keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
 
+Suggested replacements for a more fairy tale world: Humanus (of Mankind), Luporum (of the Wolves), Strigum (of the Owls), Murium (of the Mice)
+
 __Halflings__ - Their accuracy grants them a +1 to all ranged attacks. 
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
