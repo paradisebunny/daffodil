@@ -40,7 +40,7 @@ __Elves__ - Their keen senses find secret doors on a 4 in 6. They also have the 
 
 __Halflings__ - Their accuracy grants them a +1 to all ranged attacks.
 
-_Variation:_ for a more fairy tale vibe use: Humanus (of Mankind), Luporum (of the Wolves), Strigum (of the Owls), Murium (of the Mice)
+_Variation:_ for a more fairy tale flavor in your world use the following suggestions to re-flavor the above ancestries. Humanus (of Mankind), Luporum (of the Wolves), Strigum (of the Owls) and Murium (of the Mice).
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
