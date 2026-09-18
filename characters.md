@@ -30,7 +30,7 @@ __Charisma__ – force of personality. Modifies reaction rolls when first encoun
 ## Attribute Bonus
 Attributes 9-12 have no modifier. Attributes 13 and up have a +1 modifier, attributes 8 an below have a -1 modifier. 
 
-Variation: As an alternative you can use the BX modifier ranges to make attributes matter more in-game. Attributes 9-12 have no modifier. Attributes 6-8 have a -1 modifier, 4-5 have a -2 and a 3 has a modifier of -3. Inversely, attributes of 13-15 have a +1 modifier, 16-17 have a +2 and 18 has a +3.
+_Variation:_ As an alternative you can use the BX modifier ranges to make attributes matter more in-game. Attributes 9-12 have no modifier. Attributes 6-8 have a -1 modifier, 4-5 have a -2 and a 3 has a modifier of -3. Inversely, attributes of 13-15 have a +1 modifier, 16-17 have a +2 and 18 has a +3.
 ## Character Ancestries
 __Humans__ - Their versatile nature allows them to switch the places of two ability scores at character creation.
 
@@ -40,7 +40,7 @@ __Elves__ - Their keen senses find secret doors on a 4 in 6. They also have the 
 
 __Halflings__ - Their accuracy grants them a +1 to all ranged attacks.
 
-Variations: for a more fairy tale vibe use: Humanus (of Mankind), Luporum (of the Wolves), Strigum (of the Owls), Murium (of the Mice)
+_Variation:_ for a more fairy tale vibe use: Humanus (of Mankind), Luporum (of the Wolves), Strigum (of the Owls), Murium (of the Mice)
 ## Armor Class
 Armor Class (AC) rates how difficult it is to hit someone. An unarmored person would have AC10, while one wearing chain armor would have AC14.
 ## Advancement
