@@ -38,7 +38,7 @@ __Dwarves__ - Their trained eye finds traps on a 4 in 6. They also have the chan
 
 __Elves__ - Their keen senses find secret doors on a 4 in 6. They also have the chance to find such a door on a 1 in 6 without searching for it.
 
-__Halflings__ - Their accuracy grants them a +1 to all ranged attacks.
+__Halflings__ - Their small size gives them a +2 AC bonus vs large foes.
 
 _Variation:_ for a more fairy tale flavor in your world use the following suggestions to re-flavor the above ancestries. Humanus (of Mankind), Luporum (of the Wolves), Strigum (of the Owls) and Murium (of the Mice).
 ## Armor Class
